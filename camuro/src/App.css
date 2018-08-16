@@ -51,7 +51,6 @@ h1{
 .home{
   background: #fff;
   overflow: overlay;
-  min-width: 650px;
 }
 .home-content{
   width: 100%;
@@ -225,7 +224,6 @@ h1{
   background: #ffffff;
   padding: 20px;
   width: 60%;
-  min-width: 500px;
   margin: 20px auto;
   box-sizing: border-box;
   border-radius: 5px;
