@@ -5,10 +5,10 @@ const path = require('path');
 const dotenv = require('dotenv').config();
 const app = express();
 
-app.use(express.static(path.join('camuro-react')));
+app.use(express.static(path.join(__dirname, 'camuro-react')));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join('/camuro-react/public/index.html'));
+  res.sendFile(path.join(__dirname+'/camuro-react/public/index.html'));
 });
 
 const port = process.env.PORT || 5000;
