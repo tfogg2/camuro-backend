@@ -73,16 +73,16 @@ h1{
     float: left;
     margin: 40px 10px;
   }
-  .content .sell-form{
+  .content .sell-content{
     height: auto;
   }
-  .form-group.item.price span{
+  .sell-contnent .sell-form-content .form-group.item.price span{
     display: none;
   }
-  .form-group.item{
+  .sell-contnent .sell-form-content .form-group.item{
     margin-bottom: 40px;
   }
-  .backdrop .modal{
+  .gallery .gallery-item .backdrop .modal{
     width: 95%;
     margin: 0 2.5%;
   }
