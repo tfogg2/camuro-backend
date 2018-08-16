@@ -49,11 +49,11 @@ h1{
 
 /* HOME */
 @media (max-width: 480px) {
-  .right-nav{
+  .header .nav .right-nav{
     display: none;
   }
-  .home-bg{
-    height: 200px;
+  .home .splash-background .home-bg{
+    height: 300px;
   }
 }
 .home{
