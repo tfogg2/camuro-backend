@@ -1,10 +1,8 @@
 const express = require('express');
-
-var router = express.Router();
-var nodemailer = require('nodemailer');
+const router = express.Router();
+const nodemailer = require('nodemailer');
 const dotenv = require('dotenv').config();
 const app = express();
-
 const path = require('path');
 
 app.use(express.static(path.join(__dirname, 'camuro-react/build')));
