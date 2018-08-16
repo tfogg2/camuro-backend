@@ -18,6 +18,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "cd .. && cd camuro && npm install && npm run build"
+    "heroku-postbuild": "cd camuro && npm install && npm run build"
   }
 }
