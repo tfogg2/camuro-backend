@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "cd camuro-react && npm install && npm run build"
+    "heroku-postbuild": "cd camuro && npm install && npm run build"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
