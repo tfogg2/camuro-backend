@@ -1,14 +1,16 @@
 const express = require('express');
+
 var router = express.Router();
 var nodemailer = require('nodemailer');
-const path = require('path');
 const dotenv = require('dotenv').config();
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'camuro-react')));
+const path = require('path');
+
+app.use(express.static(path.join(__dirname, 'camuro-react/build')));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'/camuro-react/public/index.html'));
+  res.sendFile(path.join(__dirname + '/camuro-react/build/index.html'));
 });
 
 const port = process.env.PORT || 5000;
