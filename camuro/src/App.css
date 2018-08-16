@@ -67,6 +67,21 @@ h1{
     width: 100%;
     padding: 50px 0;
   }
+  .sell-form .form-group{
+    width: 43.3%;
+    height: 63px;
+    float: left;
+    margin: 40px 10px;
+  }
+  .content .sell-form{
+    height: auto;
+  }
+  .form-group.item.price span{
+    display: none;
+  }
+  .form-group.item{
+    margin-bottom: 40px;
+  }
 }
 .home{
   background: #fff;
