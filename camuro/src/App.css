@@ -82,6 +82,10 @@ h1{
   .form-group.item{
     margin-bottom: 40px;
   }
+  .backdrop .modal{
+    width: 95%;
+    margin: 0 2.5%;
+  }
 }
 .home{
   background: #fff;
