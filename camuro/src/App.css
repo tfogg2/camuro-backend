@@ -93,6 +93,9 @@ h1{
   .home .form-group input{
     padding: 0 2px;
   }
+  .sell-content .sell-form button{
+    width: 50%;
+  }
 }
 .home{
   background: #fff;
