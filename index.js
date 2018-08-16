@@ -1,5 +1,4 @@
 const express = require('express');
-const router = express.Router();
 const nodemailer = require('nodemailer');
 const path = require('path');
 const dotenv = require('dotenv').config();
@@ -60,5 +59,3 @@ router.post('/send', (req, res, next) => {
     }
   })
 })
-
-module.exports = router;
