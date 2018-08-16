@@ -33,7 +33,7 @@ class OfferForm extends Component {
     const message = `state: ${state} \n model: ${model} \n condition: ${condition} \n price: ${price}`
     axios({
         method: "POST",
-        url:"http://localhost:3002/send",
+        url:"http://www.camuro.co/send",
         data: {
             name: name,
             email: email,
