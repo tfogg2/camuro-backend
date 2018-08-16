@@ -3,6 +3,16 @@ var router = express.Router();
 var nodemailer = require('nodemailer');
 require('dotenv').config();
 
+const app = express();
+
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname+'/client/build/index.html'));
+});
+
+
+
 var transport = {
   host: process.env.DB_HOST,
   auth: {
