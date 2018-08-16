@@ -15,5 +15,9 @@
     "morgan": "~1.9.0",
     "nodemailer": "^4.4.2",
     "serve-favicon": "~2.4.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   }
 }

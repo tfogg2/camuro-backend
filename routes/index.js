@@ -5,11 +5,14 @@ require('dotenv').config();
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, 'camuro/build')));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'/client/build/index.html'));
+  res.sendFile(path.join(__dirname+'/camuro/build/index.html'));
 });
+
+const port = process.env.PORT || 5000;
+app.listen(port);
 
 
 
