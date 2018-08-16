@@ -49,23 +49,7 @@ h1{
 
 /* HOME */
 @media (max-width: 480px) {
-  .home-bg{
-    height: 361px;
-    width: 480px
-  }
-  .home .home-cta{
-    padding-top: 20px;
-    height: 300px;
-  }
-  .home .home-cta h1{
-    font-size: 32px;
-  }
-  .home .home-cta h2{
-    font-size: 18px;
-  }
-  .home{
-    width: 480px;
-  }
+
 }
 .home{
   background: #fff;
