@@ -31,13 +31,10 @@ class OfferForm extends Component {
     if (invalidFields.length > 0) { return false }
 
     const message = `state: ${state} \n model: ${model} \n condition: ${condition} \n price: ${price}`
-    axios({
-        method: "POST",
-        url:"http://www.camuro.co/sendEmail",
-        data: {
-            name: name,
-            email: email,
-            message: message
+    $.post('/sendEmail', {
+          name: name,
+          email: email,
+          message: message
         }
     }).then((response)=>{
         if (response.data.msg === 'success'){
