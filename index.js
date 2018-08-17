@@ -63,6 +63,8 @@ var client = nodemailer.createTransport({
   }
 })
 
+sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+
 
 app.post('/sendEmail', (req, res, next) => {
   var name = req.body.name
@@ -71,7 +73,7 @@ app.post('/sendEmail', (req, res, next) => {
   var content = `name: ${name} \n email: ${email} \n message: ${message}`
 
 
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+
 
   const msg = {
     to: 'tfogg2@gmail.com',
