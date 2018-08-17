@@ -1,6 +1,7 @@
 const express = require('express')
 const nodemailer = require('nodemailer')
 const sgTransport = require('nodemailer-sendgrid-transport')
+const sgMail = require('@sendgrid/mail');
 const bodyParser = require('body-parser')
 const app = express()
 const path = require('path')
@@ -52,7 +53,7 @@ app.use(bodyParser.text())
 const port = process.env.PORT || 5000
 app.listen(port)
 
-
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 var client = nodemailer.createTransport({
   service: 'SendGrid',
@@ -68,6 +69,15 @@ app.post('/sendEmail', (req, res, next) => {
   var email = req.body.email
   var message = req.body.message
   var content = `name: ${name} \n email: ${email} \n message: ${message}`
+
+  const msg = {
+    from: 'tfogg2@gmail.com',
+    to: 'tfogg2@gmail.com',
+    subject: 'New Message from Contact Form',
+    text: content
+  }
+
+  sgMail.send(msg);
 
 
   client.sendMail({
