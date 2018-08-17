@@ -82,7 +82,9 @@ app.post('/sendEmail', (req, res, next) => {
     else{
       res.status(200).json({
         success: true,
-        message: 'Email Sent'
+        message: 'Email Sent',
+        name: name,
+        text: content
       })
     }
   })
