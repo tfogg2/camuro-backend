@@ -239,12 +239,20 @@ h1{
     width: 100%;
     padding: 50px 0;
   }
+  .home-gallery .gallery-header{
+
+  }
   .home-gallery .gallery .gallery-item img{
     width: 100%;
   }
   .gallery .gallery-item .backdrop .modal{
     width: 95%;
     margin: 0 2.5%;
+  }
+  .gallery .gallery-item{
+    width: 30%;
+    margin: .5%;
+    height: 80px;
   }
   .home .about-copy{
     width: 85%;
@@ -400,7 +408,7 @@ h1{
 }
 .gallery-header{
   color: #101010;
-  width: 345px;
+  max-width: 345px;
   margin: 0 auto;
 }
 .gallery-header span{
