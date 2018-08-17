@@ -1,15 +1,17 @@
 const express = require('express');
 const router = express.Router();
 const nodemailer = require('nodemailer');
-const dotenv = require('dotenv').config();
 const app = express();
 const path = require('path');
+
+require('dotenv').config();
 
 app.use(express.static(path.join(__dirname, 'camuro/build')));
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname + '/camuro/build/index.html'));
 });
+
 
 //REDIRECT www.domain.com TO domain.com
 app.get ('/*', function (req, res, next){

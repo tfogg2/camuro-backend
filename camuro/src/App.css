@@ -70,13 +70,11 @@ h1{
   .home-gallery .gallery .gallery-item img{
     width: 98%;
   }
-
   .sell-form .form-group{
     width: 80%;
     height: 62px;
     float: left;
     margin: 15px 10%;
-
   }
   .form-group.item{
     margin-bottom: 0;
