@@ -63,9 +63,6 @@ h1{
   .home .home-cta{
     display: none;
   }
-  .home-gallery .home-content{
-    width: 94%;
-  }
   .home-gallery .gallery{
     width: 100%;
     padding: 50px 0;
