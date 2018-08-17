@@ -273,7 +273,6 @@ h1{
 /* Offers */
 .sell-content{
   background: #fff;
-  height: 520px;
   border-top: 2px solid #c6574a;
 }
 .sell-form-content{
@@ -335,9 +334,6 @@ h1{
   height: 62px;
   float: left;
   margin: 40px 2.5%;
-}
-.form-group.item{
-  margin-bottom: 80px;
 }
 .form-group.item.price span{
   position: absolute;
