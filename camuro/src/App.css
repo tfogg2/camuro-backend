@@ -239,8 +239,11 @@ h1{
     width: 100%;
     padding: 50px 0;
   }
+  .home-gallery .gallery-header p{
+    font-size: 18px;
+  }
   .home-gallery .gallery-header{
-
+    width: 305px;
   }
   .home-gallery .gallery .gallery-item img{
     width: 100%;
