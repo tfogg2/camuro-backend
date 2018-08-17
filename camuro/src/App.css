@@ -214,9 +214,6 @@ h1{
 }
 /* MOBILE FRIENDLY */
 @media (max-width: 480px) {
-  .header .nav .right-nav .scroll-link{
-    display: none;
-  }
   .home .splash-background .home-bg{
     height: 300px;
     position: relative;
@@ -254,6 +251,11 @@ h1{
   }
   .home .form-group.item.price span{
     margin-top: 26px;
+  }
+}
+@media (max-width: 585px) {
+  .home .header .nav .right-nav ul .scroll-link{
+    display: none;
   }
 }
 @media (max-width: 680px) {
