@@ -43,14 +43,6 @@ else{
   auth = require('./config.json')
 }
 
-transporter.verify((error, success) => {
-  if (error) {
-    console.log(error);
-  } else {
-    console.log('Server is ready to take messages')
-  }
-})
-
 
 //This middleware allows our server routes to have parsed json data from the client
 app.use(bodyParser.json({}))
