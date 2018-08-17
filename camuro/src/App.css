@@ -68,16 +68,29 @@ h1{
     padding: 50px 0;
   }
   .home-gallery .gallery .gallery-item img{
-    width: 98%;
+    width: 100%;
+  }
+  .gallery .gallery-item .backdrop .modal{
+    width: 95%;
+    margin: 0 2.5%;
+  }
+  .home .about-copy{
+    width: 85%;
+  }
+}
+@media (max-width: 680px) {
+  .home .form-group input{
+    padding: 0 2px;
+    height: 30px;
+  }
+  .sell-content .sell-form button{
+    width: 50%;
   }
   .sell-form .form-group{
     width: 80%;
     height: 62px;
     float: left;
     margin: 15px 10%;
-  }
-  .form-group.item{
-    margin-bottom: 0;
   }
   .content .sell-content{
     height: auto;
@@ -88,20 +101,6 @@ h1{
   }
   .sell-contnent .sell-form-content .form-group.item{
     margin-bottom: 15px;
-  }
-  .gallery .gallery-item .backdrop .modal{
-    width: 95%;
-    margin: 0 2.5%;
-  }
-  .home .about-copy{
-    width: 85%;
-  }
-  .home .form-group input{
-    padding: 0 2px;
-    height: 30px;
-  }
-  .sell-content .sell-form button{
-    width: 50%;
   }
 }
 .home{
@@ -278,7 +277,7 @@ h1{
 .sell-form-content{
   background: #ffffff;
   padding: 20px;
-  width: 60%;
+  width: 80%;
   margin: 20px auto;
   box-sizing: border-box;
   border-radius: 5px;
