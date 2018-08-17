@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import ReactContactForm from 'react-mail-form'
 import axios from 'axios'
 import SelectUSState from 'react-select-us-states'
-import $ from "jquery";
+import $ from "jquery"
 
 class OfferForm extends Component {
   state = {
