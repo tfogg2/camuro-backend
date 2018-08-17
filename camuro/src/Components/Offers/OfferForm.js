@@ -37,11 +37,11 @@ class OfferForm extends Component {
           email: email,
           message: message
         }
-    ).then((response)=>{
-        if (response.data.msg === 'success'){
+    ).done((data)=>{
+        if(data.success){
             alert("Message Sent.")
             this.resetForm()
-        }else if(response.data.msg === 'fail'){
+        }else{
             alert("Message failed to send.")
             this.resetForm()
         }
