@@ -63,8 +63,6 @@ var client = nodemailer.createTransport({
   }
 })
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY)
-
 
 app.post('/sendEmail', (req, res, next) => {
   var name = req.body.name
@@ -73,16 +71,23 @@ app.post('/sendEmail', (req, res, next) => {
   var content = `name: ${name} \n email: ${email} \n message: ${message}`
 
 
-
-
+  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
   const msg = {
     to: 'tfogg2@gmail.com',
-    from: 'sender@camuro.co',
+    from: 'tfogg2@gmail.com',
     subject: 'New message from camuro offer form',
     text: content
   }
 
-  sgMail.send(msg, (err, info)=>{
+  sgMail.send(msg);
+
+
+  client.sendMail({
+    from: 'sender@camuro.co',
+    to: 'tfogg2@gmail.com',
+    subject: 'New Message from Contact Form',
+    text: content
+  }, (err, info)=>{
     if(err){
       res.send(err)
     }
