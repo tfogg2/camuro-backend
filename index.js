@@ -1,5 +1,6 @@
 const express = require('express')
 const nodemailer = require('nodemailer')
+const sgTransport = require('nodemailer-sendgrid-transport')
 const bodyParser = require('body-parser')
 const app = express()
 const path = require('path')
@@ -42,6 +43,15 @@ else{
   auth = require('./config.json')
 }
 
+transporter.verify((error, success) => {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log('Server is ready to take messages')
+  }
+})
+
+
 //This middleware allows our server routes to have parsed json data from the client
 app.use(bodyParser.json({}))
 app.use(bodyParser.urlencoded({ extended: true}))
@@ -52,23 +62,14 @@ app.listen(port)
 
 
 
-var transport = {
-  service: 'Sendgrid',
+var client = nodemailer.createTransport({
+  service: 'SendGrid',
   auth: {
-    user: auth.SENDGRID_USERNAME,
-    pass: auth.SENDGRID_PASSWORD
-  }
-}
-
-var transporter = nodemailer.createTransport(transport)
-
-transporter.verify((error, success) => {
-  if (error) {
-    console.log(error);
-  } else {
-    console.log('Server is ready to take messages')
+    user: 'SENDGRID_USERNAME',
+    pass: 'SENDGRID_PASSWORD'
   }
 })
+
 
 app.post('/sendEmail', (req, res, next) => {
   var name = req.body.name
@@ -77,7 +78,7 @@ app.post('/sendEmail', (req, res, next) => {
   var content = `name: ${name} \n email: ${email} \n message: ${message}`
 
 
-  transporter.sendMail({
+  client.sendMail({
     from: name,
     to: 'tfogg2@gmail.com',
     subject: 'New Message from Contact Form',
