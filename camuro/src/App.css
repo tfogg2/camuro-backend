@@ -68,20 +68,20 @@ h1{
     padding: 50px 0;
   }
   .sell-form .form-group{
-    width: 46%;
-    height: 63px;
+    width: 80%;
+    height: 52px;
     float: left;
-    margin: 40px 2%;
+    margin: 15px 10%;
   }
   .content .sell-content{
     height: auto;
   }
   .sell-content .sell-form-content{
-    padding: 10px 5px;
+    padding: 20px 5px;
     width: 100%;
   }
   .sell-contnent .sell-form-content .form-group.item{
-    margin-bottom: 40px;
+    margin-bottom: 15px;
   }
   .gallery .gallery-item .backdrop .modal{
     width: 95%;
@@ -92,6 +92,7 @@ h1{
   }
   .home .form-group input{
     padding: 0 2px;
+    height: 30px;
   }
   .sell-content .sell-form button{
     width: 50%;
@@ -307,7 +308,6 @@ h1{
   box-sizing: border-box;
 }
 .sell-form button{
-  display: block;
   font-size: 18px;
   width: 30%;
   height: 40px;
