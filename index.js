@@ -1,16 +1,16 @@
-const express = require('express');
-const nodemailer = require('nodemailer');
-const bodyParser = require('body-parser');
-const app = express();
-const path = require('path');
+const express = require('express')
+const nodemailer = require('nodemailer')
+const bodyParser = require('body-parser')
+const app = express()
+const path = require('path')
 
-require('dotenv').config();
+require('dotenv').config()
 
-app.use(express.static(path.join(__dirname, 'camuro/build')));
+app.use(express.static(path.join(__dirname, 'camuro/build')))
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname + '/camuro/build/index.html'));
-});
+  res.sendFile(path.join(__dirname + '/camuro/build/index.html'))
+})
 
 
 //REDIRECT www.domain.com TO domain.com
@@ -27,12 +27,12 @@ app.get ('/*', function (req, res, next){
     }
 
     // remove www.
-    host = host.replace(/^www\./i, '');
-    href = protocol + host + req.url;
-    res.statusCode = 301;
-    res.setHeader('Location', href);
-    res.write('Redirecting to ' + host + req.url + '');
-    res.end();
+    host = host.replace(/^www\./i, '')
+    href = protocol + host + req.url
+    res.statusCode = 301
+    res.setHeader('Location', href)
+    res.write('Redirecting to ' + host + req.url + '')
+    res.end()
 });
 
 if(process.env.NODE_ENV === 'production'){
@@ -43,12 +43,12 @@ else{
 }
 
 //This middleware allows our server routes to have parsed json data from the client
-app.use(bodyParser.json({}));
-app.use(bodyParser.urlencoded({ extended: true}));
-app.use(bodyParser.text());
+app.use(bodyParser.json({}))
+app.use(bodyParser.urlencoded({ extended: true}))
+app.use(bodyParser.text())
 
-const port = process.env.PORT || 5000;
-app.listen(port);
+const port = process.env.PORT || 5000
+app.listen(port)
 
 
 
@@ -66,9 +66,9 @@ transporter.verify((error, success) => {
   if (error) {
     console.log(error);
   } else {
-    console.log('Server is ready to take messages');
+    console.log('Server is ready to take messages')
   }
-});
+})
 
 app.post('/sendEmail', (req, res, next) => {
   var name = req.body.name
@@ -82,7 +82,7 @@ app.post('/sendEmail', (req, res, next) => {
     to: 'tfogg2@gmail.com',
     subject: 'New Message from Contact Form',
     text: content
-  },(err, info) => {
+  }, (err, info)=>{
     if(err){
       res.send(err)
     }
@@ -92,5 +92,5 @@ app.post('/sendEmail', (req, res, next) => {
         message: 'Email Sent'
       })
     }
-  }
-});
+  })
+})
