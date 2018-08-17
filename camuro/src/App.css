@@ -61,7 +61,17 @@ h1{
     position: relative;
   }
   .home .home-cta{
-    display: none;
+    position: absolute;
+    top: 0;
+  }
+  .home .home-cta h1{
+    font-size: 32px;
+  }
+  .home .home-cta h2{
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    width: 110px;
   }
   .home-gallery .gallery{
     width: 100%;
