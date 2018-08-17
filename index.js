@@ -93,4 +93,4 @@ app.post('/sendEmail', (req, res, next) => {
       })
     }
   }
-)
+});
