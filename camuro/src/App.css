@@ -70,6 +70,9 @@ h1{
     width: 100%;
     padding: 50px 0;
   }
+  .home-gallery .gallery .gallery-item img{
+    width: 100%;
+  }
 
   .sell-form .form-group{
     width: 80%;
