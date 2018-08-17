@@ -64,7 +64,7 @@ var client = nodemailer.createTransport({
 })
 
 
-app.post('/sendEmail', (req, res, next) => {
+app.post('/sendEmail', (req, res) => {
   var name = req.body.name
   var email = req.body.email
   var message = req.body.message
@@ -77,15 +77,7 @@ app.post('/sendEmail', (req, res, next) => {
     text: content
   }
 
-  sgMail.send(msg);
-
-
-  client.sendMail({
-    from: name,
-    to: 'tfogg2@gmail.com',
-    subject: 'New Message from Contact Form',
-    text: content
-  }, (err, info)=>{
+  sgMail.send(msg, (err, info)=>{
     if(err){
       res.send(err)
     }
