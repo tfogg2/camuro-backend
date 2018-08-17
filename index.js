@@ -1,6 +1,6 @@
 const express = require('express');
-const router = express.Router();
 const nodemailer = require('nodemailer');
+const bodyParser = require('body-parser');
 const app = express();
 const path = require('path');
 
@@ -35,16 +35,30 @@ app.get ('/*', function (req, res, next){
     res.end();
 });
 
+const auth
+
+if(process.env.NODE_ENV === 'production'){
+  auth = process.env
+}
+else{
+  auth = require('./config.json')
+}
+
+//This middleware allows our server routes to have parsed json data from the client
+app.use(bodyParser.json({}));
+app.use(bodyParser.urlencoded({ extended: true}));
+app.use(bodyParser.text());
+
 const port = process.env.PORT || 5000;
 app.listen(port);
 
 
 
 var transport = {
-  host: process.env.DB_HOST,
+  service: 'Sendgrid',
   auth: {
-    user: process.env.USER,
-    pass: process.env.PASS
+    user: auth.SENDGRID_USERNAME,
+    pass: auth.SENDGRID_PASSWORD
   }
 }
 
@@ -58,31 +72,27 @@ transporter.verify((error, success) => {
   }
 });
 
-router.post('/send', (req, res, next) => {
+app.post('/sendEmail', (req, res, next) => {
   var name = req.body.name
   var email = req.body.email
   var message = req.body.message
   var content = `name: ${name} \n email: ${email} \n message: ${message}`
 
 
-  var mail = {
+  transporter.sendMail({
     from: name,
     to: 'tfogg2@gmail.com',
     subject: 'New Message from Contact Form',
     text: content
-  }
-
-  transporter.sendMail(mail, (err, data) => {
-    if (err) {
-      res.json({
-        msg: 'fail'
-      })
-    } else {
-      res.json({
-        msg: 'success'
+  },(err, info) => {
+    if(err){
+      res.send(err)
+    }
+    else{
+      res.status(200).json({
+        success: true,
+        message: 'Email Sent'
       })
     }
-  })
-})
-
-module.exports = router;
+  }
+)
