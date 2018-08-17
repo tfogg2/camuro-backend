@@ -48,71 +48,6 @@ h1{
 /* HEADER */
 
 /* HOME */
-@media (max-width: 480px) {
-  .header .nav .right-nav{
-    display: none;
-  }
-  .home .splash-background .home-bg{
-    height: 300px;
-    position: relative;
-  }
-  .home .splash-background{
-    height: 300px;
-    position: relative;
-  }
-  .home .home-cta{
-    position: absolute;
-    top: 0;
-  }
-  .home .home-cta h1{
-    font-size: 32px;
-  }
-  .home .home-cta h2{
-    font-size: 14px;
-    padding-top: 5px;
-    padding-bottom: 0;
-    width: 110px;
-  }
-  .home-gallery .gallery{
-    width: 100%;
-    padding: 50px 0;
-  }
-  .home-gallery .gallery .gallery-item img{
-    width: 100%;
-  }
-  .gallery .gallery-item .backdrop .modal{
-    width: 95%;
-    margin: 0 2.5%;
-  }
-  .home .about-copy{
-    width: 85%;
-  }
-}
-@media (max-width: 680px) {
-  .home .form-group input{
-    padding: 0 2px;
-    height: 30px;
-  }
-  .sell-content .sell-form button{
-    width: 50%;
-  }
-  .sell-form .form-group{
-    width: 80%;
-    height: 62px;
-    float: left;
-    margin: 15px 10%;
-  }
-  .content .sell-content{
-    height: auto;
-  }
-  .sell-content .sell-form-content{
-    padding: 20px 1%;
-    width: 98%;
-  }
-  .sell-contnent .sell-form-content .form-group.item{
-    margin-bottom: 15px;
-  }
-}
 .home{
   background: #fff;
   overflow: overlay;
@@ -277,6 +212,76 @@ h1{
   color: #000;
   padding: 10px;
 }
+/* MOBILE FRIENDLY */
+@media (max-width: 480px) {
+  .header .nav .right-nav{
+    display: none;
+  }
+  .home .splash-background .home-bg{
+    height: 300px;
+    position: relative;
+  }
+  .home .splash-background{
+    height: 300px;
+    position: relative;
+  }
+  .home .home-cta{
+    position: absolute;
+    top: 0;
+  }
+  .home .home-cta h1{
+    font-size: 32px;
+  }
+  .home .home-cta h2{
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    width: 110px;
+  }
+  .home-gallery .gallery{
+    width: 100%;
+    padding: 50px 0;
+  }
+  .home-gallery .gallery .gallery-item img{
+    width: 100%;
+  }
+  .gallery .gallery-item .backdrop .modal{
+    width: 95%;
+    margin: 0 2.5%;
+  }
+  .home .about-copy{
+    width: 85%;
+  }
+  .form-group.item.price span{
+    margin-top: 26px;
+  }
+}
+@media (max-width: 680px) {
+  .home .form-group input{
+    padding: 0 2px;
+    height: 30px;
+  }
+  .sell-content .sell-form button{
+    width: 50%;
+  }
+  .sell-form .form-group{
+    width: 80%;
+    height: 62px;
+    float: left;
+    margin: 15px 10%;
+  }
+  .content .sell-content{
+    height: auto;
+  }
+  .sell-content .sell-form-content{
+    padding: 20px 1%;
+    width: 98%;
+  }
+  .sell-contnent .sell-form-content .form-group.item{
+    margin-bottom: 15px;
+  }
+}
+/* MOBILE FRIENDLY */
 /* HOME */
 
 /* Offers */
