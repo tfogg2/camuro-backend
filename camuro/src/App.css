@@ -517,6 +517,11 @@ h1{
 .instagram:hover{
   background-color: #c6574a;
 }
+.vermont{
+  background: url('./Assets/vermont.svg');
+  float: right;
+  margin: 10px 0;
+}
 /* FOOTER */
 
 /* CART */

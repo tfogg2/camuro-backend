@@ -8,6 +8,8 @@ class Footer extends Component {
         <a href="https://www.instagram.com/camuro.co/" target="_blank" alt="camuro-instagram">
           <div className="instagram"></div>
         </a>
+
+        <div className="vermont"></div>
       </div>
     )
   }
