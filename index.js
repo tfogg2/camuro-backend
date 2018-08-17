@@ -77,6 +77,8 @@ app.post('/sendEmail', (req, res, next) => {
     text: content
   }
 
+  sgMail.send(msg);
+
 
   client.sendMail({
     from: name,
