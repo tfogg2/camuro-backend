@@ -57,8 +57,8 @@ app.listen(port)
 var client = nodemailer.createTransport({
   service: 'SendGrid',
   auth: {
-    user: 'SENDGRID_USERNAME',
-    pass: 'SENDGRID_PASSWORD'
+    user: auth.SENDGRID_USERNAME,
+    pass: auth.SENDGRID_PASSWORD
   }
 })
 
