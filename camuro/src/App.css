@@ -214,7 +214,7 @@ h1{
 }
 /* MOBILE FRIENDLY */
 @media (max-width: 480px) {
-  .header .nav .right-nav{
+  .header .nav .right-nav .scroll-link{
     display: none;
   }
   .home .splash-background .home-bg{
