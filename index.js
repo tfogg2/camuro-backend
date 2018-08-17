@@ -35,8 +35,6 @@ app.get ('/*', function (req, res, next){
     res.end();
 });
 
-const auth
-
 if(process.env.NODE_ENV === 'production'){
   auth = process.env
 }
