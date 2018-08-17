@@ -95,6 +95,7 @@ h1{
     width: 95%;
     margin: 0 2.5%;
   }
+  .gallery-item h3
   .home .about-copy{
     width: 80%;
   }
@@ -390,7 +391,7 @@ h1{
 }
 .gallery-header{
   color: #101010;
-  width: 375px;
+  width: 345px;
   margin: 0 auto;
 }
 .gallery-header span{
@@ -418,19 +419,6 @@ h1{
   height: 240px;
   z-index: 400;
   position: relative;
-}
-.gallery-image h3{
-  display: none;
-  width: 360px;
-  font-size: 32px;
-  text-align: center;
-  margin-top: 80px;
-  color: #fff;
-  position: absolute;
-  transition: opacity .1s ease;
-}
-.gallery-image.hovered h3{
-  display: block;
 }
 .gallery-image.hovered{
   background: #000;
