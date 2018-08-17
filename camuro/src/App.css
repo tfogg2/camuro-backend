@@ -76,7 +76,10 @@ h1{
     height: 62px;
     float: left;
     margin: 15px 10%;
-    margin-bottom: 15px;
+
+  }
+  .form-group.item{
+    margin-bottom: 0;
   }
   .content .sell-content{
     height: auto;
