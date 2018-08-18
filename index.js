@@ -48,7 +48,7 @@ app.post('/sendEmail', (req, res, next) => {
 
   client.sendMail({
     from: 'sender@camuro.co',
-    to: 'tfogg2@gmail.com',
+    to: 'fogg@camuro.co',
     subject: 'New Message from Contact Form',
     text: content
   }, (err, info)=>{
