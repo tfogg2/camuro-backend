@@ -270,6 +270,13 @@ h1{
   .home .form-group.item.price span{
     margin-top: 26px;
   }
+  .home .gallery .gallery-item .modal{
+    background: #fff0;
+
+  }
+  .home .gallery .gallery-item .modal-footer{
+    display: none;
+  }
 }
 @media (max-width: 585px) {
   .home .header .nav .right-nav{

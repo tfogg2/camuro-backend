@@ -12,7 +12,7 @@ class Modal extends React.Component {
       <div className="backdrop" onClick={this.props.onClose}>
         <div className="modal" onClick={this.props.stopClose}>
           <img src={this.props.image} alt={this.props.title} />
-          <div className="modalFooter">
+          <div className="modal-footer">
             <a href={this.props.credit} target="_blank"><h4>{this.props.title}</h4></a>
           </div>
         </div>

@@ -74,6 +74,12 @@ const GALLERY = [
   { image: require("../Assets/jesus-santos-mini.jpg"), title: "Jesus Santos", credit: "https://unsplash.com/photos/_T3upUiCqEE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
   { image: require("../Assets/stephen-cook-mini.jpg"), title: "Stephen Cook", credit: "https://unsplash.com/photos/g1iJMOu0sIg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
   { image: require("../Assets/sebastian-pichler-mini.jpg"), title: "Sebastian Pichler", credit: "https://unsplash.com/photos/MDGpwpMY2Ws?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
+  { image: require("../Assets/chuttersnap.jpg"), title: "Sebastian Pichler", credit: ""},
+  { image: require("../Assets/jeff-sheldon.jpg"), title: "Jeff Sheldon", credit: ""},
+  { image: require("../Assets/marc-mueller.jpg"), title: "Marc Mueller", credit: ""},
+  { image: require("../Assets/robert-shunev.jpg"), title: "Robert Shunev", credit: ""},
+  { image: require("../Assets/sonnie-hiles.jpg"), title: "Sonnie Hiles", credit: ""},
+  { image: require("../Assets/ehimetalor-unuabona.jpg"), title: "Ehimetalor Unuabona", credit: ""},
 ]
 
 export default Gallery;
