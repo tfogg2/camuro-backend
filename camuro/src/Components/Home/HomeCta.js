@@ -7,7 +7,7 @@ class HomeCta extends Component {
     return(
       <div className="home-cta">
          <h1>One</h1>
-         <h2 className="selling" onClick={() => scrollToComponent(this.props.offer, { offset: 0, align: 'top', duration: 1500})}>restoration at a time.</h2>
+         <h2 className="selling" onClick={() => scrollToComponent(this.props.offer, { offset: 0, align: 'top', duration: 1500})}>Restoration at a time.</h2>
       </div>
     )
   }
