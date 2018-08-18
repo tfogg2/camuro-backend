@@ -68,12 +68,12 @@ class Gallery extends Component {
 }
 
 const GALLERY = [
-  { image: require("../Assets/chad-dalke.jpg"), title: "Chad Dalke", credit: "https://unsplash.com/photos/4fydl6bJT8k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
-  { image: require("../Assets/filtergrade-nikon.jpg"), title: "Filter Grade", credit: "https://unsplash.com/photos/vn5MU5VwdjQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
-  { image: require("../Assets/joseph-chan.jpg"), title: "Joseph Chan", credit: "https://unsplash.com/photos/99Ty_Vme3wA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
-  { image: require("../Assets/jesus-santos.jpg"), title: "Jesus Santos", credit: "https://unsplash.com/photos/_T3upUiCqEE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
-  { image: require("../Assets/stephen-cook.jpg"), title: "Stephen Cook", credit: "https://unsplash.com/photos/g1iJMOu0sIg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
-  { image: require("../Assets/sebastian-pichler.jpg"), title: "Sebastian Pichler", credit: "https://unsplash.com/photos/MDGpwpMY2Ws?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
+  { image: require("../Assets/chad-dalke-mini-mini.jpg"), title: "Chad Dalke", credit: "https://unsplash.com/photos/4fydl6bJT8k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
+  { image: require("../Assets/filtergrade-nikon-mini.jpg"), title: "Filter Grade", credit: "https://unsplash.com/photos/vn5MU5VwdjQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
+  { image: require("../Assets/joseph-chan-mini.jpg"), title: "Joseph Chan", credit: "https://unsplash.com/photos/99Ty_Vme3wA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
+  { image: require("../Assets/jesus-santos-mini.jpg"), title: "Jesus Santos", credit: "https://unsplash.com/photos/_T3upUiCqEE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
+  { image: require("../Assets/stephen-cook-mini.jpg"), title: "Stephen Cook", credit: "https://unsplash.com/photos/g1iJMOu0sIg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
+  { image: require("../Assets/sebastian-pichler-mini.jpg"), title: "Sebastian Pichler", credit: "https://unsplash.com/photos/MDGpwpMY2Ws?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
 ]
 
 export default Gallery;
