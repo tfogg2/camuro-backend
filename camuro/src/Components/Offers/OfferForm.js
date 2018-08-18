@@ -39,7 +39,7 @@ class OfferForm extends Component {
         }
     ).done((data)=>{
         if(data.success){
-            alert("Message Sent.")
+            alert("Thanks for the message! We'll get back to you.")
             this.resetForm()
         }else{
             alert("Message failed to send.")
