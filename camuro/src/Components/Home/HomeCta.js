@@ -6,8 +6,8 @@ class HomeCta extends Component {
   render(){
     return(
       <div className="home-cta">
-         <h1>Film.</h1>
-         <h2 className="selling" onClick={() => scrollToComponent(this.props.about, { offset: .5, align: 'bottom', duration: 1500})}>It's what we do.</h2>
+         <h1>One</h1>
+         <h2 className="selling" onClick={() => scrollToComponent(this.props.offer, { offset: 0, align: 'top', duration: 1500})}>Restoration at a time.</h2>
       </div>
     )
   }
