@@ -23,7 +23,7 @@ class Home extends Component {
       this.setState({
         loaded: true
       })
-    }, 100 )
+    }, 200 )
     const about = document.getElementById('about')
   }
 
