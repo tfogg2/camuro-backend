@@ -68,7 +68,7 @@ class Gallery extends Component {
 }
 
 const GALLERY = [
-  { image: require("../Assets/chad-dalke-mini-mini.jpg"), title: "Chad Dalke", credit: "https://unsplash.com/photos/4fydl6bJT8k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
+  { image: require("../Assets/chad-dalke-mini.jpg"), title: "Chad Dalke", credit: "https://unsplash.com/photos/4fydl6bJT8k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
   { image: require("../Assets/filtergrade-nikon-mini.jpg"), title: "Filter Grade", credit: "https://unsplash.com/photos/vn5MU5VwdjQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
   { image: require("../Assets/joseph-chan-mini.jpg"), title: "Joseph Chan", credit: "https://unsplash.com/photos/99Ty_Vme3wA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
   { image: require("../Assets/jesus-santos-mini.jpg"), title: "Jesus Santos", credit: "https://unsplash.com/photos/_T3upUiCqEE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"},
