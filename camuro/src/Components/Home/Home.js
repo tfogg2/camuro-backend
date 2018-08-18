@@ -43,12 +43,12 @@ class Home extends Component {
           <div className="nav">
             <div  className="right-nav">
               <ul className="navLinks">
-                <li className="scrollLink">
+                <li className="scrollLink no-mobile">
                   <button onClick={() => scrollToComponent(this.About, { offset: .5, align: 'bottom', duration: 1500})}>
                     Mission
                   </button>
                 </li>
-                <li className="scrollLink">
+                <li className="scrollLink no-mobile">
                   <button onClick={() => scrollToComponent(this.Gallery, { offset: 0, align: 'top', duration: 1500})}>
                     Photos
                   </button>
@@ -58,7 +58,7 @@ class Home extends Component {
                     Sell
                   </button>
                 </li>
-                <li className="insta-link">
+                <li className="insta-link no-mobile">
                   <a href="https://www.instagram.com/camuro.co/" target="_blank" alt="camuro-instagram" >
                     <div className="instagram"></div>
                   </a>

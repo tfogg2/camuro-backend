@@ -279,7 +279,7 @@ h1{
   }
 }
 @media (max-width: 585px) {
-  .home .header .nav .right-nav{
+  .home .header .nav .right-nav ul .no-mobile{
     display: none;
   }
 }
