@@ -273,6 +273,9 @@ h1{
   .home .gallery .gallery-item .modal-footer{
     display: none;
   }
+  .gallery .gallery-item .modal{
+    top: 25%;
+  }
 }
 @media (max-width: 585px) {
   .home .header .nav .right-nav ul {
