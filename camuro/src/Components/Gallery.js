@@ -4,6 +4,7 @@ import GalleryItem from './GalleryItem.js'
 import Pagination from "react-js-pagination"
 import { BrowserRouter, Route, NavLink, Link } from 'react-router-dom'
 import Modal from './Modal'
+import _ from 'lodash'
 
 
 
@@ -22,7 +23,13 @@ class Gallery extends Component {
   componentDidMount() {
     const { data: allPhotos = [] } = GALLERY;
     this.setState({ allPhotos });
+    _.delay( () => {
+      this.setState({
+        loaded: true
+      })
+    }, 1000 )
   }
+
 
   onPageChanged = data => {
     const { allPhotos } = this.state;
@@ -48,6 +55,7 @@ class Gallery extends Component {
 
 
   render(){
+    const modalClass = this.state.loaded ? 'visible-item' : ''
     const { currentPhotos, currentPage, totalPages } = this.state
     const allPhotos = this.state
     const totalPhotos = allPhotos.length
@@ -77,7 +85,7 @@ class Gallery extends Component {
             <div className="backdrop" onClick={this.toggleModal}>
               {gallery
                 .map(({image, title, credit}) => (
-                  <Modal show={this.state.isOpen} onClose={this.toggleModal} stopClose={this.stopClose} image={image} title={title} credit={credit}></Modal>
+                  <Modal show={this.state.isOpen} onClose={this.toggleModal} stopClose={this.stopClose} image={image} title={title} credit={credit} className={modalClass}></Modal>
               ))}
             </div>
           : null}
