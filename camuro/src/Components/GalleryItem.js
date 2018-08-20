@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Modal from './Modal'
+
 
 class GalleryItem extends Component {
 
@@ -32,12 +32,8 @@ class GalleryItem extends Component {
   render(){
     const hoverClass = this.state.isHovered ? "gallery-image hovered" : "gallery-image"
     return(
-      <div className='gallery-item'>
-        <div className={hoverClass} onMouseOver={this.handleHover} onMouseLeave={this.handleHover} onClick={this.toggleModal}>
-          <img src={this.props.image} alt={this.props.title} />
-        </div>
-        <Modal show={this.state.isOpen} onClose={this.toggleModal} stopClose={this.stopClose} image={this.props.image} title={this.props.title} credit={this.props.credit}>
-        </Modal>
+      <div className={hoverClass} onMouseOver={this.handleHover} onMouseLeave={this.handleHover} >
+        <img src={this.props.image} alt={this.props.title}/>
       </div>
     )
   }

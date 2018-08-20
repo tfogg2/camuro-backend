@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade'
 import GalleryItem from './GalleryItem.js'
 import Pagination from "react-js-pagination"
 import { BrowserRouter, Route, NavLink, Link } from 'react-router-dom'
+import Modal from './Modal'
 
 
 
@@ -22,6 +23,7 @@ class Gallery extends Component {
     const { data: allPhotos = [] } = GALLERY;
     this.setState({ allPhotos });
   }
+
   onPageChanged = data => {
     const { allPhotos } = this.state;
     const { currentPage, totalPages, pageLimit } = data;
@@ -30,6 +32,18 @@ class Gallery extends Component {
     const currentPhotos = allPhotos.slice(offset, offset + pageLimit);
 
     this.setState({ currentPage, currentPhotos, totalPages });
+  }
+
+  // MODAL
+  toggleModal = () => {
+    this.setState({
+      isOpen: !this.state.isOpen,
+      isHovered: false,
+    });
+    window.scrollTo(0, 0)
+  }
+  stopClose = (e) => {
+    e.stopPropagation()
   }
 
 
@@ -45,7 +59,9 @@ class Gallery extends Component {
       <div>
         {gallery
           .map(({image, title, credit}) => (
-          <GalleryItem key={title} title={title} image={image} credit={credit} />
+          <div className='gallery-item' onClick={this.toggleModal}>
+            <GalleryItem key={title} title={title} image={image} credit={credit} />
+          </div>
         ))}
       </div>
     )
@@ -57,7 +73,16 @@ class Gallery extends Component {
           <p>Photos for the people. By the people.</p>
         </div>
         <div className="gallery-items">
-          <Gallery itemsCountPerPage={4} state={state}/>
+          <Gallery itemsCountPerPage={4} state={state} />
+          {this.state.isOpen ?
+            <div className="backdrop" onClick={this.toggleModal}>
+              {gallery
+                .map(({image, title, credit}) => (
+                  <Modal show={this.state.isOpen} onClose={this.toggleModal} stopClose={this.stopClose} image={image} title={title} credit={credit}></Modal>
+              ))}
+            </div>
+          : null}
+
         </div>
       </div>
     )

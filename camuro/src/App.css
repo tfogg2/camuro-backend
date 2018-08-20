@@ -167,7 +167,7 @@ h1{
 }
 .right-nav ul li{
   display: inline-block;
-  margin-top: -5px;
+  margin-top: -2px;
   transition: background-color 0.5s ease;
   float: left;
   cursor: pointer;
@@ -226,7 +226,9 @@ h1{
   }
   .home .home-cta{
     position: absolute;
-    top: 0;
+    top: 80px;
+    height: 360px;
+    padding-top: 0;
   }
   .home .home-cta h1{
     font-size: 32px;
@@ -245,15 +247,15 @@ h1{
     width: 100%;
     height: 76px;
   }
-  .home-gallery .gallery .gallery-item .modal img{
+  .home-gallery .gallery .modal img{
     height: auto;
   }
   .home-gallery .gallery .gallery-image{
     height: 76px;
   }
-  .gallery .gallery-item .backdrop .modal{
-    width: 95%;
-    margin: 0 2.5%;
+  .gallery .backdrop .modal{
+    width: 80%;
+    margin: 40px 10%;
   }
   .gallery .gallery-item{
     width: 30%;
@@ -268,7 +270,6 @@ h1{
   }
   .home .gallery .gallery-item .modal{
     background: #fff0;
-
   }
   .home .gallery .gallery-item .modal-footer{
     display: none;
@@ -277,9 +278,12 @@ h1{
     top: 25%;
   }
 }
-@media (max-width: 585px) {
-  .home .header .nav .right-nav ul {
+@media (max-width: 635px) {
+  .home .header .nav .right-nav ul .no-mobile{
     display: none;
+  }
+  .home .header .nav .right-nav ul li button{
+    padding: 0 10px;
   }
 }
 @media (max-width: 680px) {
@@ -305,6 +309,11 @@ h1{
   }
   .sell-contnent .sell-form-content .form-group.item{
     margin-bottom: 15px;
+  }
+}
+@media (max-width: 900px){
+  .nav .right-nav .coming-soon{
+    display: none;
   }
 }
 /* MOBILE FRIENDLY */
@@ -467,32 +476,32 @@ h1{
   opacity: .8;
 }
 .backdrop{
-  background: rgba(0,0,0,0.82);
-  position: fixed;
+  background: rgba(33, 33, 33);;
+  position: absolute;
   z-index: 500;
+  height: fit-content;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
 }
-.gallery .gallery-item .modal{
+.gallery .modal{
   background: #fff;
   z-index: 500;
   border-radius: 5px;
   width: 50%;
-  top: 5%;
-  position: absolute;
-  margin: 0px 25%;
+  position: relative;
+  margin: 40px 25%;
   opacity: 1;
   padding: 0px;
   cursor: default;
 }
-.gallery .gallery-item .modal h4{
+.gallery .modal h4{
   font-size: 20px;
   padding: 10px 0px 20px 0;
   color: #000;
 }
-.gallery-item .modal img{
+.gallery .modal img{
   width: 100%;
   margin: 0;
   height: auto;
@@ -544,7 +553,7 @@ h1{
 .vermont{
   background: url(/static/media/vermont.2cf865fb.svg) no-repeat;
   float: right;
-  height: 68px;
+  height: 60px;
   width: 45px;
   margin: 2px 5%;
 }
