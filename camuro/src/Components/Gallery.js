@@ -14,7 +14,7 @@ class Gallery extends Component {
     this.state = {
       gallery: GALLERY,
       isOpen: false,
-      activePage: 15
+      activePage: 15,
     }
   }
 
@@ -51,7 +51,6 @@ class Gallery extends Component {
     const { currentPhotos, currentPage, totalPages } = this.state
     const allPhotos = this.state
     const totalPhotos = allPhotos.length
-
     if (totalPhotos === 0) return null;
 
 

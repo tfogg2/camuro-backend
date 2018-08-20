@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import _ from 'lodash'
 
 class GalleryItem extends Component {
 
@@ -7,9 +7,18 @@ class GalleryItem extends Component {
     super(props);
     this.state = {
       isHovered: false,
-      isOpen: false
+      isOpen: false,
+      loaded: false
     }
     this.handleHover = this.handleHover.bind(this)
+  }
+
+  componentDidMount() {
+    _.delay( () => {
+      this.setState({
+        loaded: true
+      })
+    }, 1000 )
   }
 
   toggleModal = () => {
@@ -30,10 +39,13 @@ class GalleryItem extends Component {
   }
 
   render(){
+    const itemClass = this.state.loaded ? 'visible-item galItem' : 'galItem'
     const hoverClass = this.state.isHovered ? "gallery-image hovered" : "gallery-image"
     return(
-      <div className={hoverClass} onMouseOver={this.handleHover} onMouseLeave={this.handleHover} >
-        <img src={this.props.image} alt={this.props.title}/>
+      <div className={itemClass}>
+        <div className={hoverClass} onMouseOver={this.handleHover} onMouseLeave={this.handleHover} >
+          <img src={this.props.image} alt={this.props.title}/>
+        </div>
       </div>
     )
   }
