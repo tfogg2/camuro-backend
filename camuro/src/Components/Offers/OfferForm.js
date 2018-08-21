@@ -77,6 +77,41 @@ class OfferForm extends Component {
       const item5 = `\n \n Item 5- \n model: ${model5} \n condition: ${condition5} \n price: ${price5}`
       items.push(item5)
     }
+    if (this.state.items.length > 5) {
+      const model6 = document.getElementsByClassName('model')[5].value
+      const condition6 = document.getElementsByClassName('condition')[5].value
+      const price6 = document.getElementsByClassName('price')[5].value
+      const item6 = `\n \n Item 6- \n model: ${model6} \n condition: ${condition6} \n price: ${price6}`
+      items.push(item6)
+    }
+    if (this.state.items.length > 6) {
+      const model7 = document.getElementsByClassName('model')[6].value
+      const condition7 = document.getElementsByClassName('condition')[6].value
+      const price7 = document.getElementsByClassName('price')[6].value
+      const item7 = `\n \n Item 7- \n model: ${model7} \n condition: ${condition7} \n price: ${price7}`
+      items.push(item7)
+    }
+    if (this.state.items.length > 7) {
+      const model8 = document.getElementsByClassName('model')[7].value
+      const condition8 = document.getElementsByClassName('condition')[7].value
+      const price8 = document.getElementsByClassName('price')[7].value
+      const item8 = `\n \n Item 8- \n model: ${model8} \n condition: ${condition8} \n price: ${price8}`
+      items.push(item8)
+    }
+    if (this.state.items.length > 8) {
+      const model9 = document.getElementsByClassName('model')[8].value
+      const condition9 = document.getElementsByClassName('condition')[8].value
+      const price9 = document.getElementsByClassName('price')[8].value
+      const item9 = `\n \n Item 9- \n model: ${model9} \n condition: ${condition9} \n price: ${price9}`
+      items.push(item9)
+    }
+    if (this.state.items.length > 9) {
+      const model10 = document.getElementsByClassName('model')[9].value
+      const condition10 = document.getElementsByClassName('condition')[9].value
+      const price10 = document.getElementsByClassName('price')[9].value
+      const item10 = `\n \n Item 10- \n model: ${model10} \n condition: ${condition10} \n price: ${price10}`
+      items.push(item10)
+    }
 
     const invalidFields = []
     if (!email || email.length < 1) { invalidFields.push('email') }
@@ -142,7 +177,7 @@ class OfferForm extends Component {
     }
 
     const AddItem = () => {
-      if (this.state.items.length < 5){
+      if (this.state.items.length < 10){
         return <button className="add-items" type="button" onClick={this.handleAddItem}>Add Item</button>
       }
       else {
