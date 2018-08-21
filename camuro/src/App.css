@@ -105,6 +105,7 @@ h1{
   font-weight: 300;
   margin: 0;
   font-size: 24px;
+  line-height: 38px;
   transition: font-size 1s ease-in-out;
 }
 .selling{
@@ -231,6 +232,7 @@ h1{
     padding-top: 5px;
     padding-bottom: 0;
     width: 85px;
+    line-height: 22px;
   }
   .home-gallery .gallery{
     width: 100%;
@@ -354,23 +356,14 @@ h1{
   border: 1px solid #e0e0e0;
   box-sizing: border-box;
 }
+
 .sell-form-content .sell-form .add-items{
-  display: block;
-  border: 1px solid #6f6f6f;
-  color: #6f6f6f;
-  margin: 0px auto;
-  background: #fff;
-  width: 100px;
-}
-
-
-.sell-form .add-items{
   display: block;
   border: 1px solid #6f6f6f;
   color: #2d2d2d;
   margin: 0px auto;
   background: #fff;
-  width: 15%;
+  width: 105px;
   transition: border .75s ease;
   transition: color .75s ease;
 }
