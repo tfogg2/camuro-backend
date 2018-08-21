@@ -166,9 +166,6 @@ h1{
   float: left;
   cursor: pointer;
 }
-.right-nav ul li:hover{
-  background: #c6574a;
-}
 .right-nav ul .insta-link{
   width: 60px;
   height: 65px;
@@ -288,6 +285,9 @@ h1{
   .home .form-group input{
     padding: 0 2px;
     height: 30px;
+  }
+  .right-nav ul li:hover{
+    background: #c6574a;
   }
   .sell-content .sell-form button{
     width: 50%;
