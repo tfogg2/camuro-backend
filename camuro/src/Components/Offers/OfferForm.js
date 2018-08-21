@@ -54,7 +54,6 @@ class OfferForm extends Component {
       const condition2 = document.getElementsByClassName('condition')[1].value
       const price2 = document.getElementsByClassName('price')[1].value
       const item2 = `model: ${model2} \n condition: ${condition2} \n price: ${price2}`
-      alert(item2)
       items.push(item2)
     }
     if (this.state.items.length > 2) {
@@ -62,7 +61,6 @@ class OfferForm extends Component {
       const condition3 = document.getElementsByClassName('condition')[2].value
       const price3 = document.getElementsByClassName('price')[2].value
       const item3 = `model: ${model3} \n condition: ${condition3} \n price: ${price3}`
-      alert(item3)
       items.push(item3)
     }
     if (this.state.items.length > 3) {
@@ -70,7 +68,6 @@ class OfferForm extends Component {
       const condition4 = document.getElementsByClassName('condition')[3].value
       const price4 = document.getElementsByClassName('price')[3].value
       const item4 = `model: ${model4} \n condition: ${condition4} \n price: ${price4}`
-      alert(item4)
       items.push(item4)
     }
     if (this.state.items.length > 4) {
