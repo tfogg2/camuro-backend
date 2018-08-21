@@ -108,7 +108,7 @@ h1{
   transition: font-size 1s ease-in-out;
 }
 .selling{
-  color: #FFB3A4;
+  color: #b57c4d;
 }
 .home-cta a{
   text-decoration: none;
@@ -469,7 +469,7 @@ h1{
 .galItem.visible-item{
   opacity: 1;
 }
-.modal.visible-item{
+.home-gallery .gallery .modal.visible-item{
   opacity: 1;
 }
 .gallery-image{
