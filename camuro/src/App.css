@@ -384,7 +384,7 @@ h1{
   height: fit-content;
   width: 100%;
   overflow: overlay;
-  background: #f9f9f9;
+  background: #fff;
   border: 1px solid #e0e0e0;
   margin: 10px 0;
 }
