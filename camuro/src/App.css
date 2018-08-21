@@ -104,11 +104,11 @@ h1{
   width: 135px;
   font-weight: 300;
   margin: 0;
-  font-size: 22px;
+  font-size: 24px;
   transition: font-size 1s ease-in-out;
 }
 .selling{
-  color: #b57c4d;
+  color: #ad8768;
 }
 .home-cta a{
   text-decoration: none;
