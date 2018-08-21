@@ -363,7 +363,8 @@ h1{
   color: #2d2d2d;
   margin: 0px auto;
   background: #fff;
-  width: 105px;
+  width: 15%;
+  min-width: 105px;
   transition: border .75s ease;
   transition: color .75s ease;
 }
