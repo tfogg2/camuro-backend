@@ -286,8 +286,8 @@ h1{
   .navLinks button:hover{
     background: #c6574a;
   }
-  .navLinks .active{
-    background: #c6574a;
+  .instagram:hover{
+    background-color: #c6574a;
   }
   .sell-content .sell-form button{
     width: 50%;
@@ -619,9 +619,6 @@ h1{
   background-size: contain;
   background: url('./Assets/insta-opaque.svg') no-repeat center center;
   transition: background .5s ease;
-}
-.instagram:hover{
-  background-color: #c6574a;
 }
 .vermont{
   background: url(/static/media/vermont.2cf865fb.svg) no-repeat;
