@@ -189,12 +189,6 @@ h1{
   transition: background .5s ease-in-out;
   transition: font-size 1s ease-in-out;
 }
-.navLinks button:hover{
-  background: #c6574a;
-}
-.navLinks .active{
-  background: #c6574a;
-}
 .content{
   background: #fff;
   width: 95%;
@@ -287,6 +281,12 @@ h1{
     height: 30px;
   }
   .right-nav ul li:hover{
+    background: #c6574a;
+  }
+  .navLinks button:hover{
+    background: #c6574a;
+  }
+  .navLinks .active{
     background: #c6574a;
   }
   .sell-content .sell-form button{
