@@ -11,7 +11,7 @@ class ItemForm extends Component {
         <h4>Item {index}</h4>
         <div className="form-group item pricing">
           <label for="price">ASKING PRICE</label>
-          // <span>$</span>
+          <span>$</span>
           <input type="number" index={this.props.index} className={this.props.inputClass('price')} className="price" />
         </div>
         <div className="form-group item">
