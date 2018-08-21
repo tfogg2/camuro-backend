@@ -354,13 +354,13 @@ h1{
   border: 1px solid #e0e0e0;
   box-sizing: border-box;
 }
-.sell-form .add-items{
+.sell-form-content .sell-form .add-items{
   display: block;
   border: 1px solid #6f6f6f;
   color: #6f6f6f;
   margin: 0px auto;
   background: #fff;
-  width: 15%;
+  width: 100px;
 }
 
 
