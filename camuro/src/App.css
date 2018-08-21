@@ -469,10 +469,6 @@ h1{
 .galItem.visible-item{
   opacity: 1;
 }
-.modal{
-  opacity: 0;
-  transition: opacity 2s ease;
-}
 .modal.visible-item{
   opacity: 1;
 }
@@ -511,9 +507,10 @@ h1{
   width: 50%;
   position: relative;
   margin: 40px 25%;
-  opacity: 1;
+  opacity: 0;
   padding: 0px;
   cursor: default;
+  transition: opacity 2s ease;
 }
 .gallery .modal h4{
   font-size: 20px;

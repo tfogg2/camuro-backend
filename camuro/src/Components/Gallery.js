@@ -16,6 +16,7 @@ class Gallery extends Component {
       gallery: GALLERY,
       isOpen: false,
       activePage: 15,
+      loaded: false
     }
   }
 
@@ -27,7 +28,7 @@ class Gallery extends Component {
       this.setState({
         loaded: true
       })
-    }, 1000 )
+    }, 100 )
   }
 
 
@@ -55,7 +56,7 @@ class Gallery extends Component {
 
 
   render(){
-    const modalClass = this.state.loaded ? 'visible-item' : ''
+    const galleryClass = this.state.loaded ? 'gallery-items visible' : 'gallery-items'
     const { currentPhotos, currentPage, totalPages } = this.state
     const allPhotos = this.state
     const totalPhotos = allPhotos.length
@@ -79,13 +80,13 @@ class Gallery extends Component {
           <img src={require('../Assets/photos.svg')} alt="photos" />
           <p>Photos for the people. By the people.</p>
         </div>
-        <div className="gallery-items">
+        <div className={galleryClass}>
           <Gallery itemsCountPerPage={4} state={state} />
           {this.state.isOpen ?
             <div className="backdrop" onClick={this.toggleModal}>
               {gallery
                 .map(({image, title, credit}) => (
-                  <Modal show={this.state.isOpen} onClose={this.toggleModal} stopClose={this.stopClose} image={image} title={title} credit={credit} className={modalClass}></Modal>
+                  <Modal show={this.state.isOpen} onClose={this.toggleModal} stopClose={this.stopClose} image={image} title={title} credit={credit}></Modal>
               ))}
             </div>
           : null}

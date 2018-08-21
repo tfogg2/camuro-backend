@@ -18,7 +18,7 @@ class GalleryItem extends Component {
       this.setState({
         loaded: true
       })
-    }, 1000 )
+    }, 400 )
   }
 
   toggleModal = () => {
