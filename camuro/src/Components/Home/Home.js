@@ -29,7 +29,6 @@ class Home extends Component {
 
   render(){
     const homeClass = this.state.loaded ? 'home-bg visible' : 'home-bg'
-    const galleryClass = this.state.loaded ? 'visible-gallery home-content' : 'home-content'
     return(
       <div className="home">
         <div className="header">
@@ -79,7 +78,7 @@ class Home extends Component {
         <div className="content">
           <About offer={this.OfferForm} ref={(section) => { this.About = section; }}/>
           <div className="home-gallery" ref={(section) => { this.Gallery = section; }}>
-            <div className={galleryClass}>
+            <div className='home-content'>
               <Gallery />
             </div>
           </div>
