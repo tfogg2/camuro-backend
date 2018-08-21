@@ -190,6 +190,7 @@ h1{
   text-decoration: none;
   color: #fff;
   transition: background .5s ease-in-out;
+  transition: font-size 1s ease-in-out;
 }
 .navLinks button:hover{
   background: #c6574a;
@@ -279,7 +280,8 @@ h1{
   }
   .home .header .nav .right-nav ul li button{
     padding: 0 10px;
-    margin-top: 4px;
+    margin-top: 2px;
+    font-size: 14px;
   }
 }
 @media (max-width: 680px) {
