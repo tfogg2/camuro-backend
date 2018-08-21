@@ -354,6 +354,65 @@ h1{
   border: 1px solid #e0e0e0;
   box-sizing: border-box;
 }
+.sell-form .add-items{
+  display: block;
+  border: 1px solid #6f6f6f;
+  color: #6f6f6f;
+  margin: 0px auto;
+  background: #fff;
+  width: 15%;
+}
+
+
+.sell-form .add-items{
+  display: block;
+  border: 1px solid #6f6f6f;
+  color: #2d2d2d;
+  margin: 0px auto;
+  background: #fff;
+  width: 15%;
+  transition: border .75s ease;
+  transition: color .75s ease;
+}
+.sell-content .sell-form button.add-items:hover{
+  border: 1px solid #c6574a;
+  color: #c6574a;
+}
+.item-form-group{
+  height: fit-content;
+  width: 100%;
+  overflow: overlay;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  margin: 10px 0;
+}
+.sell-form .item-form-group h4{
+  text-align: left;
+  margin: 10px 2.5% 0 2.5%;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #3e3e3e;
+}
+.sell-form .item-form-group .form-group{
+  margin-top: 15px;
+}
+.remove-last{
+  width: 132px;
+  margin: 10px auto 0 auto;
+  display: block;
+  color: #2d2d2d;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color .75s ease;
+}
+.remove-last:hover{
+  color: #c6574a;
+}
+.addItemText{
+  color: #c6574a;
+}
+
 .sell-form button{
   font-size: 18px;
   width: 30%;
@@ -377,12 +436,12 @@ h1{
   float: left;
   margin: 40px 2.5%;
 }
-.form-group.item.price span{
+.form-group.item.pricing span{
   position: absolute;
   color: #000;
   margin-top: 32px;
 }
-#price {
+.form-group.item.pricing input {
   padding-left: 15px;
 }
 .form-group input{
