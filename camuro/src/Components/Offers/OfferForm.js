@@ -45,7 +45,7 @@ class OfferForm extends Component {
     const condition = document.getElementsByClassName('condition')[0].value
     const price = document.getElementsByClassName('price')[0].value
 
-    const item1 = `\n Item 1- \n model: ${model} \n condition: ${condition} \n price: ${price}`
+    const item1 = `\n \n Item 1- \n model: ${model} \n condition: ${condition} \n price: ${price}`
     const items = []
     items.push(item1)
 
@@ -53,28 +53,28 @@ class OfferForm extends Component {
       const model2 = document.getElementsByClassName('model')[1].value
       const condition2 = document.getElementsByClassName('condition')[1].value
       const price2 = document.getElementsByClassName('price')[1].value
-      const item2 = `\n Item 2- \n model: ${model2} \n condition: ${condition2} \n price: ${price2}`
+      const item2 = `\n \n Item 2- \n model: ${model2} \n condition: ${condition2} \n price: ${price2}`
       items.push(item2)
     }
     if (this.state.items.length > 2) {
       const model3 = document.getElementsByClassName('model')[2].value
       const condition3 = document.getElementsByClassName('condition')[2].value
       const price3 = document.getElementsByClassName('price')[2].value
-      const item3 = `\n Item 3- \n model: ${model3} \n condition: ${condition3} \n price: ${price3}`
+      const item3 = `\n \n Item 3- \n model: ${model3} \n condition: ${condition3} \n price: ${price3}`
       items.push(item3)
     }
     if (this.state.items.length > 3) {
       const model4 = document.getElementsByClassName('model')[3].value
       const condition4 = document.getElementsByClassName('condition')[3].value
       const price4 = document.getElementsByClassName('price')[3].value
-      const item4 = `\n Item 4- \n model: ${model4} \n condition: ${condition4} \n price: ${price4}`
+      const item4 = `\n \n Item 4- \n model: ${model4} \n condition: ${condition4} \n price: ${price4}`
       items.push(item4)
     }
     if (this.state.items.length > 4) {
       const model5 = document.getElementsByClassName('model')[4].value
       const condition5 = document.getElementsByClassName('condition')[4].value
       const price5 = document.getElementsByClassName('price')[4].value
-      const item5 = `\n Item 5- \n model: ${model5} \n condition: ${condition5} \n price: ${price5}`
+      const item5 = `\n \n Item 5- \n model: ${model5} \n condition: ${condition5} \n price: ${price5}`
       items.push(item5)
     }
 
