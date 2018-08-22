@@ -422,6 +422,7 @@ h1{
   height: 40px;
   line-height: 40px;
   background: #c6574a;
+  border: none;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
