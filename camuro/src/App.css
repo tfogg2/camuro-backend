@@ -368,7 +368,7 @@ h1{
 
 .sell-form-content .sell-form .add-items{
   display: block;
-  border: 1px solid #6f6f6f;
+  border: 1px dashed #989898;
   color: #2d2d2d;
   margin: 20px auto 0 auto;
   background: #fff;
