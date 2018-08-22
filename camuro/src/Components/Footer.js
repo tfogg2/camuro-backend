@@ -9,7 +9,10 @@ class Footer extends Component {
           <div className="instagram"></div>
         </a>
 
-        <div className="vermont"></div>
+        <div className="vermont">
+          <p>Winooski, VT</p>
+          <img src={require('../Assets/vermont.svg')} alt="vermont" />
+        </div>
       </div>
     )
   }

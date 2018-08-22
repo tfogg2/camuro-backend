@@ -674,11 +674,20 @@ h1{
   background-color: #c6574a;
 }
 .vermont{
-  background: url(/static/media/vermont.2cf865fb.svg) no-repeat;
   float: right;
   height: 60px;
-  width: 45px;
-  margin: 2px 5%;
+  margin: 0px 5%;
+}
+.vermont p{
+  float: left;
+  line-height: 60px;
+  width: 120px;
+  margin: 0;
+}
+.vermont img{
+  float: left;
+  margin: 21px 0;
+  width: 12px;
 }
 /* FOOTER */
 
