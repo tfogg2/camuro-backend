@@ -43,18 +43,13 @@ class Home extends Component {
             <div  className="right-nav">
               <ul className="navLinks">
                 <li className="scrollLink no-mobile">
-                  <button onClick={() => scrollToComponent(this.OfferForm, { offset: 0, align: 'top', duration: 1500})}>
-                    Sell Gear
-                  </button>
-                </li>
-                <li className="scrollLink no-mobile">
-                  <button onClick={() => scrollToComponent(this.About, { offset: .5, align: 'bottom', duration: 1500})}>
-                    Mission
-                  </button>
-                </li>
-                <li className="scrollLink no-mobile">
                   <button onClick={() => scrollToComponent(this.Gallery, { offset: 0, align: 'top', duration: 1500})}>
                     Photos
+                  </button>
+                </li>
+                <li className="scrollLink no-mobile">
+                  <button onClick={() => scrollToComponent(this.OfferForm, { offset: 0, align: 'top', duration: 1500})}>
+                    Sell Gear
                   </button>
                 </li>
                 <li className="no-mobile coming-soon">
