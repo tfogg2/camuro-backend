@@ -77,7 +77,7 @@ class Products extends Component {
 
 // data
 const PRODUCTS = [
-  { image: require("../../Assets/CanonSun..png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
 ]
 
 const uniqueItems = (x, i, array) => array.indexOf(x) === i
