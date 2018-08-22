@@ -42,7 +42,7 @@ class Home extends Component {
           <div className="nav">
             <div  className="right-nav">
               <ul className="navLinks">
-                <li className="scrollLink">
+                <li className="scrollLink no-mobile">
                   <button onClick={() => scrollToComponent(this.OfferForm, { offset: 0, align: 'top', duration: 1500})}>
                     Sell Gear
                   </button>
