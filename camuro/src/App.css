@@ -25,7 +25,7 @@ h1{
   padding: 0 5%;
   margin: 0px;
   background: #000;
-  line-height: 60px;
+  line-height: 65px;
   text-align: left;
   box-sizing: border-box;
 }
@@ -45,7 +45,7 @@ h1{
 }
 .logo a:hover{
   text-decoration: none;
-  color: #FFB3A4;
+  color: #ad8768;
 }
 /* HEADER */
 
@@ -166,6 +166,9 @@ h1{
   float: left;
   cursor: pointer;
 }
+.right-nav ul li:hover{
+  background: #c6574a;
+}
 .right-nav ul .insta-link{
   width: 60px;
   height: 65px;
@@ -187,7 +190,12 @@ h1{
   text-decoration: none;
   color: #fff;
   transition: background .5s ease-in-out;
-  transition: font-size 1s ease-in-out;
+}
+.navLinks button:hover{
+  background: #c6574a;
+}
+.navLinks .active{
+  background: #c6574a;
 }
 .content{
   background: #fff;
@@ -242,7 +250,7 @@ h1{
   }
   .gallery .backdrop .modal{
     width: 80%;
-    margin: 40px 10%;
+    margin: 25px 10% 25px 10%;;
   }
   .gallery .gallery-item{
     width: 30%;
@@ -271,23 +279,12 @@ h1{
   }
   .home .header .nav .right-nav ul li button{
     padding: 0 10px;
-    margin-top: 3px;
-    font-size: 16px;
   }
 }
 @media (max-width: 680px) {
   .home .form-group input{
     padding: 0 2px;
     height: 30px;
-  }
-  .right-nav ul li:hover{
-    background: #c6574a;
-  }
-  .navLinks button:hover{
-    background: #c6574a;
-  }
-  .instagram:hover{
-    background-color: #c6574a;
   }
   .sell-content .sell-form button{
     width: 50%;
@@ -547,8 +544,10 @@ h1{
 .gallery-image.hovered img{
   opacity: .8;
 }
+
+
 .backdrop{
-  background: rgba(33, 33, 33);;
+  background: #fff;
   position: absolute;
   z-index: 500;
   height: fit-content;
@@ -556,18 +555,55 @@ h1{
   bottom: 0;
   left: 0;
   right: 0;
+  padding-bottom: 40px;
+}
+.backdrop .modal-header{
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0px 1px 10px #4a4a4a;
+  z-index: 600;
+  position: fixed;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+.backdrop .modal-header h3{
+  font-size: 28px;
+  width: 175px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 60px;
+  padding: 0;
+}
+.backdrop .modal-items{
+  margin-top: 80px;
 }
 .gallery .modal{
   background: #fff;
+  box-shadow: 1px 1px 10px #adadad;
   z-index: 500;
   border-radius: 5px;
   width: 50%;
   position: relative;
-  margin: 40px 25%;
+  margin: 25px 25% 25px 25%;
   opacity: 0;
   padding: 0px;
   cursor: default;
   transition: opacity 2s ease;
+}
+.close-modal{
+  box-sizing: border-box;
+  height: 60px;
+  float: left;
+  color: #000;
+  line-height: 60px;
+  padding: 0;
+  cursor: pointer;
+}
+.close-modal img{
+  opacity: .8;
+  margin-top: 22px;
 }
 .gallery .modal h4{
   font-size: 20px;
@@ -608,7 +644,7 @@ h1{
   height: 60px;
   width: 100%;
   position: absolute;
-  background: #000;
+  background: #1d1d1d;
 }
 .instagram{
   height: 40px;
@@ -619,6 +655,9 @@ h1{
   background-size: contain;
   background: url('./Assets/insta-opaque.svg') no-repeat center center;
   transition: background .5s ease;
+}
+.instagram:hover{
+  background-color: #c6574a;
 }
 .vermont{
   background: url(/static/media/vermont.2cf865fb.svg) no-repeat;
