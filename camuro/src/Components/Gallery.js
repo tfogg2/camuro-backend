@@ -86,7 +86,7 @@ class Gallery extends Component {
               <div className="backdrop">
                 <div className="modal-header">
                   <span className="close-modal" onClick={this.toggleModal}><img src={require('../Assets/back-arrow.svg')} alt="back-arrow"/></span>
-                  <h3>Photo Gallery</h3>
+                  <img className="photos-small" src={require('../Assets/photos-small.svg')} alt="photos" />
                 </div>
                 <div className="modal-items">
                   {gallery

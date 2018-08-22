@@ -577,6 +577,9 @@ h1{
   line-height: 60px;
   padding: 0;
 }
+.backdrop .modal-header .photos-small{
+  margin-top: 8px;
+}
 .backdrop .modal-items{
   margin-top: 80px;
 }
