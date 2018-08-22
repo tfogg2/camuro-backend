@@ -480,7 +480,7 @@ h1{
 }
 .gallery{
   width: 90%;
-  min-height: 600px;
+  min-height: 525px;
   padding: 50px 5%;
   overflow: overlay;
   background: #fff;
