@@ -66,7 +66,7 @@ h1{
   position: absolute;
 }
 .home-bg{
-  background: url('./Assets/leicaM6-dark2.png') no-repeat;
+  background: url('./Assets/leicaM6-dark.png') no-repeat;
   background-color: #080808;
   background-position-x: 0px;
   background-size: cover;
@@ -213,6 +213,7 @@ h1{
   .home .splash-background .home-bg{
     height: 300px;
     position: relative;
+    background: url('./Assets/leicaM6-dark2.png') no-repeat;
   }
   .right-nav ul li:hover{
     background: #000;
@@ -291,6 +292,15 @@ h1{
   }
 }
 @media (max-width: 680px) {
+  .home .splash-background .home-bg{
+    height: 300px;
+    position: relative;
+    background: url('./Assets/leicaM6-dark2.png') no-repeat;
+  }
+  .home .splash-background{
+    height: 300px;
+    position: relative;
+  }
   .home .form-group input{
     padding: 0 2px;
     height: 30px;
