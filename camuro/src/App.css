@@ -673,6 +673,9 @@ h1{
 .instagram:hover{
   background-color: #c6574a;
 }
+.footer-content{
+  opacity: .8;
+}
 .vermont{
   float: right;
   height: 60px;
