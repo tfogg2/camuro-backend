@@ -304,6 +304,9 @@ h1{
     float: left;
     margin: 15px 10%;
   }
+  .sell-content .sell-form h4{
+    margin: 10px 10%;
+  }
   .content .sell-content{
     height: auto;
   }
@@ -383,22 +386,43 @@ h1{
 .item-form-group{
   height: fit-content;
   width: 100%;
+  border-bottom: 1px solid #e0e0e0;
   overflow: overlay;
   background: #fff;
-  border-bottom: 1px dashed #989898;
-  margin: 10px 0;
+  margin: 0;
   padding: 10px 0;
 }
-.sell-form .item-form-group h4{
-  text-align: center;
-  margin: 10px 0;
+.personal-info{
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #fbfafa;
+  border: 1px solid #e0e0e0;
+  /* background: #ffffff; */
+  overflow: overlay;
+}
+.personal-info .form-group input{
+  background: #fbfafa;
+}
+.sell-form h4{
+  text-align: left;
+  margin: 10px 2.5%;
   padding: 0;
+  width: 200px;
   font-size: 18px;
   font-weight: 600;
-  color: #3e3e3e;
+  color: #212121;
+  font-weight: 600;
 }
-.sell-form .item-form-group .form-group{
-  margin-top: 15px;
+.form-group{
+  width: 28.3%;
+  height: 62px;
+  float: left;
+  margin: 10px 2.5%;
+}
+.form-group.item.pricing span{
+  position: absolute;
+  color: #000;
+  margin-top: 31px;
 }
 .remove-last{
   width: 132px;
@@ -433,17 +457,6 @@ h1{
 }
 .sell-form button:hover{
   background: #ad483c;
-}
-.form-group{
-  width: 28.3%;
-  height: 62px;
-  float: left;
-  margin: 40px 2.5%;
-}
-.form-group.item.pricing span{
-  position: absolute;
-  color: #000;
-  margin-top: 27px;
 }
 .form-group.item.pricing input {
   padding-left: 15px;

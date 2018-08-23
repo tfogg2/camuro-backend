@@ -189,17 +189,20 @@ class OfferForm extends Component {
         <div className="sell-form-content">
           <h3>Get An Offer</h3>
           <form className="sell-form" id="contact-form" onSubmit={this.handleSubmit} method="POST">
-            <div className="form-group">
-              <label for="name">NAME</label>
-              <input type="name" className={this.inputClass('name')} id="name" aria-describedby="customerName" onClick={() => this.inputActive("name")}/>
-            </div>
-            <div className="form-group">
-              <label for="email">EMAIL</label>
-              <input type="email" className={this.inputClass('email')} id="email" aria-describedby="emailHelp" onClick={() => this.inputActive("email")}/>
-            </div>
-            <div className="form-group">
-              <label for="state">STATE</label>
-              <SelectUSState id="state" className="myClassName"/>
+            <div className="personal-info">
+              <h4>Personal Info</h4>
+              <div className="form-group">
+                <label for="name">NAME</label>
+                <input type="name" className={this.inputClass('name')} id="name" aria-describedby="customerName" onClick={() => this.inputActive("name")}/>
+              </div>
+              <div className="form-group">
+                <label for="email">EMAIL</label>
+                <input type="email" className={this.inputClass('email')} id="email" aria-describedby="emailHelp" onClick={() => this.inputActive("email")}/>
+              </div>
+              <div className="form-group">
+                <label for="state">STATE</label>
+                <SelectUSState id="state" className="myClassName"/>
+              </div>
             </div>
             <div>
               {this.state.items ?
