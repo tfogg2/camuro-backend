@@ -190,7 +190,7 @@ class OfferForm extends Component {
           <h3>Get An Offer</h3>
           <form className="sell-form" id="contact-form" onSubmit={this.handleSubmit} method="POST">
             <div className="personal-info">
-              <h4>Personal Info</h4>
+              <h4>Contact Info</h4>
               <div className="form-group">
                 <label for="name">NAME</label>
                 <input type="name" className={this.inputClass('name')} id="name" aria-describedby="customerName" onClick={() => this.inputActive("name")}/>
