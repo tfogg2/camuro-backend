@@ -317,6 +317,9 @@ h1{
   .sell-contnent .sell-form-content .form-group.item{
     margin-bottom: 15px;
   }
+  .sell-contnent .sell-form-content .form-group.item.pricing span{
+    margin-top: 27px;
+  }
 }
 @media (max-width: 900px){
   .nav .right-nav .coming-soon{
