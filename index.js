@@ -9,6 +9,8 @@ require('dotenv').config()
 
 app.use(express.static(path.join(__dirname, 'camuro/build')))
 
+app.use(require('prerender-node'));
+
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname + '/camuro/build/index.html'))
 })
