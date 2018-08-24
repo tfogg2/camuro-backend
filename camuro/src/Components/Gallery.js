@@ -65,7 +65,7 @@ class Gallery extends Component {
 
     const Gallery = ({state:{ gallery }}) => (
       <div>
-        {gallery.slice(0, 12)
+        {gallery.slice(0, 15)
           .map(({image, title, credit}) => (
           <div className='gallery-item' onClick={this.toggleModal}>
             <GalleryItem key={title} title={title} image={image} credit={credit} />
