@@ -201,7 +201,7 @@ h1{
   background: #fff;
   width: 95%;
   margin: 20px 2.5%;
-  box-shadow: 1px 1px 6px #a5a5a5;
+  /*box-shadow: 1px 1px 6px #a5a5a5;*/
 }
 .content h2,h3,h4 {
   margin: 0;
@@ -263,7 +263,6 @@ h1{
   }
   .gallery .gallery-item{
     width: 30%;
-    margin: .5%;
     height: 80px;
   }
   .home .about-copy{
@@ -332,7 +331,7 @@ h1{
 /* Offers */
 .sell-content{
   background: #fff;
-  border-top: 2px solid #c6574a;
+  /*border-top: 2px solid #c6574a;*/
 }
 .sell-form-content{
   background: #ffffff;
@@ -538,6 +537,7 @@ h1{
   background: #fff;
   opacity: 1;
   width: 360px;
+  margin: -4px 1px;
   height: 240px;
   cursor: pointer;
   display: inline-block;
@@ -653,7 +653,7 @@ h1{
   width: 100%;
   margin: 0 auto;
   padding: 50px 0 50px 0;
-  border-bottom: 2px solid #c6574a;
+  /*border-bottom: 2px solid #c6574a;*/
 }
 .about-copy{
   width: 50%;
