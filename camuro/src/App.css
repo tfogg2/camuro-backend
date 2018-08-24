@@ -265,6 +265,9 @@ h1{
     width: 30%;
     height: 80px;
   }
+  .home .about{
+    margin-bottom: 60px;
+  }
   .home .about-copy{
     width: 85%;
   }
