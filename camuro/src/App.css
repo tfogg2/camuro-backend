@@ -45,7 +45,7 @@ h1{
 }
 .logo a:hover{
   text-decoration: none;
-  color: #ad8768;
+  color: #FFBA4A;
 }
 /* HEADER */
 
@@ -109,7 +109,7 @@ h1{
   transition: font-size 1s ease-in-out;
 }
 .selling{
-  color: #ad8768;
+  color: #FFBA4A;
 }
 .home-cta a{
   text-decoration: none;
