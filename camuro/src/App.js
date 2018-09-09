@@ -30,9 +30,6 @@ class App extends Component {
         <div className="App">
           <Switch>
             <Route exact path="/" render={() => <Home />}/>
-            <Route path="/cart" render={() => <Cart removeProduct={removeProduct} cartProducts={cartProducts} total={total}/>} />
-            <Route path="/products" render={() => <Products addProduct={addProduct}/>} />
-            <Route path="/product/:title" component={Product} />} />
             <Route component={NotFound} />
           </Switch>
 
