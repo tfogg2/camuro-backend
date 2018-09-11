@@ -32,7 +32,6 @@ class App extends Component {
             <Route exact path="/" render={() => <Home />}/>
             <Route component={NotFound} />
           </Switch>
-
         </div>
       </BrowserRouter>
     )

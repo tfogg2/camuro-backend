@@ -58,7 +58,7 @@ class Home extends Component {
                   </button>
                 </li>
                 <li className="insta-link ">
-                  <a href="https://www.instagram.com/camuro.co/" target="_blank" alt="camuro-instagram" >
+                  <a href="https://www.instagram.com/camuroco/" target="_blank" alt="camuro-instagram" >
                     <div className="instagram"></div>
                   </a>
                 </li>
