@@ -29,43 +29,9 @@ class Home extends Component {
 
   render(){
     const homeClass = this.state.loaded ? 'home-bg visible' : 'home-bg'
+    const limit = 9
     return(
       <div className="home">
-        <div className="header">
-          <div className="logo">
-            <h1>
-              <Link exact="true" to="/">
-                camuro
-              </Link>
-            </h1>
-          </div>
-          <div className="nav">
-            <div  className="right-nav">
-              <ul className="navLinks">
-                <li className="scrollLink no-mobile">
-                  <button onClick={() => scrollToComponent(this.Gallery, { offset: 0, align: 'top', duration: 1500})}>
-                    Photos
-                  </button>
-                </li>
-                <li className="scrollLink no-mobile">
-                  <button onClick={() => scrollToComponent(this.OfferForm, { offset: 0, align: 'top', duration: 1500})}>
-                    Sell Gear
-                  </button>
-                </li>
-                <li className="no-mobile coming-soon">
-                  <button>
-                    Shop <i>(Coming Soon)</i>
-                  </button>
-                </li>
-                <li className="insta-link ">
-                  <a href="https://www.instagram.com/camuroco/" target="_blank" alt="camuro-instagram" >
-                    <div className="instagram"></div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
         <div className="splash-background">
           <div className={homeClass}></div>
         </div>
@@ -74,12 +40,19 @@ class Home extends Component {
           <About offer={this.OfferForm} ref={(section) => { this.About = section; }}/>
           <div className="home-gallery" ref={(section) => { this.Gallery = section; }}>
             <div className='home-content'>
-              <Gallery />
+              <Gallery limit={limit}/>
+              <Link to="/gallery" alt="gallery">
+                <button className="gallery-btn">
+                  See More Photos
+                </button>
+              </Link>
             </div>
           </div>
-          <OfferForm ref={(section) => { this.OfferForm = section; }}/>
+          <div className="home-offer">
+            <h1>Selling your gear?</h1>
+            <p>Let us know. We buy and refurbish gear.</p>
+          </div>
         </div>
-        <Footer ref={(section) => { this.Footer = section; }}/>
       </div>
     )
   }

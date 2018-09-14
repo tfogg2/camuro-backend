@@ -2,6 +2,11 @@ const express = require('express')
 const nodemailer = require('nodemailer')
 const sgTransport = require('nodemailer-sendgrid-transport')
 const bodyParser = require('body-parser')
+
+const SERVER_CONFIGS = require('./constants/server');
+const configureServer = require('./server');
+const configureRoutes = require('./routes');
+
 const app = express()
 const path = require('path')
 
@@ -28,9 +33,13 @@ app.use(bodyParser.json({}))
 app.use(bodyParser.urlencoded({ extended: true}))
 app.use(bodyParser.text())
 
-const port = process.env.PORT || 5000
-app.listen(port)
+app.listen(SERVER_CONFIGS.PORT, error => {
+  if (error) throw error;
+  console.log('Server running on port: ' + SERVER_CONFIGS.PORT);
+});
 
+configureServer(app);
+configureRoutes(app);
 
 
 var client = nodemailer.createTransport({

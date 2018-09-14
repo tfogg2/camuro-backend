@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Product from './Product.js'
 import { BrowserRouter, Route, NavLink, Link } from 'react-router-dom'
 import _ from 'lodash'
+import ProductModal from './ProductModal'
 
 const ListCategories = (productCategories, setCategory ) => (
   productCategories.map((category) => {
@@ -22,7 +23,9 @@ class Products extends Component {
     this.state = {
       displayCategory: "All",
       products: PRODUCTS,
-      productCategories: PRODUCT_CATEGORIES
+      addProduct: this.props.addProduct,
+      productCategories: PRODUCT_CATEGORIES,
+      isOpen: false
     };
     this.setCategory = this.setCategory.bind(this);
   }
@@ -37,8 +40,21 @@ class Products extends Component {
     })
   }
 
+  // MODAL
+  toggleModal = () => {
+    this.setState({
+      isOpen: !this.state.isOpen,
+      isHovered: false,
+    });
+    window.scrollTo(0, 0)
+  }
+  stopClose = (e) => {
+    e.stopPropagation()
+  }
+
 
   render() {
+    const productClass = this.state.isOpen ? 'invisible' : ''
     const ProductItems = ({ state: { products, displayCategory } }) => (
       <div>
         {products
@@ -47,27 +63,47 @@ class Products extends Component {
               displayCategory === category || displayCategory === "All"
           )
           .map(({ product, category, title, description, price, index, image }) => (
-            // <Link to={`/product/${title}`} component={Product}>
-            <Product key={`ProductItems-${title}`} product={product} image={image} index={index} category={category} title={title} description={description} price={price} addProduct={this.props.addProduct} />
-            // </Link>
+            <div className="product-box">
+              <div className={productClass}>
+                <Product key={`ProductItems-${title}`} toggleModal={this.toggleModal} product={product} image={image} index={index} category={category} title={title} description={description} price={price} addProduct={this.props.addProduct} />
+              </div>
+              <div>
+                {this.state.isOpen ?
+                  <div className="backdrop product-backdrop">
+                    <div className="modal-header">
+                      <span className="close-modal" onClick={this.toggleModal}><img src={require('../../Assets/back-arrow.svg')} alt="back-arrow"/></span>
+                      <Link to={`/cart`} className="add-product" onClick={ () => this.props.addProduct(title, product, description, price, index, image)}>
+                        <button className="addProductBtn">Add Product</button>
+                      </Link>
+                    </div>
+                    <div className="modal-items">
+                      <ProductModal show={this.state.isOpen} onClose={this.toggleModal} addProduct={this.state.addProduct} stopClose={this.stopClose} product={product} image={image} title={title} description={description} price={price}></ProductModal>
+                    </div>
+                  </div>
+                : null}
+              </div>
+            </div>
           ))}
       </div>
     )
     const UI = ({
       state,
-      state: { productCategories },
+      state: { productCategories, products },
       setCategory,
-      AllProducts
+      AllProducts,
     }) => (
-      <div className="overlay">
-        <h2 className="coming-soon">Coming Soon</h2>
-        <div className="content product-content">
-          <ul className="product-nav">
-            {ListCategories(productCategories, setCategory )}
-          </ul>
-          <div className="products">
-            <ProductItems state={state} />
+      <div className="content product-content">
+        <div className={productClass}>
+          <div className="products-header">
+            <h1>Shop Now!</h1>
+            <ul className="product-nav">
+              {ListCategories(productCategories, setCategory )}
+            </ul>
           </div>
+        </div>
+        <div className="products">
+          <ProductItems state={state} />
+
         </div>
       </div>
     )
@@ -78,6 +114,17 @@ class Products extends Component {
 // data
 const PRODUCTS = [
   { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Accessories", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Bodies", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Accessories", price: 100},
+  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Bodies", price: 100},
 ]
 
 const uniqueItems = (x, i, array) => array.indexOf(x) === i

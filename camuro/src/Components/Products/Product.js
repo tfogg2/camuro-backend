@@ -3,17 +3,24 @@ import { BrowserRouter, Route, NavLink, Link } from 'react-router-dom'
 
 const Product = props => {
   return(
-    <div className="product">
+    <div className="product" onClick={props.toggleModal}>
       <div className="product-image">
         <img src={props.image}/>
       </div>
-      <div className="product-title">
-        <h2>{props.title}</h2>
-      </div>
       <div className="product-description">
-        <p>{props.description}</p>
+        <div className="description-text">
+          <div>
+            <h2>{props.title}</h2>
+          </div>
+
+        </div>
+        <div className="description-cta">
+          <div className="product-price">
+            <span><b>${props.price}</b></span>
+          </div>
+
+        </div>
       </div>
-      <Link to={`/cart`} className="add-product" onClick={ () => props.addProduct(props.title, props.category, props.description, props.price, props.index, props.image)}>Add Product</Link>
     </div>
   )
 }
