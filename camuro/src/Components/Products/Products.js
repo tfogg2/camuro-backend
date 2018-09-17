@@ -25,8 +25,7 @@ class Products extends Component {
       products: PRODUCTS,
       addProduct: this.props.addProduct,
       productCategories: PRODUCT_CATEGORIES,
-      isOpen: false,
-      activeProduct: null
+      isOpen: false
     };
     this.setCategory = this.setCategory.bind(this);
   }
@@ -42,14 +41,11 @@ class Products extends Component {
   }
 
   // MODAL
-  toggleModal = (product) => {
+  toggleModal = (e) => {
     this.setState({
-      isOpen: !this.state.isOpen,
-      isHovered: false,
-      activeProduct: product
-    });
-    window.scrollTo(0, 0)
-    console.log(this.state.activeProduct)
+      isOpen: !this.state.isOpen
+    })
+    e.preventDefault()
   }
   stopClose = (e) => {
     e.stopPropagation()
@@ -58,7 +54,6 @@ class Products extends Component {
 
   render() {
     const productClass = this.state.isOpen ? 'invisible' : ''
-    const activeProduct = (this.state.activeProduct != null ) ? 'backdrop product-backdrop' : 'invisible'
     const ProductItems = ({ state: { products, displayCategory } }) => (
       <div>
         {products
@@ -68,23 +63,8 @@ class Products extends Component {
           )
           .map(({ product, category, title, description, price, index, image, images }) => (
             <div className="product-box">
-              <div className={productClass}>
-                <Product key={`ProductItems-${title}`} toggleModal={this.toggleModal} product={product} image={image} index={index} category={category} title={title} description={description} price={price} addProduct={this.props.addProduct} />
-              </div>
               <div>
-                {this.state.isOpen && this.state.activeProduct == product ?
-                  <div className='backdrop product-backdrop'>
-                    <div className="modal-header">
-                      <span className="close-modal" onClick={this.toggleModal}><img src={require('../../Assets/back-arrow.svg')} alt="back-arrow"/></span>
-                      <Link to={`/cart`} className="add-product" onClick={ () => this.props.addProduct(title, product, description, price, index, image)}>
-                        <button className="addProductBtn">Add Product</button>
-                      </Link>
-                    </div>
-                    <div className="modal-items">
-                      <ProductModal show={this.state.isOpen} onClose={this.toggleModal} addProduct={this.state.addProduct} stopClose={this.stopClose} product={this.state.activeProduct} images={images} title={title} description={description} price={price}></ProductModal>
-                    </div>
-                  </div>
-                : null}
+                <Product key={`ProductItems-${title}`} toggleModal={this.toggleModal} isOpen={this.state.isOpen} product={product} images={images} image={image} index={index} category={category} title={title} description={description} price={price} addProduct={this.props.addProduct} />
               </div>
             </div>
           ))}
@@ -97,7 +77,7 @@ class Products extends Component {
       AllProducts,
     }) => (
       <div className="content product-content">
-        <div className={productClass}>
+        <div className='header-box'>
           <div className="products-header">
             <h1>Shop Now!</h1>
             <ul className="product-nav">
@@ -107,7 +87,6 @@ class Products extends Component {
         </div>
         <div className="products">
           <ProductItems state={state} />
-
         </div>
       </div>
     )
@@ -129,10 +108,10 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/olympus-8.png'), thumbnail: require('../../Assets/Products/olympus-8-small.png')},
       {original: require('../../Assets/Products/olympus-9.png'), thumbnail: require('../../Assets/Products/olympus-9-small.png')},
     ],
-    title: "Olympus",
+    title: "Olympus XA",
     description: "This is an example description about some camera shenanigans.",
-    category: "Lenses",
-    price: 100
+    category: "Bodies",
+    price: 199
   },
 
   { image: require("../../Assets/CanonSun.png"),
