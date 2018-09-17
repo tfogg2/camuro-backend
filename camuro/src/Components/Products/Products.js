@@ -25,7 +25,8 @@ class Products extends Component {
       products: PRODUCTS,
       addProduct: this.props.addProduct,
       productCategories: PRODUCT_CATEGORIES,
-      isOpen: false
+      isOpen: false,
+      activeProduct: null
     };
     this.setCategory = this.setCategory.bind(this);
   }
@@ -41,12 +42,14 @@ class Products extends Component {
   }
 
   // MODAL
-  toggleModal = () => {
+  toggleModal = (product) => {
     this.setState({
       isOpen: !this.state.isOpen,
       isHovered: false,
+      activeProduct: product
     });
     window.scrollTo(0, 0)
+    console.log(this.state.activeProduct)
   }
   stopClose = (e) => {
     e.stopPropagation()
@@ -55,6 +58,7 @@ class Products extends Component {
 
   render() {
     const productClass = this.state.isOpen ? 'invisible' : ''
+    const activeProduct = (this.state.activeProduct != null ) ? 'backdrop product-backdrop' : 'invisible'
     const ProductItems = ({ state: { products, displayCategory } }) => (
       <div>
         {products
@@ -62,14 +66,14 @@ class Products extends Component {
             ({ category }) =>
               displayCategory === category || displayCategory === "All"
           )
-          .map(({ product, category, title, description, price, index, image }) => (
+          .map(({ product, category, title, description, price, index, image, images }) => (
             <div className="product-box">
               <div className={productClass}>
                 <Product key={`ProductItems-${title}`} toggleModal={this.toggleModal} product={product} image={image} index={index} category={category} title={title} description={description} price={price} addProduct={this.props.addProduct} />
               </div>
               <div>
-                {this.state.isOpen ?
-                  <div className="backdrop product-backdrop">
+                {this.state.isOpen && this.state.activeProduct == product ?
+                  <div className='backdrop product-backdrop'>
                     <div className="modal-header">
                       <span className="close-modal" onClick={this.toggleModal}><img src={require('../../Assets/back-arrow.svg')} alt="back-arrow"/></span>
                       <Link to={`/cart`} className="add-product" onClick={ () => this.props.addProduct(title, product, description, price, index, image)}>
@@ -77,7 +81,7 @@ class Products extends Component {
                       </Link>
                     </div>
                     <div className="modal-items">
-                      <ProductModal show={this.state.isOpen} onClose={this.toggleModal} addProduct={this.state.addProduct} stopClose={this.stopClose} product={product} image={image} title={title} description={description} price={price}></ProductModal>
+                      <ProductModal show={this.state.isOpen} onClose={this.toggleModal} addProduct={this.state.addProduct} stopClose={this.stopClose} product={this.state.activeProduct} images={images} title={title} description={description} price={price}></ProductModal>
                     </div>
                   </div>
                 : null}
@@ -113,18 +117,48 @@ class Products extends Component {
 
 // data
 const PRODUCTS = [
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Accessories", price: 100},
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Bodies", price: 100},
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Lenses", price: 100},
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Accessories", price: 100},
-  { image: require("../../Assets/CanonSun.png"), title: "Nikon 35mm", description: "This is an example description about some camera shenanigans.", category: "Bodies", price: 100},
+  { image: require('../../Assets/Products/olympus-1.png'),
+    images: [
+      {original: require('../../Assets/Products/olympus-1.png'), thumbnail: require('../../Assets/Products/olympus-1-small.png')},
+      {original: require('../../Assets/Products/olympus-2.png'), thumbnail: require('../../Assets/Products/olympus-2-small.png')},
+      {original: require('../../Assets/Products/olympus-3.png'), thumbnail: require('../../Assets/Products/olympus-3-small.png')},
+      {original: require('../../Assets/Products/olympus-4.png'), thumbnail: require('../../Assets/Products/olympus-4-small.png')},
+      {original: require('../../Assets/Products/olympus-5.png'), thumbnail: require('../../Assets/Products/olympus-5-small.png')},
+      {original: require('../../Assets/Products/olympus-6.png'), thumbnail: require('../../Assets/Products/olympus-6-small.png')},
+      {original: require('../../Assets/Products/olympus-7.png'), thumbnail: require('../../Assets/Products/olympus-7-small.png')},
+      {original: require('../../Assets/Products/olympus-8.png'), thumbnail: require('../../Assets/Products/olympus-8-small.png')},
+      {original: require('../../Assets/Products/olympus-9.png'), thumbnail: require('../../Assets/Products/olympus-9-small.png')},
+    ],
+    title: "Olympus",
+    description: "This is an example description about some camera shenanigans.",
+    category: "Lenses",
+    price: 100
+  },
+
+  { image: require("../../Assets/CanonSun.png"),
+    images: [
+      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')},
+      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')},
+      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')}
+    ],
+    title: "Hello",
+    description: "This is an example description about some camera shenanigans.",
+    category: "Lenses",
+    price: 100
+  },
+
+  { image: require("../../Assets/CanonSun.png"),
+    images: [
+      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')},
+      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')},
+      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')}
+    ],
+    title: "World",
+    description: "This is an example description about some camera shenanigans.",
+    category: "Lenses",
+    price: 100
+  },
+
 ]
 
 const uniqueItems = (x, i, array) => array.indexOf(x) === i

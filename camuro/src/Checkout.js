@@ -1,5 +1,6 @@
 import React from 'react'
-import axios from 'axios';
+import axios from 'axios'
+import $ from "jquery"
 import StripeCheckout from 'react-stripe-checkout';
 
 import STRIPE_PUBLISHABLE from './constants/stripe';
@@ -17,18 +18,19 @@ const errorPayment = data => {
   alert('Payment Error');
 };
 
-const onToken = (amount, description) => token =>
+const onToken = (amount, description, name) => (token, args) =>
   axios.post(PAYMENT_SERVER_URL,
     {
       description,
       source: token.id,
       currency: CURRENCY,
-      amount: fromDollarToCent(amount)
+      amount: fromDollarToCent(amount),
+      metadata: args
     })
     .then(successPayment)
     .catch(errorPayment);
 
-const Checkout = ({ name, description, amount }) =>
+const Checkout = ({ name, description, amount}) =>
   <StripeCheckout
     image="https://stripe.com/img/documentation/checkout/marketplace.png"
     name={name}

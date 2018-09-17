@@ -8,7 +8,7 @@ class About extends Component {
       <div className="about">
         <div className="about-copy">
           <img src={require('../Assets/mission3.svg')} alt="mission" />
-          <p>Our mission here at camuro.co is to keep the film community alive, one restoration at a time. Interested in selling some unwanted gear while giving back to the film community? <span onClick={() => scrollToComponent(this.props.offer, { offset: 0, align: 'top', duration: 1500})}>Fill out the form below</span> and we'll get back to you with an offer.</p>
+          <p>Our mission here at camuro.co is to keep the film community alive, one restoration at a time. Interested in selling some unwanted gear while giving back to the film community? <Link to="/offer">Fill out an offer form</Link> and we'll get back to you with a quote.</p>
         </div>
       </div>
     )

@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import _ from 'lodash'
 import { Link } from 'react-router-dom'
+import ProductGallery from './ProductGallery'
 
 class ProductModal extends Component {
 
@@ -30,7 +31,7 @@ class ProductModal extends Component {
 
     return (
       <div className={modalClass} onClick={this.props.stopClose}>
-        <img src={this.props.image} alt={this.props.title} />
+        <ProductGallery images={this.props.images} />
         <div className="product-info">
           <h2 className="modal-header-title">{this.props.title}</h2>
           <span><b>${this.props.price}</b></span>

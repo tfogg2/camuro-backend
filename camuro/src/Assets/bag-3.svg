@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="40px" viewBox="0 0 30 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8" transform="translate(0.000000, 1.000000)">
+            <rect id="Rectangle-11" fill="#FFFFFF" x="0" y="10" width="30" height="29"></rect>
+            <path d="M14.9953475,18 C19.5340727,18 23,14.7834421 23,10.9533005 C23,7.12315897 19.5340727,0.509242045 14.9953475,0.509242045 C10.4566224,0.509242045 7,7.12315897 7,10.9533005 C7,14.7834421 10.4566224,18 14.9953475,18 Z" id="Oval-3" stroke="#FFFFFF" stroke-width="3"></path>
+            <g id="Group-7" transform="translate(5.000000, 13.000000)">
+                <polygon id="Rectangle-12" fill="#C6574A" points="0.343111589 4.13050014 8.66667649 1.51270859 13.8647088 11.4685988 6.07474514 14.8454231"></polygon>
+                <polygon id="Triangle-2" fill="#C6574A" points="2.94647287 0.0938812676 8.65711315 1.51577534 0.352963534 4.13092895"></polygon>
+                <path d="M4.29625988,3.66450033 C5.17489471,3.66450033 5.92893271,3.13783095 5.92893271,2.48609632 C5.92893271,1.83436169 5.17489471,1.34794287 4.29625988,1.34794287 C3.41762505,1.34794287 2.79794927,1.83436169 2.79794927,2.48609632 C2.79794927,3.13783095 3.41762505,3.66450033 4.29625988,3.66450033 Z" id="Oval-2" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

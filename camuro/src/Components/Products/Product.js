@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import { BrowserRouter, Route, NavLink, Link } from 'react-router-dom'
 
 const Product = props => {
+  const product = props.product
   return(
-    <div className="product" onClick={props.toggleModal}>
+    <div className="product" onClick={() => props.toggleModal(product)}>
       <div className="product-image">
         <img src={props.image}/>
       </div>

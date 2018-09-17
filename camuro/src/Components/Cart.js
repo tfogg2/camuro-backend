@@ -71,9 +71,11 @@ const Cart = props => {
            name={'Checkout'}
            description={''}
            amount={shipTotal}
-           data-billing-address={true}
+           billingAddress={true}
+           shippingAddress={true}
         />
         <br />
+
         <span>or</span>
         <br />
         <Link to="/products">Continue Shopping</Link>
@@ -83,7 +85,8 @@ const Cart = props => {
   }
   else {
     return (
-      <div className="cart">
+      <div className="cart-empty">
+        <h1>Your Shopping Bag Is Empty</h1>
         <h3><Link to="/products">Add some products!</Link></h3>
       </div>
     )

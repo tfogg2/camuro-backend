@@ -20,6 +20,7 @@
     "nodemailer": "^4.4.2",
     "nodemailer-sendgrid-transport": "^0.2.0",
     "prerender-node": "^3.2.0",
+    "react-image-gallery": "^0.8.11",
     "react-stripe-elements": "^2.0.1",
     "serve-favicon": "~2.4.5",
     "stripe": "^6.10.0"

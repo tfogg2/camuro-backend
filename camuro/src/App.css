@@ -1,3 +1,5 @@
+@import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
 body {
   background: #080808;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -702,9 +704,10 @@ h1{
   font-size: 20px;
   margin-top: 10px;
 }
-.about-copy span{
+.about-copy a{
   color: #c6574a;
   cursor: pointer;
+  text-decoration: none;
 }
 /* ABOUT */
 
@@ -771,7 +774,6 @@ h1{
     width: 47%;
   }
 }
-
 .cart{
   color: #000;
   text-align:left;
@@ -783,6 +785,14 @@ h1{
   min-height: 100vh;
   overflow: overlay;
   box-sizing: border-box;
+}
+.cart-empty{
+  min-height: 100vh;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 100px 0;
+  color: #000;
 }
 .cart h1{
   margin: 0px 5%;
@@ -890,7 +900,7 @@ h1{
   padding-top: 10px;
 }
 .cart-checkout{
-  line-height: 30px;
+  line-height: 20px;
   text-align: center;
 }
 .cart-checkout span{
@@ -908,10 +918,17 @@ h1{
 
 }
 @media (max-width: 890px) {
-
+  .product-modal .product-gallery{
+    width: 80%;
+  }
 }
 @media (max-width: 480px) {
-
+  .product-modal .product-gallery{
+    width: 100%;
+  }
+  .product-modal .product-info{
+    padding: 20px 10px;
+  }
 }
 .App .product-content{
   width: 100%;
@@ -939,32 +956,38 @@ h1{
   display: none;
 }
 .backdrop.product-backdrop{
-  height: 100vh;
+  min-height: 100vh;
 }
 .backdrop.product-backdrop .modal-header{
   position: fixed;
   top: 60px;
 }
 .backdrop.product-backdrop .modal-items{
-  margin-top: 100px;
+  margin-top: 60px;
+  padding-bottom: 40px;
 }
-.product-modal.modal.visible-item img{
-  float: left;
-  width: 50%;
-  padding: 0 20px;
-  box-sizing: border-box;
+.product-gallery{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 0px;
+  position: relative;
+  z-index: 100;
 }
 .product-info{
-  float: right;
-  width: 50%;
-  padding: 0 5px;
+  width: 100%;
+  padding: 20px 10%;
   box-sizing: border-box;
   text-align: left;
 }
 .product-info h2{
   padding: 0;
-  font-size: 18px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
+.product-info p{
+  margin-top: 10px;
+}
+
 .product-nav{
   color: #000;
   margin-top: 20px;

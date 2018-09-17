@@ -41,7 +41,7 @@ class Header extends Component {
               <li>
                 <NavLink to="/cart">
                   <button>
-                    Cart
+                    <img src={require("../Assets/bag-small.svg")} alt="Cart"/>
                   </button>
                 </NavLink>
               </li>
