@@ -46,9 +46,6 @@ class Product extends Component {
             <div className='backdrop product-backdrop'>
               <div className="modal-header">
                 <span className="close-modal" onClick={this.toggleModal}><img src={require('../../Assets/back-arrow.svg')} alt="back-arrow"/></span>
-                <Link to={`/cart`} className="add-product" onClick={ () => this.props.addProduct(this.props.title, this.props.product, this.props.description, this.props.price, this.props.index, this.props.image)}>
-                  <button className="addProductBtn">Add Product</button>
-                </Link>
               </div>
               <div className="modal-items">
                 <ProductModal show={this.state.isOpen} onClose={this.toggleModal} addProduct={this.props.addProduct} stopClose={this.stopClose} product={this.state.activeProduct} images={this.props.images} title={this.props.title} description={this.props.description} price={this.props.price}></ProductModal>

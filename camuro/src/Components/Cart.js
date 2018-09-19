@@ -10,6 +10,8 @@ const Cart = props => {
   const shipTotal = total + 15
   const sum = shipTotal * 100
 
+  window.scrollTo(0, 0)
+
   if(products.length > 0 ){
     return (
       <div className="cart">
@@ -67,13 +69,9 @@ const Cart = props => {
           </div>
       </div>
       <div className="cart-checkout">
-        <Checkout
-           name={'Checkout'}
-           description={''}
-           amount={shipTotal}
-           billingAddress={true}
-           shippingAddress={true}
-        />
+        <div className="contact-us">
+          <p>We like to get in touch before parting with our clean cameras.<br/> Email us at <a href="mailto:camuro.co@gmail.com" alt="email">camuro.co@gmail.com</a> or DM us on instagram <a href="https://www.instagram.com/camurocam/" alt="instagram">@camurocam</a> to checkout using PayPal.</p>
+        </div>
         <br />
 
         <span>or</span>
@@ -86,7 +84,7 @@ const Cart = props => {
   else {
     return (
       <div className="cart-empty">
-        <h1>Your Shopping Bag Is Empty</h1>
+        <h1>Your bags are empty</h1>
         <h3><Link to="/products">Add some products!</Link></h3>
       </div>
     )

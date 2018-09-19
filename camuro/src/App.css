@@ -537,7 +537,7 @@ h1{
   background: #fff;
 }
 .home-gallery .gallery{
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   padding-top: 0;
   margin-top: 0;
 }
@@ -903,16 +903,23 @@ h1{
   padding-top: 10px;
 }
 .cart-checkout{
-  line-height: 20px;
+  line-height: 25px;
   text-align: center;
 }
 .cart-checkout span{
   color: #000;
   font-weight: 300;
   padding: 5px 0;
+  margin-top: -5px;
 }
 .contact-info{
   display: none;
+}
+.contact-us{
+  margin-bottom: -15px;
+  line-height: 25px;
+  background: #f1f1f1;
+  padding: 5px;
 }
 /* CART */
 
@@ -924,13 +931,22 @@ h1{
   .product-modal .product-gallery{
     width: 80%;
   }
+  .product-modal .product-info{
+    padding: 20px 10%;
+  }
+  .product .backdrop.product-backdrop{
+    min-height: 1600px;
+  }
 }
 @media (max-width: 480px) {
   .product-modal .product-gallery{
     width: 100%;
   }
   .product-modal .product-info{
-    padding: 20px 10px;
+    padding: 20px 5%;
+  }
+  .product .backdrop.product-backdrop{
+    min-height: 2660px;
   }
 }
 .App .product-content{
@@ -961,7 +977,7 @@ h1{
   display: none;
 }
 .backdrop.product-backdrop{
-  height: 90vh;
+  min-height: 1200px;
   position: absolute;
   z-index: 500;
   top: 20px;
@@ -973,7 +989,7 @@ h1{
 }
 .backdrop.product-backdrop .modal-items{
   width: 100%;
-  margin-top: 60px;
+  margin-top: 50px;
   padding-bottom: 40px;
   top: 60px;
   position: absolute;
@@ -990,7 +1006,7 @@ h1{
 }
 .product-info{
   width: 100%;
-  padding: 20px 10%;
+  padding: 20px 20%;
   box-sizing: border-box;
   text-align: left;
 }
@@ -1001,6 +1017,12 @@ h1{
 }
 .product-info p{
   margin-top: 10px;
+}
+.product-info ul{
+  list-style: none;
+  padding: 0;
+}
+.product-info span{
 }
 .product-nav{
   color: #000;
@@ -1013,7 +1035,7 @@ h1{
 }
 .product-nav li{
   display: inline-block;
-  margin: 0 5%;
+  margin: 0 4%;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
@@ -1033,7 +1055,7 @@ h1{
   color: #000;
   overflow: overlay;
   height: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   /* top: 60px; */
   padding: 80px 0;
   width: 100%;
@@ -1041,6 +1063,8 @@ h1{
 }
 .product{
   width: 250px;
+  height: 300px;
+  float: left;
   padding: 0px;
   background: #fff;
   cursor: pointer;
@@ -1063,9 +1087,7 @@ h1{
 .addProductBtn{
   height: 40px;
   width: 140px;
-  float: right;
   margin:0;
-  margin-top: 10px;
   background: #c6574a;
   color: #fff;
   font-size: 16px;
@@ -1127,10 +1149,15 @@ h1{
 }
 
 .home-offer{
-  height: 400px;
-  width: 100%;
+  height: fit-content;
+  width: 50%;
+  margin: 0 auto;
   text-align: center;
   padding: 80px 0;
   color: #000;
+}
+.home-offer p{
+  font-size: 20px;
+  margin: 15px 0 30px 0;
 }
 /* PRODUCTS */

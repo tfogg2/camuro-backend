@@ -35,22 +35,25 @@ class Home extends Component {
         <div className="splash-background">
           <div className={homeClass}></div>
         </div>
-        <HomeCta offer={this.OfferForm} />
+        <HomeCta about={this.About} />
         <div className="content">
           <About offer={this.OfferForm} ref={(section) => { this.About = section; }}/>
           <div className="home-gallery" ref={(section) => { this.Gallery = section; }}>
             <div className='home-content'>
               <Gallery limit={limit}/>
-              <Link to="/gallery" alt="gallery">
-                <button className="gallery-btn">
-                  See More Photos
-                </button>
+              <Link to="/gallery" alt="Gallery" style={{color: '#c6574a', fontSize: '20px'}}>
+                See more photos
               </Link>
             </div>
           </div>
           <div className="home-offer">
-            <h1>Selling your gear?</h1>
-            <p>Let us know. We buy and refurbish gear.</p>
+            <h1>We Sell Clean Cameras</h1>
+            <p>We're constantly adding to our collection and are excited to begin sharing it here. Our cameras are professionally cleaned so you can focus on what's important, <b>creating memories with film.</b></p>
+            <Link to="/products" alt="Products">
+              <button className="gallery-btn">
+                Shop Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>

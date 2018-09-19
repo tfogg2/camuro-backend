@@ -18,7 +18,7 @@ const errorPayment = data => {
   alert('Payment Error');
 };
 
-const onToken = (amount, description, name) => (token, args) =>
+const onToken = (amount, description) => (token, args) =>
   axios.post(PAYMENT_SERVER_URL,
     {
       description,

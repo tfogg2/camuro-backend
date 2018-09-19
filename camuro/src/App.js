@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <Header />
+          <Header cartProducts={cartProducts} />
           <Switch>
             <Route exact path="/" render={() => <Home />}/>
             <Route path="/cart" render={() => <Cart removeProduct={removeProduct} cartProducts={cartProducts} total={total} isChecked={isChecked}/>} />

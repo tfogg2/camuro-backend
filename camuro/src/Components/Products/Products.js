@@ -24,11 +24,15 @@ class Products extends Component {
       displayCategory: "All",
       products: PRODUCTS,
       addProduct: this.props.addProduct,
-      productCategories: PRODUCT_CATEGORIES,
-      isOpen: false
+      productCategories: PRODUCT_CATEGORIES
     };
     this.setCategory = this.setCategory.bind(this);
   }
+
+  componentDidMount(){
+    window.scrollTo(0, 0)
+  }
+
   setCategory(category) {
     this.setState({
       displayCategory: category
@@ -40,20 +44,7 @@ class Products extends Component {
     })
   }
 
-  // MODAL
-  toggleModal = (e) => {
-    this.setState({
-      isOpen: !this.state.isOpen
-    })
-    e.preventDefault()
-  }
-  stopClose = (e) => {
-    e.stopPropagation()
-  }
-
-
   render() {
-    const productClass = this.state.isOpen ? 'invisible' : ''
     const ProductItems = ({ state: { products, displayCategory } }) => (
       <div>
         {products
@@ -96,6 +87,45 @@ class Products extends Component {
 
 // data
 const PRODUCTS = [
+  { image: require('../../Assets/Products/nikonf3-1.png'),
+    images: [
+      {original: require('../../Assets/Products/nikonf3-1.png'), thumbnail: require('../../Assets/Products/nikonf3-1-small.png')},
+      {original: require('../../Assets/Products/nikonf3-2.png'), thumbnail: require('../../Assets/Products/nikonf3-2-small.png')},
+      {original: require('../../Assets/Products/nikonf3-3.png'), thumbnail: require('../../Assets/Products/nikonf3-3-small.png')},
+      {original: require('../../Assets/Products/nikonf3-4.png'), thumbnail: require('../../Assets/Products/nikonf3-4-small.png')},
+      {original: require('../../Assets/Products/nikonf3-5.png'), thumbnail: require('../../Assets/Products/nikonf3-5-small.png')},
+      {original: require('../../Assets/Products/nikonf3-6.png'), thumbnail: require('../../Assets/Products/nikonf3-6-small.png')},
+      {original: require('../../Assets/Products/nikonf3-7.png'), thumbnail: require('../../Assets/Products/nikonf3-7-small.png')},
+      {original: require('../../Assets/Products/nikonf3-8.png'), thumbnail: require('../../Assets/Products/nikonf3-8-small.png')},
+      {original: require('../../Assets/Products/nikonf3-9.png'), thumbnail: require('../../Assets/Products/nikonf3-9-small.png')},
+      {original: require('../../Assets/Products/nikonf3-10.png'), thumbnail: require('../../Assets/Products/nikonf3-10-small.png')}
+    ],
+    title: "Nikon F3-CLA’d w/ Tamron Strap",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "SLRs",
+    price: 329
+  },
+
+  { image: require('../../Assets/Products/nikon-4.png'),
+    images: [
+      {original: require('../../Assets/Products/nikon-4.png'), thumbnail: require('../../Assets/Products/nikon-4-small.png')},
+      {original: require('../../Assets/Products/nikon-2.png'), thumbnail: require('../../Assets/Products/nikon-2-small.png')},
+      {original: require('../../Assets/Products/nikon-3.png'), thumbnail: require('../../Assets/Products/nikon-3-small.png')},
+      {original: require('../../Assets/Products/nikon-1.png'), thumbnail: require('../../Assets/Products/nikon-1-small.png')},
+      {original: require('../../Assets/Products/nikon-5.png'), thumbnail: require('../../Assets/Products/nikon-5-small.png')},
+      {original: require('../../Assets/Products/nikon-6.png'), thumbnail: require('../../Assets/Products/nikon-6-small.png')},
+      {original: require('../../Assets/Products/nikon-7.png'), thumbnail: require('../../Assets/Products/nikon-7-small.png')},
+      {original: require('../../Assets/Products/nikon-8.png'), thumbnail: require('../../Assets/Products/nikon-8-small.png')},
+      {original: require('../../Assets/Products/nikon-9.png'), thumbnail: require('../../Assets/Products/nikon-9-small.png')},
+      {original: require('../../Assets/Products/nikon-10.png'), thumbnail: require('../../Assets/Products/nikon-10-small.png')},
+      {original: require('../../Assets/Products/nikon-11.png'), thumbnail: require('../../Assets/Products/nikon-11-small.png')}
+    ],
+    title: "Nikkor 50mm f1.4 AI-S Lens w/ Cap & Filter",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "Lenses",
+    price: 189
+  },
+
   { image: require('../../Assets/Products/olympus-1.png'),
     images: [
       {original: require('../../Assets/Products/olympus-1.png'), thumbnail: require('../../Assets/Products/olympus-1-small.png')},
@@ -109,33 +139,90 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/olympus-9.png'), thumbnail: require('../../Assets/Products/olympus-9-small.png')},
     ],
     title: "Olympus XA",
-    description: "This is an example description about some camera shenanigans.",
-    category: "Bodies",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "Pocket Cameras",
     price: 199
   },
 
-  { image: require("../../Assets/CanonSun.png"),
+  { image: require('../../Assets/Products/olympus2-7.png'),
     images: [
-      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')},
-      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')},
-      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')}
+      {original: require('../../Assets/Products/olympus2-7.png'), thumbnail: require('../../Assets/Products/olympus2-7-small.png')},
+      {original: require('../../Assets/Products/olympus2-2.png'), thumbnail: require('../../Assets/Products/olympus2-2-small.png')},
+      {original: require('../../Assets/Products/olympus2-3.png'), thumbnail: require('../../Assets/Products/olympus2-3-small.png')},
+      {original: require('../../Assets/Products/olympus2-4.png'), thumbnail: require('../../Assets/Products/olympus2-4-small.png')},
+      {original: require('../../Assets/Products/olympus2-5.png'), thumbnail: require('../../Assets/Products/olympus2-5-small.png')},
+      {original: require('../../Assets/Products/olympus2-6.png'), thumbnail: require('../../Assets/Products/olympus2-6-small.png')},
+      {original: require('../../Assets/Products/olympus2-1.png'), thumbnail: require('../../Assets/Products/olympus2-1-small.png')},
+      {original: require('../../Assets/Products/olympus2-8.png'), thumbnail: require('../../Assets/Products/olympus2-8-small.png')},
+      {original: require('../../Assets/Products/olympus2-9.png'), thumbnail: require('../../Assets/Products/olympus2-9-small.png')},
+      {original: require('../../Assets/Products/olympus2-10.png'), thumbnail: require('../../Assets/Products/olympus2-10-small.png')},
+      {original: require('../../Assets/Products/olympus2-11.png'), thumbnail: require('../../Assets/Products/olympus2-11-small.png')},
+      {original: require('../../Assets/Products/olympus2-12.png'), thumbnail: require('../../Assets/Products/olympus2-12-small.png')},
+      {original: require('../../Assets/Products/olympus2-13.png'), thumbnail: require('../../Assets/Products/olympus2-13-small.png')},
     ],
-    title: "Hello",
-    description: "This is an example description about some camera shenanigans.",
+    title: "Olympus OM 28mm f3.5 w/ original Caps, Case & Hood",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "Lenses",
-    price: 100
+    price: 89
   },
 
-  { image: require("../../Assets/CanonSun.png"),
+  { image: require('../../Assets/Products/om-1.png'),
     images: [
-      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')},
-      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')},
-      {original: require('../../Assets/Contax.png'), thumbnail: require('../../Assets/Contax.png')}
+      {original: require('../../Assets/Products/om-1.png'), thumbnail: require('../../Assets/Products/om-1-small.png')},
+      {original: require('../../Assets/Products/om-2.png'), thumbnail: require('../../Assets/Products/om-2-small.png')},
+      {original: require('../../Assets/Products/om-3.png'), thumbnail: require('../../Assets/Products/om-3-small.png')},
+      {original: require('../../Assets/Products/om-4.png'), thumbnail: require('../../Assets/Products/om-4-small.png')},
+      {original: require('../../Assets/Products/om-5.png'), thumbnail: require('../../Assets/Products/om-5-small.png')},
+      {original: require('../../Assets/Products/om-6.png'), thumbnail: require('../../Assets/Products/om-6-small.png')},
+      {original: require('../../Assets/Products/om-7.png'), thumbnail: require('../../Assets/Products/om-7-small.png')},
+      {original: require('../../Assets/Products/om-8.png'), thumbnail: require('../../Assets/Products/om-8-small.png')},
+      {original: require('../../Assets/Products/om-9.png'), thumbnail: require('../../Assets/Products/om-9-small.png')},
+      {original: require('../../Assets/Products/om-10.png'), thumbnail: require('../../Assets/Products/om-10-small.png')},
+      {original: require('../../Assets/Products/om-11.png'), thumbnail: require('../../Assets/Products/om-11-small.png')},
     ],
-    title: "World",
-    description: "This is an example description about some camera shenanigans.",
+    title: "Olympus OM-1 35mm SLR w/ Zuiko 28mm 3.5 & Original Hood",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "SLRs",
+    price: 199
+  },
+
+  { image: require('../../Assets/Products/nikor-5.png'),
+    images: [
+      {original: require('../../Assets/Products/nikor-5.png'), thumbnail: require('../../Assets/Products/nikor-5-small.png')},
+      {original: require('../../Assets/Products/nikor-2.png'), thumbnail: require('../../Assets/Products/nikor-2-small.png')},
+      {original: require('../../Assets/Products/nikor-3.png'), thumbnail: require('../../Assets/Products/nikor-3-small.png')},
+      {original: require('../../Assets/Products/nikor-4.png'), thumbnail: require('../../Assets/Products/nikor-4-small.png')},
+      {original: require('../../Assets/Products/nikor-1.png'), thumbnail: require('../../Assets/Products/nikor-1-small.png')},
+      {original: require('../../Assets/Products/nikor-6.png'), thumbnail: require('../../Assets/Products/nikor-6-small.png')},
+      {original: require('../../Assets/Products/nikor-7.png'), thumbnail: require('../../Assets/Products/nikor-7-small.png')},
+      {original: require('../../Assets/Products/nikor-8.png'), thumbnail: require('../../Assets/Products/nikor-8-small.png')},
+      {original: require('../../Assets/Products/nikor-1.png'), thumbnail: require('../../Assets/Products/nikor-9-small.png')},
+      {original: require('../../Assets/Products/nikor-10.png'), thumbnail: require('../../Assets/Products/nikor-10-small.png')},
+      {original: require('../../Assets/Products/nikor-11.png'), thumbnail: require('../../Assets/Products/nikor-11-small.png')},
+    ],
+    title: "Nikkor 105mm f2.5 AI-S w/ Original Caps",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "Lenses",
-    price: 100
+    price: 229
+  },
+
+  { image: require('../../Assets/Products/nikonf-1.png'),
+    images: [
+      {original: require('../../Assets/Products/nikonf-1.png'), thumbnail: require('../../Assets/Products/nikonf-1-small.png')},
+      {original: require('../../Assets/Products/nikonf-2.png'), thumbnail: require('../../Assets/Products/nikonf-2-small.png')},
+      {original: require('../../Assets/Products/nikonf-3.png'), thumbnail: require('../../Assets/Products/nikonf-3-small.png')},
+      {original: require('../../Assets/Products/nikonf-4.png'), thumbnail: require('../../Assets/Products/nikonf-4-small.png')},
+      {original: require('../../Assets/Products/nikonf-5.png'), thumbnail: require('../../Assets/Products/nikonf-5-small.png')},
+      {original: require('../../Assets/Products/nikonf-6.png'), thumbnail: require('../../Assets/Products/nikonf-6-small.png')},
+      {original: require('../../Assets/Products/nikonf-7.png'), thumbnail: require('../../Assets/Products/nikonf-7-small.png')},
+      {original: require('../../Assets/Products/nikonf-8.png'), thumbnail: require('../../Assets/Products/nikonf-8-small.png')},
+      {original: require('../../Assets/Products/nikonf-9.png'), thumbnail: require('../../Assets/Products/nikonf-9-small.png')},
+      {original: require('../../Assets/Products/nikonf-10.png'), thumbnail: require('../../Assets/Products/nikonf-10-small.png')}
+    ],
+    title: "Nikon F w/ 45mm 2.8 Pancake Lens & UV Filter",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "SLRs",
+    price: 279
   },
 
 ]

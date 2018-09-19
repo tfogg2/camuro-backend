@@ -19,6 +19,8 @@ class ProductModal extends Component {
         loaded: true
       })
     }, 200 )
+
+    window.scrollTo(0, 0)
   }
 
 
@@ -36,6 +38,25 @@ class ProductModal extends Component {
           <h2 className="modal-header-title">{this.props.title}</h2>
           <span><b>${this.props.price}</b></span>
           <p>{this.props.description}</p>
+          <ul>
+            <label><b>Mechanics:</b></label><br />
+            <li>Focus: Smooth throughout </li>
+            <li>Diaphragm: Clean & dry with snappy action-no oil </li>
+            <li>Shutter: Speeds accurate throughout the range </li>
+            <li>Film Transport: Clean and accurate. 36-40 frames possible. Film advance in strong and smooth throughout.</li>
+            <li>Light Seals: New</li>
+            <li>Meter: Functional and accurate </li>
+            <li>Viewfinder: Big, clean and bright</li><br />
+            <label><b>Optics:</b></label><br />
+            <li>Clean, clear and bright</li>
+            <li>No fungus, haze, scratches, separation or pitting</li>
+            <li>Coatings are clean and bright on front & rear</li>
+            <li>Minimal to no dust-CLA possible depending on model</li>
+          </ul>
+
+          <Link to={`/cart`} className="add-product" onClick={ () => this.props.addProduct(this.props.title, this.props.product, this.props.description, this.props.price, this.props.index, this.props.image)}>
+            <button className="addProductBtn">Add Product</button>
+          </Link>
         </div>
       </div>
     );
