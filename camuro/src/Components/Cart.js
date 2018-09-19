@@ -68,16 +68,16 @@ const Cart = props => {
             </form>
           </div>
       </div>
-      <div className="cart-checkout">
-        <div className="contact-us">
-          <p>We like to get in touch before parting with our clean cameras.<br/> Email us at <a href="mailto:camuro.co@gmail.com" alt="email">camuro.co@gmail.com</a> or DM us on instagram <a href="https://www.instagram.com/camurocam/" alt="instagram">@camurocam</a> to checkout using PayPal.</p>
-        </div>
-        <br />
+          <div className="cart-checkout">
+            <div className="contact-us">
+              <p>We like to get in touch before parting with our clean cameras.<br/> Email us at <a href="mailto:camuro.co@gmail.com" alt="email">camuro.co@gmail.com</a> or DM us on instagram <a href="https://www.instagram.com/camurocam/" alt="instagram">@camurocam</a> to checkout using PayPal.</p>
+            </div>
+            <br />
 
-        <span>or</span>
-        <br />
-        <Link to="/products">Continue Shopping</Link>
-      </div>
+            <span>or</span>
+            <br />
+            <Link to="/products">Continue Shopping</Link>
+          </div>
     </div>
     )
   }
