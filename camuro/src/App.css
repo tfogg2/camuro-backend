@@ -279,6 +279,9 @@ h1{
   .home .about-copy{
     width: 85%;
   }
+  .home .home-offer{
+    width: 85%;
+  }
   .home .form-group.item.price span{
     margin-top: 26px;
   }
