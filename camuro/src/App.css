@@ -873,6 +873,7 @@ h1{
 }
 .cart-product-info{
   vertical-align: top;
+  padding-left: 10px;
   box-sizing: border-box;
   display: inline-block;
 }
@@ -955,6 +956,9 @@ h1{
   }
   .home-offer h1{
     font-size: 28px;
+  }
+  .cart-product .cart-product-info{
+    padding-left: 0;
   }
 }
 .App .product-content{
