@@ -48,7 +48,7 @@ class Home extends Component {
           </div>
           <div className="home-offer">
             <h1>We Sell Clean Cameras</h1>
-            <p>We're constantly adding to our collection and are excited to begin sharing it here. Our cameras are professionally cleaned so you can focus on what's important, creating memories with film.</p>
+            <p>We're constantly adding to our collection and are excited to begin sharing it here. Our cameras are professionally cleaned so you can focus on what's important.</p>
             <Link to="/products" alt="Products">
               <button className="gallery-btn">
                 Shop Now
