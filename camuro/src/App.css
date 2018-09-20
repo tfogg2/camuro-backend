@@ -907,6 +907,9 @@ h1{
 }
 .cart-checkout{
   line-height: 25px;
+  overflow: overlay;
+  height: 100%;
+  width: 100%;
   text-align: center;
 }
 .cart-checkout span{
