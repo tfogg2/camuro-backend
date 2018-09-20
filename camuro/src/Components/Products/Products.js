@@ -203,7 +203,7 @@ const PRODUCTS = [
     title: "Nikkor 105mm f2.5 AI-S w/ Original Caps",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "Lenses",
-    price: 229
+    price: 389
   },
 
   { image: require('../../Assets/Products/nikonf-1.png'),
@@ -223,6 +223,25 @@ const PRODUCTS = [
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "SLRs",
     price: 279
+  },
+
+  { image: require('../../Assets/Products/nikor-5.png'),
+    images: [
+      {original: require('../../Assets/Products/nikor-5.png'), thumbnail: require('../../Assets/Products/nikor-5-small.png')},
+      {original: require('../../Assets/Products/nikor-2.png'), thumbnail: require('../../Assets/Products/nikor-2-small.png')},
+      {original: require('../../Assets/Products/nikor-3.png'), thumbnail: require('../../Assets/Products/nikor-3-small.png')},
+      {original: require('../../Assets/Products/nikor-4.png'), thumbnail: require('../../Assets/Products/nikor-4-small.png')},
+      {original: require('../../Assets/Products/nikor-1.png'), thumbnail: require('../../Assets/Products/nikor-1-small.png')},
+      {original: require('../../Assets/Products/nikor-6.png'), thumbnail: require('../../Assets/Products/nikor-6-small.png')},
+      {original: require('../../Assets/Products/nikor-7.png'), thumbnail: require('../../Assets/Products/nikor-7-small.png')},
+      {original: require('../../Assets/Products/nikor-8.png'), thumbnail: require('../../Assets/Products/nikor-8-small.png')},
+      {original: require('../../Assets/Products/nikor-9.png'), thumbnail: require('../../Assets/Products/nikor-9-small.png')},
+      {original: require('../../Assets/Products/nikor-10.png'), thumbnail: require('../../Assets/Products/nikor-10-small.png')}
+    ],
+    title: "Nikkor 50mm f1.2 AI-S Lens w/ Caps",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "Lenses",
+    price: 389
   },
 
 ]
