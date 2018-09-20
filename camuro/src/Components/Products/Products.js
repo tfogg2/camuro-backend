@@ -87,7 +87,7 @@ class Products extends Component {
 
 // data
 const PRODUCTS = [
-  { image: require('../../Assets/Products/nikonf3-1.png'),
+  { image: require('../../Assets/Products/nikonf3-1-featured.png'),
     images: [
       {original: require('../../Assets/Products/nikonf3-1.png'), thumbnail: require('../../Assets/Products/nikonf3-1-small.png')},
       {original: require('../../Assets/Products/nikonf3-2.png'), thumbnail: require('../../Assets/Products/nikonf3-2-small.png')},
@@ -106,7 +106,7 @@ const PRODUCTS = [
     price: 329
   },
 
-  { image: require('../../Assets/Products/nikon-4.png'),
+  { image: require('../../Assets/Products/nikon-4-featured.png'),
     images: [
       {original: require('../../Assets/Products/nikon-4.png'), thumbnail: require('../../Assets/Products/nikon-4-small.png')},
       {original: require('../../Assets/Products/nikon-2.png'), thumbnail: require('../../Assets/Products/nikon-2-small.png')},
@@ -126,7 +126,7 @@ const PRODUCTS = [
     price: 189
   },
 
-  { image: require('../../Assets/Products/olympus-1.png'),
+  { image: require('../../Assets/Products/olympus-1-featured.png'),
     images: [
       {original: require('../../Assets/Products/olympus-1.png'), thumbnail: require('../../Assets/Products/olympus-1-small.png')},
       {original: require('../../Assets/Products/olympus-2.png'), thumbnail: require('../../Assets/Products/olympus-2-small.png')},
@@ -144,7 +144,7 @@ const PRODUCTS = [
     price: 199
   },
 
-  { image: require('../../Assets/Products/olympus2-7.png'),
+  { image: require('../../Assets/Products/olympus2-7-featured.png'),
     images: [
       {original: require('../../Assets/Products/olympus2-7.png'), thumbnail: require('../../Assets/Products/olympus2-7-small.png')},
       {original: require('../../Assets/Products/olympus2-2.png'), thumbnail: require('../../Assets/Products/olympus2-2-small.png')},
@@ -166,7 +166,7 @@ const PRODUCTS = [
     price: 89
   },
 
-  { image: require('../../Assets/Products/om-1.png'),
+  { image: require('../../Assets/Products/om-1-featured.png'),
     images: [
       {original: require('../../Assets/Products/om-1.png'), thumbnail: require('../../Assets/Products/om-1-small.png')},
       {original: require('../../Assets/Products/om-2.png'), thumbnail: require('../../Assets/Products/om-2-small.png')},
@@ -186,7 +186,7 @@ const PRODUCTS = [
     price: 199
   },
 
-  { image: require('../../Assets/Products/nikor105-2.png'),
+  { image: require('../../Assets/Products/nikor105-2-featured.png'),
     images: [
       {original: require('../../Assets/Products/nikor105-2.png'), thumbnail: require('../../Assets/Products/nikor105-2-small.png')},
       {original: require('../../Assets/Products/nikor105-1.png'), thumbnail: require('../../Assets/Products/nikor105-1-small.png')},
@@ -206,7 +206,7 @@ const PRODUCTS = [
     price: 389
   },
 
-  { image: require('../../Assets/Products/nikonf-1.png'),
+  { image: require('../../Assets/Products/nikonf-1-featured.png'),
     images: [
       {original: require('../../Assets/Products/nikonf-1.png'), thumbnail: require('../../Assets/Products/nikonf-1-small.png')},
       {original: require('../../Assets/Products/nikonf-2.png'), thumbnail: require('../../Assets/Products/nikonf-2-small.png')},
@@ -225,7 +225,7 @@ const PRODUCTS = [
     price: 279
   },
 
-  { image: require('../../Assets/Products/nikor-5.png'),
+  { image: require('../../Assets/Products/nikor-5-featured.png'),
     images: [
       {original: require('../../Assets/Products/nikor-5.png'), thumbnail: require('../../Assets/Products/nikor-5-small.png')},
       {original: require('../../Assets/Products/nikor-2.png'), thumbnail: require('../../Assets/Products/nikor-2-small.png')},
