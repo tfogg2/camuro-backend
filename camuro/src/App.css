@@ -953,6 +953,9 @@ h1{
   .product .backdrop.product-backdrop{
     min-height: 2850px;
   }
+  .home-offer h1{
+    font-size: 28px;
+  }
 }
 .App .product-content{
   width: 100%;
