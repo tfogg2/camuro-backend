@@ -108,6 +108,14 @@ class Gallery extends Component {
 }
 
 const GALLERY = [
+  { image: require("../Assets/annie-spratt-2.png"), title: "Annie Spratt", credit: "https://unsplash.com/@anniespratt"},
+  { image: require("../Assets/annie-spratt.png"), title: "Annie Spratt", credit: "https://unsplash.com/@anniespratt"},
+  { image: require("../Assets/adam-birkett.png"), title: "Adam Birkett", credit: "https://unsplash.com/@abrkett"},
+  { image: require("../Assets/dustin-lee.png"), title: "Dustin Lee", credit: "https://unsplash.com/@dustinlee"},
+  { image: require("../Assets/ethan-robertson.png"), title: "Ethan Robertson", credit: "https://unsplash.com/@ethanrobertson"},
+  { image: require("../Assets/nicola-perantoni.png"), title: "Nicola Perantoni", credit: "https://unsplash.com/@nicolaperantoni"},
+  { image: require("../Assets/pavel-kosov.png"), title: "Pavel Kosov", credit: "https://unsplash.com/@kosov"},
+  { image: require("../Assets/yngve-leyn.png"), title: "Yngve Leyn", credit: "https://unsplash.com/@yngve"},
   { image: require("../Assets/chad-dalke-mini.png"), title: "Chad Dalke", credit: "https://unsplash.com/@c3d"},
   { image: require("../Assets/filtergrade-nikon-mini.png"), title: "Filter Grade", credit: "https://unsplash.com/@filtergrade"},
   { image: require("../Assets/joseph-chan-mini.png"), title: "Joseph Chan", credit: "https://unsplash.com/@yulokchan"},
