@@ -97,8 +97,7 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/nikonf1-6.png'), thumbnail: require('../../Assets/Products/nikonf1-6-small.png')},
       {original: require('../../Assets/Products/nikonf1-7.png'), thumbnail: require('../../Assets/Products/nikonf1-7-small.png')},
       {original: require('../../Assets/Products/nikonf1-8.png'), thumbnail: require('../../Assets/Products/nikonf1-8-small.png')},
-      {original: require('../../Assets/Products/nikonf1-9.png'), thumbnail: require('../../Assets/Products/nikonf1-9-small.png')},
-      {original: require('../../Assets/Products/nikonf1-10.png'), thumbnail: require('../../Assets/Products/nikonf1-10-small.png')}
+      {original: require('../../Assets/Products/nikonf1-9.png'), thumbnail: require('../../Assets/Products/nikonf1-9-small.png')}
     ],
     title: "Nikon F w/ 45mm 2.8 Pancake Lens & UV Filter",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
