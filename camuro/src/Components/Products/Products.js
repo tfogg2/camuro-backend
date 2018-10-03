@@ -122,7 +122,7 @@ const PRODUCTS = [
     ],
     title: "Canon nFD 28mm f2 In Box w/ Original Caps & Hood",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "SLRs",
+    category: "Lenses",
     price: 279
   },
 
@@ -157,7 +157,7 @@ const PRODUCTS = [
     ],
     title: "Contax iia 'Color Dial' Rangefinder w/ Zeiss-Opton Sonnar 5cm f1.5 Post War T Coated Lens",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "SLRs",
+    category: "Rangefinders",
     price: 419
   },
 
@@ -173,7 +173,7 @@ const PRODUCTS = [
     ],
     title: "Konica Big Mini BM-302 Pocket Camera w/ Original Konica Strap",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "SLRs",
+    category: "Pocket Cameras",
     price: 179
   },
 
@@ -190,7 +190,7 @@ const PRODUCTS = [
     ],
     title: 'Leica iiib Rangefinder, “Of Era, A.C. Muller” Modified Flash Synchro w/ Silver Body Cap',
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "SLRs",
+    category: "Rangefinders",
     price: 339
   },
 
@@ -207,7 +207,7 @@ const PRODUCTS = [
     ],
     title: "Leica Summaron 35 3.5 M Mount w/ Goggles & Hood",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "SLRs",
+    category: "Lenses",
     price: 519
   },
 
@@ -229,7 +229,7 @@ const PRODUCTS = [
     ],
     title: "Mamiya 7ii 6x7 Medium Format Rangefinder w/ 65mm f4 Lens, Original Caps & Hood",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "SLRs",
+    category: "Rangefinders",
     price: 3719
   },
 
@@ -332,7 +332,7 @@ const PRODUCTS = [
     ],
     title: "Canon 7 Rangefinder w/ Canon 50mm f0.95 “Dream Lens” w/ Original Filter & Caps",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "SLRs",
+    category: "Rangefinders",
     price: 2850
   },
 
@@ -369,7 +369,7 @@ const PRODUCTS = [
     ],
     title: "Yashica 124G 6x6 Medium Format TLR",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "SLRs",
+    category: "TLRs",
     price: 289
   },
 
@@ -385,7 +385,7 @@ const PRODUCTS = [
     ],
     title: "Zeiss 135mm f4 Sonnar-Contax RF",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "SLRs",
+    category: "Lenses",
     price: 119
   },
 
