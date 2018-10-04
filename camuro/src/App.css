@@ -1047,7 +1047,8 @@ h1{
 }
 .product-nav li{
   display: inline-block;
-  margin: 5px 4%;
+  margin: 0px 4%;
+  margin-bottom: 10px;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
