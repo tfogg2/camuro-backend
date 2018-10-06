@@ -70,7 +70,7 @@ class Products extends Component {
       <div className="content product-content">
         <div className='header-box'>
           <div className="products-header">
-            <img src={require('../../Assets/shop-2.svg')} alt="Shop Now!" />
+            <img src={require('../../Assets/shop-3.svg')} alt="Shop Now!" />
             <ul className="product-nav">
               {ListCategories(productCategories, setCategory )}
             </ul>
@@ -237,7 +237,7 @@ const PRODUCTS = [
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "Rangefinders",
     price: 3719,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/nikonf3-1-featured.png'),
