@@ -24,7 +24,7 @@ class Product extends Component {
     const soldLabel = this.props.sold ? 'soldLabel visible' : 'soldLabel'
     return(
       <div className='product' onClick={this.toggleModal}>
-        <h1 className={soldLabel}>Sold</h1>
+        <h1 className={soldLabel}>Sold Out</h1>
         <div className={productClass}>
           <div className="product-image">
             <img src={this.props.image}/>
