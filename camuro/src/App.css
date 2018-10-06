@@ -1097,6 +1097,7 @@ h1{
   background: #000;
   color: #fff;
   padding: 5px;
+  opacity: 0;
 }
 .product-hover{
   transition: all .2s ease-in-out;
