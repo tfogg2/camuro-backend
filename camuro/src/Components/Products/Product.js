@@ -20,9 +20,12 @@ class Product extends Component {
   }
 
   render(){
+    const productClass = this.props.sold ? 'product-hover sold' : 'product-hover'
+    const soldLabel = this.props.sold ? 'soldLabel visible' : 'soldLabel'
     return(
-      <div className="product" onClick={this.toggleModal}>
-        <div className="product-hover">
+      <div className='product' onClick={this.toggleModal}>
+        <h1 className={soldLabel}>Sold</h1>
+        <div className={productClass}>
           <div className="product-image">
             <img src={this.props.image}/>
           </div>
