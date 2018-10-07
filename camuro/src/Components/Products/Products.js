@@ -106,27 +106,6 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/canonfd-7-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/canonfd-7.png'), thumbnail: require('../../Assets/Products/canonfd-7-small.png')},
-      {original: require('../../Assets/Products/canonfd-2.png'), thumbnail: require('../../Assets/Products/canonfd-2-small.png')},
-      {original: require('../../Assets/Products/canonfd-3.png'), thumbnail: require('../../Assets/Products/canonfd-3-small.png')},
-      {original: require('../../Assets/Products/canonfd-4.png'), thumbnail: require('../../Assets/Products/canonfd-4-small.png')},
-      {original: require('../../Assets/Products/canonfd-5.png'), thumbnail: require('../../Assets/Products/canonfd-5-small.png')},
-      {original: require('../../Assets/Products/canonfd-6.png'), thumbnail: require('../../Assets/Products/canonfd-6-small.png')},
-      {original: require('../../Assets/Products/canonfd-1.png'), thumbnail: require('../../Assets/Products/canonfd-1-small.png')},
-      {original: require('../../Assets/Products/canonfd-8.png'), thumbnail: require('../../Assets/Products/canonfd-8-small.png')},
-      {original: require('../../Assets/Products/canonfd-9.png'), thumbnail: require('../../Assets/Products/canonfd-9-small.png')},
-      {original: require('../../Assets/Products/canonfd-10.png'), thumbnail: require('../../Assets/Products/canonfd-10-small.png')},
-      {original: require('../../Assets/Products/canonfd-11.png'), thumbnail: require('../../Assets/Products/canonfd-11-small.png')}
-    ],
-    title: "Canon nFD 28mm f2 In Box w/ Original Caps & Hood",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "Lenses",
-    price: 279,
-    sold: true
-  },
-
   { image: require('../../Assets/Products/contax167-1-featured.png'),
     images: [
       {original: require('../../Assets/Products/contax167-1.png'), thumbnail: require('../../Assets/Products/contax167-1-small.png')},
@@ -217,29 +196,6 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/mamya7-9-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/mamya7-9.png'), thumbnail: require('../../Assets/Products/mamya7-9-small.png')},
-      {original: require('../../Assets/Products/mamya7-2.png'), thumbnail: require('../../Assets/Products/mamya7-2-small.png')},
-      {original: require('../../Assets/Products/mamya7-3.png'), thumbnail: require('../../Assets/Products/mamya7-3-small.png')},
-      {original: require('../../Assets/Products/mamya7-4.png'), thumbnail: require('../../Assets/Products/mamya7-4-small.png')},
-      {original: require('../../Assets/Products/mamya7-5.png'), thumbnail: require('../../Assets/Products/mamya7-5-small.png')},
-      {original: require('../../Assets/Products/mamya7-6.png'), thumbnail: require('../../Assets/Products/mamya7-6-small.png')},
-      {original: require('../../Assets/Products/mamya7-7.png'), thumbnail: require('../../Assets/Products/mamya7-7-small.png')},
-      {original: require('../../Assets/Products/mamya7-8.png'), thumbnail: require('../../Assets/Products/mamya7-8-small.png')},
-      {original: require('../../Assets/Products/mamya7-1.png'), thumbnail: require('../../Assets/Products/mamya7-1-small.png')},
-      {original: require('../../Assets/Products/mamya7-10.png'), thumbnail: require('../../Assets/Products/mamya7-10-small.png')},
-      {original: require('../../Assets/Products/mamya7-11.png'), thumbnail: require('../../Assets/Products/mamya7-11-small.png')},
-      {original: require('../../Assets/Products/mamya7-12.png'), thumbnail: require('../../Assets/Products/mamya7-12-small.png')},
-      {original: require('../../Assets/Products/mamya7-13.png'), thumbnail: require('../../Assets/Products/mamya7-13-small.png')}
-    ],
-    title: "Mamiya 7ii 6x7 Medium Format Rangefinder w/ 65mm f4 Lens, Original Caps & Hood",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "Rangefinders",
-    price: 3719,
-    sold: true
-  },
-
   { image: require('../../Assets/Products/nikonf3-1-featured.png'),
     images: [
       {original: require('../../Assets/Products/nikonf3-1.png'), thumbnail: require('../../Assets/Products/nikonf3-1-small.png')},
@@ -326,6 +282,87 @@ const PRODUCTS = [
     sold: false
   },
 
+  { image: require('../../Assets/Products/zeiss135-5-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/zeiss135-5.png'), thumbnail: require('../../Assets/Products/zeiss135-5-small.png')},
+      {original: require('../../Assets/Products/zeiss135-2.png'), thumbnail: require('../../Assets/Products/zeiss135-2-small.png')},
+      {original: require('../../Assets/Products/zeiss135-3.png'), thumbnail: require('../../Assets/Products/zeiss135-3-small.png')},
+      {original: require('../../Assets/Products/zeiss135-4.png'), thumbnail: require('../../Assets/Products/zeiss135-4-small.png')},
+      {original: require('../../Assets/Products/zeiss135-1.png'), thumbnail: require('../../Assets/Products/zeiss135-1-small.png')},
+      {original: require('../../Assets/Products/zeiss135-6.png'), thumbnail: require('../../Assets/Products/zeiss135-6-small.png')},
+      {original: require('../../Assets/Products/zeiss135-7.png'), thumbnail: require('../../Assets/Products/zeiss135-7-small.png')}
+    ],
+    title: "Zeiss 135mm f4 Sonnar-Contax RF",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "Lenses",
+    price: 119,
+    sold: false
+  },
+
+  { image: require('../../Assets/Products/mamya7-9-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/mamya7-9.png'), thumbnail: require('../../Assets/Products/mamya7-9-small.png')},
+      {original: require('../../Assets/Products/mamya7-2.png'), thumbnail: require('../../Assets/Products/mamya7-2-small.png')},
+      {original: require('../../Assets/Products/mamya7-3.png'), thumbnail: require('../../Assets/Products/mamya7-3-small.png')},
+      {original: require('../../Assets/Products/mamya7-4.png'), thumbnail: require('../../Assets/Products/mamya7-4-small.png')},
+      {original: require('../../Assets/Products/mamya7-5.png'), thumbnail: require('../../Assets/Products/mamya7-5-small.png')},
+      {original: require('../../Assets/Products/mamya7-6.png'), thumbnail: require('../../Assets/Products/mamya7-6-small.png')},
+      {original: require('../../Assets/Products/mamya7-7.png'), thumbnail: require('../../Assets/Products/mamya7-7-small.png')},
+      {original: require('../../Assets/Products/mamya7-8.png'), thumbnail: require('../../Assets/Products/mamya7-8-small.png')},
+      {original: require('../../Assets/Products/mamya7-1.png'), thumbnail: require('../../Assets/Products/mamya7-1-small.png')},
+      {original: require('../../Assets/Products/mamya7-10.png'), thumbnail: require('../../Assets/Products/mamya7-10-small.png')},
+      {original: require('../../Assets/Products/mamya7-11.png'), thumbnail: require('../../Assets/Products/mamya7-11-small.png')},
+      {original: require('../../Assets/Products/mamya7-12.png'), thumbnail: require('../../Assets/Products/mamya7-12-small.png')},
+      {original: require('../../Assets/Products/mamya7-13.png'), thumbnail: require('../../Assets/Products/mamya7-13-small.png')}
+    ],
+    title: "Mamiya 7ii 6x7 Medium Format Rangefinder w/ 65mm f4 Lens, Original Caps & Hood",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "Rangefinders",
+    price: 3719,
+    sold: true
+  },
+
+  { image: require('../../Assets/Products/canonfd-7-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/canonfd-7.png'), thumbnail: require('../../Assets/Products/canonfd-7-small.png')},
+      {original: require('../../Assets/Products/canonfd-2.png'), thumbnail: require('../../Assets/Products/canonfd-2-small.png')},
+      {original: require('../../Assets/Products/canonfd-3.png'), thumbnail: require('../../Assets/Products/canonfd-3-small.png')},
+      {original: require('../../Assets/Products/canonfd-4.png'), thumbnail: require('../../Assets/Products/canonfd-4-small.png')},
+      {original: require('../../Assets/Products/canonfd-5.png'), thumbnail: require('../../Assets/Products/canonfd-5-small.png')},
+      {original: require('../../Assets/Products/canonfd-6.png'), thumbnail: require('../../Assets/Products/canonfd-6-small.png')},
+      {original: require('../../Assets/Products/canonfd-1.png'), thumbnail: require('../../Assets/Products/canonfd-1-small.png')},
+      {original: require('../../Assets/Products/canonfd-8.png'), thumbnail: require('../../Assets/Products/canonfd-8-small.png')},
+      {original: require('../../Assets/Products/canonfd-9.png'), thumbnail: require('../../Assets/Products/canonfd-9-small.png')},
+      {original: require('../../Assets/Products/canonfd-10.png'), thumbnail: require('../../Assets/Products/canonfd-10-small.png')},
+      {original: require('../../Assets/Products/canonfd-11.png'), thumbnail: require('../../Assets/Products/canonfd-11-small.png')}
+    ],
+    title: "Canon nFD 28mm f2 In Box w/ Original Caps & Hood",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "Lenses",
+    price: 279,
+    sold: true
+  },
+
+  { image: require('../../Assets/Products/yashica124-9-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/yashica124-9.png'), thumbnail: require('../../Assets/Products/yashica124-9-small.png')},
+      {original: require('../../Assets/Products/yashica124-2.png'), thumbnail: require('../../Assets/Products/yashica124-2-small.png')},
+      {original: require('../../Assets/Products/yashica124-3.png'), thumbnail: require('../../Assets/Products/yashica124-3-small.png')},
+      {original: require('../../Assets/Products/yashica124-4.png'), thumbnail: require('../../Assets/Products/yashica124-4-small.png')},
+      {original: require('../../Assets/Products/yashica124-5.png'), thumbnail: require('../../Assets/Products/yashica124-5-small.png')},
+      {original: require('../../Assets/Products/yashica124-6.png'), thumbnail: require('../../Assets/Products/yashica124-6-small.png')},
+      {original: require('../../Assets/Products/yashica124-7.png'), thumbnail: require('../../Assets/Products/yashica124-7-small.png')},
+      {original: require('../../Assets/Products/yashica124-8.png'), thumbnail: require('../../Assets/Products/yashica124-8-small.png')},
+      {original: require('../../Assets/Products/yashica124-1.png'), thumbnail: require('../../Assets/Products/yashica124-1-small.png')},
+      {original: require('../../Assets/Products/yashica124-10.png'), thumbnail: require('../../Assets/Products/yashica124-10-small.png')}
+    ],
+    title: "Yashica 124G 6x6 Medium Format TLR",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "TLRs",
+    price: 289,
+    sold: true
+  },
+
   { image: require('../../Assets/Products/o95-4-featured.png'),
     images: [
       {original: require('../../Assets/Products/o95-4.png'), thumbnail: require('../../Assets/Products/o95-4-small.png')},
@@ -364,43 +401,6 @@ const PRODUCTS = [
     category: "SLRs",
     price: 249,
     sold: true
-  },
-
-  { image: require('../../Assets/Products/yashica124-9-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/yashica124-9.png'), thumbnail: require('../../Assets/Products/yashica124-9-small.png')},
-      {original: require('../../Assets/Products/yashica124-2.png'), thumbnail: require('../../Assets/Products/yashica124-2-small.png')},
-      {original: require('../../Assets/Products/yashica124-3.png'), thumbnail: require('../../Assets/Products/yashica124-3-small.png')},
-      {original: require('../../Assets/Products/yashica124-4.png'), thumbnail: require('../../Assets/Products/yashica124-4-small.png')},
-      {original: require('../../Assets/Products/yashica124-5.png'), thumbnail: require('../../Assets/Products/yashica124-5-small.png')},
-      {original: require('../../Assets/Products/yashica124-6.png'), thumbnail: require('../../Assets/Products/yashica124-6-small.png')},
-      {original: require('../../Assets/Products/yashica124-7.png'), thumbnail: require('../../Assets/Products/yashica124-7-small.png')},
-      {original: require('../../Assets/Products/yashica124-8.png'), thumbnail: require('../../Assets/Products/yashica124-8-small.png')},
-      {original: require('../../Assets/Products/yashica124-1.png'), thumbnail: require('../../Assets/Products/yashica124-1-small.png')},
-      {original: require('../../Assets/Products/yashica124-10.png'), thumbnail: require('../../Assets/Products/yashica124-10-small.png')}
-    ],
-    title: "Yashica 124G 6x6 Medium Format TLR",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "TLRs",
-    price: 289,
-    sold: true
-  },
-
-  { image: require('../../Assets/Products/zeiss135-5-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/zeiss135-5.png'), thumbnail: require('../../Assets/Products/zeiss135-5-small.png')},
-      {original: require('../../Assets/Products/zeiss135-2.png'), thumbnail: require('../../Assets/Products/zeiss135-2-small.png')},
-      {original: require('../../Assets/Products/zeiss135-3.png'), thumbnail: require('../../Assets/Products/zeiss135-3-small.png')},
-      {original: require('../../Assets/Products/zeiss135-4.png'), thumbnail: require('../../Assets/Products/zeiss135-4-small.png')},
-      {original: require('../../Assets/Products/zeiss135-1.png'), thumbnail: require('../../Assets/Products/zeiss135-1-small.png')},
-      {original: require('../../Assets/Products/zeiss135-6.png'), thumbnail: require('../../Assets/Products/zeiss135-6-small.png')},
-      {original: require('../../Assets/Products/zeiss135-7.png'), thumbnail: require('../../Assets/Products/zeiss135-7-small.png')}
-    ],
-    title: "Zeiss 135mm f4 Sonnar-Contax RF",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "Lenses",
-    price: 119,
-    sold: false
   },
 
 ]
