@@ -124,7 +124,7 @@ const PRODUCTS = [
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "Lenses",
     price: 279,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/contax167-1-featured.png'),
@@ -344,7 +344,7 @@ const PRODUCTS = [
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "Rangefinders",
     price: 2850,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/olympuspen-01-featured.png'),
@@ -363,7 +363,7 @@ const PRODUCTS = [
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "SLRs",
     price: 249,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/yashica124-9-featured.png'),
@@ -383,7 +383,7 @@ const PRODUCTS = [
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "TLRs",
     price: 289,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/zeiss135-5-featured.png'),
