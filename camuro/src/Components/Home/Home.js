@@ -42,7 +42,7 @@ class Home extends Component {
             <div className='home-content'>
               <Gallery limit={limit}/>
               <Link to="/gallery" alt="Gallery" style={{color: '#c6574a', fontSize: '20px'}}>
-                more
+                More
               </Link>
             </div>
           </div>
