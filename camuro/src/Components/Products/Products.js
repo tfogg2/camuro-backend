@@ -322,24 +322,24 @@ const PRODUCTS = [
     sold: true
   },
 
-  { image: require('../../Assets/Products/canonfd-7-featured.png'),
+  { image: require('../../Assets/Products/o95-4-featured.png'),
     images: [
-      {original: require('../../Assets/Products/canonfd-7.png'), thumbnail: require('../../Assets/Products/canonfd-7-small.png')},
-      {original: require('../../Assets/Products/canonfd-2.png'), thumbnail: require('../../Assets/Products/canonfd-2-small.png')},
-      {original: require('../../Assets/Products/canonfd-3.png'), thumbnail: require('../../Assets/Products/canonfd-3-small.png')},
-      {original: require('../../Assets/Products/canonfd-4.png'), thumbnail: require('../../Assets/Products/canonfd-4-small.png')},
-      {original: require('../../Assets/Products/canonfd-5.png'), thumbnail: require('../../Assets/Products/canonfd-5-small.png')},
-      {original: require('../../Assets/Products/canonfd-6.png'), thumbnail: require('../../Assets/Products/canonfd-6-small.png')},
-      {original: require('../../Assets/Products/canonfd-1.png'), thumbnail: require('../../Assets/Products/canonfd-1-small.png')},
-      {original: require('../../Assets/Products/canonfd-8.png'), thumbnail: require('../../Assets/Products/canonfd-8-small.png')},
-      {original: require('../../Assets/Products/canonfd-9.png'), thumbnail: require('../../Assets/Products/canonfd-9-small.png')},
-      {original: require('../../Assets/Products/canonfd-10.png'), thumbnail: require('../../Assets/Products/canonfd-10-small.png')},
-      {original: require('../../Assets/Products/canonfd-11.png'), thumbnail: require('../../Assets/Products/canonfd-11-small.png')}
+      {original: require('../../Assets/Products/o95-4.png'), thumbnail: require('../../Assets/Products/o95-4-small.png')},
+      {original: require('../../Assets/Products/o95-2.png'), thumbnail: require('../../Assets/Products/o95-2-small.png')},
+      {original: require('../../Assets/Products/o95-3.png'), thumbnail: require('../../Assets/Products/o95-3-small.png')},
+      {original: require('../../Assets/Products/o95-1.png'), thumbnail: require('../../Assets/Products/o95-1-small.png')},
+      {original: require('../../Assets/Products/o95-5.png'), thumbnail: require('../../Assets/Products/o95-5-small.png')},
+      {original: require('../../Assets/Products/o95-6.png'), thumbnail: require('../../Assets/Products/o95-6-small.png')},
+      {original: require('../../Assets/Products/o95-7.png'), thumbnail: require('../../Assets/Products/o95-7-small.png')},
+      {original: require('../../Assets/Products/o95-8.png'), thumbnail: require('../../Assets/Products/o95-8-small.png')},
+      {original: require('../../Assets/Products/o95-9.png'), thumbnail: require('../../Assets/Products/o95-9-small.png')},
+      {original: require('../../Assets/Products/o95-10.png'), thumbnail: require('../../Assets/Products/o95-10-small.png')},
+      {original: require('../../Assets/Products/o95-11.png'), thumbnail: require('../../Assets/Products/o95-11-small.png')}
     ],
-    title: "Canon nFD 28mm f2 In Box w/ Original Caps & Hood",
+    title: "Canon 7 Rangefinder w/ Canon 50mm f0.95 “Dream Lens” w/ Original Filter & Caps",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "Lenses",
-    price: 279,
+    category: "Rangefinders",
+    price: 2850,
     sold: true
   },
 
@@ -363,24 +363,24 @@ const PRODUCTS = [
     sold: true
   },
 
-  { image: require('../../Assets/Products/o95-4-featured.png'),
+  { image: require('../../Assets/Products/canonfd-7-featured.png'),
     images: [
-      {original: require('../../Assets/Products/o95-4.png'), thumbnail: require('../../Assets/Products/o95-4-small.png')},
-      {original: require('../../Assets/Products/o95-2.png'), thumbnail: require('../../Assets/Products/o95-2-small.png')},
-      {original: require('../../Assets/Products/o95-3.png'), thumbnail: require('../../Assets/Products/o95-3-small.png')},
-      {original: require('../../Assets/Products/o95-1.png'), thumbnail: require('../../Assets/Products/o95-1-small.png')},
-      {original: require('../../Assets/Products/o95-5.png'), thumbnail: require('../../Assets/Products/o95-5-small.png')},
-      {original: require('../../Assets/Products/o95-6.png'), thumbnail: require('../../Assets/Products/o95-6-small.png')},
-      {original: require('../../Assets/Products/o95-7.png'), thumbnail: require('../../Assets/Products/o95-7-small.png')},
-      {original: require('../../Assets/Products/o95-8.png'), thumbnail: require('../../Assets/Products/o95-8-small.png')},
-      {original: require('../../Assets/Products/o95-9.png'), thumbnail: require('../../Assets/Products/o95-9-small.png')},
-      {original: require('../../Assets/Products/o95-10.png'), thumbnail: require('../../Assets/Products/o95-10-small.png')},
-      {original: require('../../Assets/Products/o95-11.png'), thumbnail: require('../../Assets/Products/o95-11-small.png')}
+      {original: require('../../Assets/Products/canonfd-7.png'), thumbnail: require('../../Assets/Products/canonfd-7-small.png')},
+      {original: require('../../Assets/Products/canonfd-2.png'), thumbnail: require('../../Assets/Products/canonfd-2-small.png')},
+      {original: require('../../Assets/Products/canonfd-3.png'), thumbnail: require('../../Assets/Products/canonfd-3-small.png')},
+      {original: require('../../Assets/Products/canonfd-4.png'), thumbnail: require('../../Assets/Products/canonfd-4-small.png')},
+      {original: require('../../Assets/Products/canonfd-5.png'), thumbnail: require('../../Assets/Products/canonfd-5-small.png')},
+      {original: require('../../Assets/Products/canonfd-6.png'), thumbnail: require('../../Assets/Products/canonfd-6-small.png')},
+      {original: require('../../Assets/Products/canonfd-1.png'), thumbnail: require('../../Assets/Products/canonfd-1-small.png')},
+      {original: require('../../Assets/Products/canonfd-8.png'), thumbnail: require('../../Assets/Products/canonfd-8-small.png')},
+      {original: require('../../Assets/Products/canonfd-9.png'), thumbnail: require('../../Assets/Products/canonfd-9-small.png')},
+      {original: require('../../Assets/Products/canonfd-10.png'), thumbnail: require('../../Assets/Products/canonfd-10-small.png')},
+      {original: require('../../Assets/Products/canonfd-11.png'), thumbnail: require('../../Assets/Products/canonfd-11-small.png')}
     ],
-    title: "Canon 7 Rangefinder w/ Canon 50mm f0.95 “Dream Lens” w/ Original Filter & Caps",
+    title: "Canon nFD 28mm f2 In Box w/ Original Caps & Hood",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "Rangefinders",
-    price: 2850,
+    category: "Lenses",
+    price: 279,
     sold: true
   },
 
