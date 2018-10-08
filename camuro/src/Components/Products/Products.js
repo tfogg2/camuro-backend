@@ -104,7 +104,7 @@ const PRODUCTS = [
     title: "Canon Canonet Giii QL 17 w/ Canonlite D, Filter & Cap-Boxes",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "SLRs",
-    price: 279,
+    price: 299,
     sold: false
   },
 
