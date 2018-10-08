@@ -54,9 +54,15 @@ class ProductModal extends Component {
             <li>Minimal to no dust-CLA possible depending on model</li>
           </ul>
 
-          <Link to={`/cart`} className="add-product" onClick={ () => this.props.addProduct(this.props.title, this.props.product, this.props.description, this.props.price, this.props.index, this.props.image)}>
-            <button className="addProductBtn">Add Product</button>
-          </Link>
+          {this.props.sold ?
+            null
+          :
+            <Link to={`/cart`} className="add-product" onClick={ () => this.props.addProduct(this.props.title, this.props.product, this.props.description, this.props.price, this.props.index, this.props.image)}>
+              <button className="addProductBtn">Add Product</button>
+            </Link>
+          }
+
+
         </div>
       </div>
     );
