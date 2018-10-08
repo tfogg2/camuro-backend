@@ -87,6 +87,27 @@ class Products extends Component {
 
 // data
 const PRODUCTS = [
+
+  { image: require('../../Assets/Products/canonet-1-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/canonet-1.png'), thumbnail: require('../../Assets/Products/canonet-1-small.png')},
+      {original: require('../../Assets/Products/canonet-2.png'), thumbnail: require('../../Assets/Products/canonet-2-small.png')},
+      {original: require('../../Assets/Products/canonet-3.png'), thumbnail: require('../../Assets/Products/canonet-3-small.png')},
+      {original: require('../../Assets/Products/canonet-4.png'), thumbnail: require('../../Assets/Products/canonet-4-small.png')},
+      {original: require('../../Assets/Products/canonet-5.png'), thumbnail: require('../../Assets/Products/canonet-5-small.png')},
+      {original: require('../../Assets/Products/canonet-6.png'), thumbnail: require('../../Assets/Products/canonet-6-small.png')},
+      {original: require('../../Assets/Products/canonet-7.png'), thumbnail: require('../../Assets/Products/canonet-7-small.png')},
+      {original: require('../../Assets/Products/canonet-8.png'), thumbnail: require('../../Assets/Products/canonet-8-small.png')},
+      {original: require('../../Assets/Products/canonet-9.png'), thumbnail: require('../../Assets/Products/canonet-9-small.png')},
+      {original: require('../../Assets/Products/canonet-10.png'), thumbnail: require('../../Assets/Products/canonet-10-small.png')}
+    ],
+    title: "Canon Canonet Giii QL 17 w/ Canonlite D, Filter & Cap-Boxes",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "SLRs",
+    price: 279,
+    sold: false
+  },
+
   { image: require('../../Assets/Products/nikonf1-3-featured.png'),
     images: [
       {original: require('../../Assets/Products/nikonf1-3.png'), thumbnail: require('../../Assets/Products/nikonf1-3-small.png')},
