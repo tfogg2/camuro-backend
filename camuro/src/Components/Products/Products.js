@@ -108,25 +108,6 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/nikonf1-3-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/nikonf1-3.png'), thumbnail: require('../../Assets/Products/nikonf1-3-small.png')},
-      {original: require('../../Assets/Products/nikonf1-2.png'), thumbnail: require('../../Assets/Products/nikonf1-2-small.png')},
-      {original: require('../../Assets/Products/nikonf1-1.png'), thumbnail: require('../../Assets/Products/nikonf1-1-small.png')},
-      {original: require('../../Assets/Products/nikonf1-4.png'), thumbnail: require('../../Assets/Products/nikonf1-4-small.png')},
-      {original: require('../../Assets/Products/nikonf1-5.png'), thumbnail: require('../../Assets/Products/nikonf1-5-small.png')},
-      {original: require('../../Assets/Products/nikonf1-6.png'), thumbnail: require('../../Assets/Products/nikonf1-6-small.png')},
-      {original: require('../../Assets/Products/nikonf1-7.png'), thumbnail: require('../../Assets/Products/nikonf1-7-small.png')},
-      {original: require('../../Assets/Products/nikonf1-8.png'), thumbnail: require('../../Assets/Products/nikonf1-8-small.png')},
-      {original: require('../../Assets/Products/nikonf1-9.png'), thumbnail: require('../../Assets/Products/nikonf1-9-small.png')}
-    ],
-    title: "Nikon F w/ 45mm 2.8 Pancake Lens & UV Filter",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "SLRs",
-    price: 279,
-    sold: false
-  },
-
   { image: require('../../Assets/Products/contax167-1-featured.png'),
     images: [
       {original: require('../../Assets/Products/contax167-1.png'), thumbnail: require('../../Assets/Products/contax167-1-small.png')},
@@ -217,21 +198,66 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/nikonf3-1-featured.png'),
+  { image: require('../../Assets/Products/nikonf1-3-featured.png'),
     images: [
-      {original: require('../../Assets/Products/nikonf3-1.png'), thumbnail: require('../../Assets/Products/nikonf3-1-small.png')},
-      {original: require('../../Assets/Products/nikonf3-2.png'), thumbnail: require('../../Assets/Products/nikonf3-2-small.png')},
-      {original: require('../../Assets/Products/nikonf3-3.png'), thumbnail: require('../../Assets/Products/nikonf3-3-small.png')},
-      {original: require('../../Assets/Products/nikonf3-4.png'), thumbnail: require('../../Assets/Products/nikonf3-4-small.png')},
-      {original: require('../../Assets/Products/nikonf3-5.png'), thumbnail: require('../../Assets/Products/nikonf3-5-small.png')},
-      {original: require('../../Assets/Products/nikonf3-7.png'), thumbnail: require('../../Assets/Products/nikonf3-7-small.png')},
-      {original: require('../../Assets/Products/nikonf3-8.png'), thumbnail: require('../../Assets/Products/nikonf3-8-small.png')},
-      {original: require('../../Assets/Products/nikonf3-9.png'), thumbnail: require('../../Assets/Products/nikonf3-9-small.png')}
+      {original: require('../../Assets/Products/nikonf1-3.png'), thumbnail: require('../../Assets/Products/nikonf1-3-small.png')},
+      {original: require('../../Assets/Products/nikonf1-2.png'), thumbnail: require('../../Assets/Products/nikonf1-2-small.png')},
+      {original: require('../../Assets/Products/nikonf1-1.png'), thumbnail: require('../../Assets/Products/nikonf1-1-small.png')},
+      {original: require('../../Assets/Products/nikonf1-4.png'), thumbnail: require('../../Assets/Products/nikonf1-4-small.png')},
+      {original: require('../../Assets/Products/nikonf1-5.png'), thumbnail: require('../../Assets/Products/nikonf1-5-small.png')},
+      {original: require('../../Assets/Products/nikonf1-6.png'), thumbnail: require('../../Assets/Products/nikonf1-6-small.png')},
+      {original: require('../../Assets/Products/nikonf1-7.png'), thumbnail: require('../../Assets/Products/nikonf1-7-small.png')},
+      {original: require('../../Assets/Products/nikonf1-8.png'), thumbnail: require('../../Assets/Products/nikonf1-8-small.png')},
+      {original: require('../../Assets/Products/nikonf1-9.png'), thumbnail: require('../../Assets/Products/nikonf1-9-small.png')}
     ],
-    title: "Nikon F3 w/ Original Strap, Body Cap & MD-4 Motor Drive",
+    title: "Nikon F w/ 45mm 2.8 Pancake Lens & UV Filter",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "SLRs",
-    price: 229,
+    price: 279,
+    sold: false
+  },
+
+  { image: require('../../Assets/Products/nikonfpho-1-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/nikonfpho-1.png'), thumbnail: require('../../Assets/Products/nikonfpho-1-small.png')},
+      {original: require('../../Assets/Products/nikonfpho-2.png'), thumbnail: require('../../Assets/Products/nikonfpho-2-small.png')},
+      {original: require('../../Assets/Products/nikonfpho-3.png'), thumbnail: require('../../Assets/Products/nikonfpho-3-small.png')},
+      {original: require('../../Assets/Products/nikonfpho-4.png'), thumbnail: require('../../Assets/Products/nikonfpho-4-small.png')},
+      {original: require('../../Assets/Products/nikonfpho-5.png'), thumbnail: require('../../Assets/Products/nikonfpho-5-small.png')},
+      {original: require('../../Assets/Products/nikonfpho-6.png'), thumbnail: require('../../Assets/Products/nikonfpho-6-small.png')},
+      {original: require('../../Assets/Products/nikonfpho-7.png'), thumbnail: require('../../Assets/Products/nikonfpho-7-small.png')},
+      {original: require('../../Assets/Products/nikonfpho-8.png'), thumbnail: require('../../Assets/Products/nikonfpho-8-small.png')},
+      {original: require('../../Assets/Products/nikonfpho-9.png'), thumbnail: require('../../Assets/Products/nikonfpho-9-small.png')},
+      {original: require('../../Assets/Products/nikonfpho-10.png'), thumbnail: require('../../Assets/Products/nikonfpho-10-small.png')},
+      {original: require('../../Assets/Products/nikonfpho-11.png'), thumbnail: require('../../Assets/Products/nikonfpho-11-small.png')}
+    ],
+    title: "Nikon F Photomic w/ 50mm f1.4 & Original Half Case",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "SLRs",
+    price: 329,
+    sold: false
+  },
+
+  { image: require('../../Assets/Products/nikonf2w50-1-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/nikonf2w50-1.png'), thumbnail: require('../../Assets/Products/nikonf2w50-1-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-2.png'), thumbnail: require('../../Assets/Products/nikonf2w50-2-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-3.png'), thumbnail: require('../../Assets/Products/nikonf2w50-3-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-4.png'), thumbnail: require('../../Assets/Products/nikonf2w50-4-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-5.png'), thumbnail: require('../../Assets/Products/nikonf2w50-5-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-6.png'), thumbnail: require('../../Assets/Products/nikonf2w50-6-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-7.png'), thumbnail: require('../../Assets/Products/nikonf2w50-7-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-8.png'), thumbnail: require('../../Assets/Products/nikonf2w50-8-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-9.png'), thumbnail: require('../../Assets/Products/nikonf2w50-9-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-10.png'), thumbnail: require('../../Assets/Products/nikonf2w50-10-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-11.png'), thumbnail: require('../../Assets/Products/nikonf2w50-11-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-12.png'), thumbnail: require('../../Assets/Products/nikonf2w50-12-small.png')},
+      {original: require('../../Assets/Products/nikonf2w50-13.png'), thumbnail: require('../../Assets/Products/nikonf2w50-13-small.png')}
+    ],
+    title: "Nikon F2 w/ Nikkor 50mm 1.4",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "SLRs",
+    price: 279,
     sold: false
   },
 
@@ -259,47 +285,21 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/nikonf2w50-1-featured.png'),
+  { image: require('../../Assets/Products/nikonf3-1-featured.png'),
     images: [
-      {original: require('../../Assets/Products/nikonf2w50-1.png'), thumbnail: require('../../Assets/Products/nikonf2w50-1-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-2.png'), thumbnail: require('../../Assets/Products/nikonf2w50-2-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-3.png'), thumbnail: require('../../Assets/Products/nikonf2w50-3-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-4.png'), thumbnail: require('../../Assets/Products/nikonf2w50-4-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-5.png'), thumbnail: require('../../Assets/Products/nikonf2w50-5-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-6.png'), thumbnail: require('../../Assets/Products/nikonf2w50-6-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-7.png'), thumbnail: require('../../Assets/Products/nikonf2w50-7-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-8.png'), thumbnail: require('../../Assets/Products/nikonf2w50-8-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-9.png'), thumbnail: require('../../Assets/Products/nikonf2w50-9-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-10.png'), thumbnail: require('../../Assets/Products/nikonf2w50-10-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-11.png'), thumbnail: require('../../Assets/Products/nikonf2w50-11-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-12.png'), thumbnail: require('../../Assets/Products/nikonf2w50-12-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-13.png'), thumbnail: require('../../Assets/Products/nikonf2w50-13-small.png')}
+      {original: require('../../Assets/Products/nikonf3-1.png'), thumbnail: require('../../Assets/Products/nikonf3-1-small.png')},
+      {original: require('../../Assets/Products/nikonf3-2.png'), thumbnail: require('../../Assets/Products/nikonf3-2-small.png')},
+      {original: require('../../Assets/Products/nikonf3-3.png'), thumbnail: require('../../Assets/Products/nikonf3-3-small.png')},
+      {original: require('../../Assets/Products/nikonf3-4.png'), thumbnail: require('../../Assets/Products/nikonf3-4-small.png')},
+      {original: require('../../Assets/Products/nikonf3-5.png'), thumbnail: require('../../Assets/Products/nikonf3-5-small.png')},
+      {original: require('../../Assets/Products/nikonf3-7.png'), thumbnail: require('../../Assets/Products/nikonf3-7-small.png')},
+      {original: require('../../Assets/Products/nikonf3-8.png'), thumbnail: require('../../Assets/Products/nikonf3-8-small.png')},
+      {original: require('../../Assets/Products/nikonf3-9.png'), thumbnail: require('../../Assets/Products/nikonf3-9-small.png')}
     ],
-    title: "Nikon F2 w/ Nikkor 50mm 1.4",
+    title: "Nikon F3 w/ Original Strap, Body Cap & MD-4 Motor Drive",
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "SLRs",
-    price: 279,
-    sold: false
-  },
-
-  { image: require('../../Assets/Products/nikonfpho-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/nikonfpho-1.png'), thumbnail: require('../../Assets/Products/nikonfpho-1-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-2.png'), thumbnail: require('../../Assets/Products/nikonfpho-2-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-3.png'), thumbnail: require('../../Assets/Products/nikonfpho-3-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-4.png'), thumbnail: require('../../Assets/Products/nikonfpho-4-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-5.png'), thumbnail: require('../../Assets/Products/nikonfpho-5-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-6.png'), thumbnail: require('../../Assets/Products/nikonfpho-6-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-7.png'), thumbnail: require('../../Assets/Products/nikonfpho-7-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-8.png'), thumbnail: require('../../Assets/Products/nikonfpho-8-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-9.png'), thumbnail: require('../../Assets/Products/nikonfpho-9-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-10.png'), thumbnail: require('../../Assets/Products/nikonfpho-10-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-11.png'), thumbnail: require('../../Assets/Products/nikonfpho-11-small.png')}
-    ],
-    title: "Nikon F Photomic w/ 50mm f1.4 & Original Half Case",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "SLRs",
-    price: 329,
+    price: 229,
     sold: false
   },
 
