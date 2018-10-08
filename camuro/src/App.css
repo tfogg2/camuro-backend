@@ -977,6 +977,7 @@ h1{
   top: 60px;
 }
 .products-header{
+  background: #f6f6f6;
   height: 180px;
   /*box-shadow: 1px 1px 15px #9e9e9e;*/
   padding-top: 20px;
