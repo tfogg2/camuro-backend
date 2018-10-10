@@ -13,6 +13,7 @@ import Home from './Components/Home/Home.js'
 import Products from './Components/Products/Products.js'
 import Product from './Components/Products/Product.js'
 import Gallery from './Components/Gallery'
+import OurGallery from './Components/OurGallery'
 import ProductModal from './Components/Products/ProductModal.js'
 import Offer from './Components/Offers/OfferForm.js'
 import About from './Components/About.js'
@@ -38,6 +39,7 @@ class App extends Component {
             <Route path="/cart" render={() => <Cart removeProduct={removeProduct} cartProducts={cartProducts} total={total} isChecked={isChecked}/>} />
             <Route path="/products" render={() => <Products addProduct={addProduct}/>} />
             <Route path="/gallery" render={() => <Gallery />}/>
+            <Route path="/ourgallery" render={() => <OurGallery />}/>
             <Route path="/offer" render={() => <Offer />}/>
             <Route component={NotFound} />
           </Switch>

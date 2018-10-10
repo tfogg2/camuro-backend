@@ -108,6 +108,26 @@ const PRODUCTS = [
     sold: false
   },
 
+  { image: require('../../Assets/Products/canonfd2-1-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/canonfd2-1.png'), thumbnail: require('../../Assets/Products/canonfd2-1-small.png')},
+      {original: require('../../Assets/Products/canonfd2-2.png'), thumbnail: require('../../Assets/Products/canonfd2-2-small.png')},
+      {original: require('../../Assets/Products/canonfd2-3.png'), thumbnail: require('../../Assets/Products/canonfd2-3-small.png')},
+      {original: require('../../Assets/Products/canonfd2-4.png'), thumbnail: require('../../Assets/Products/canonfd2-4-small.png')},
+      {original: require('../../Assets/Products/canonfd2-5.png'), thumbnail: require('../../Assets/Products/canonfd2-5-small.png')},
+      {original: require('../../Assets/Products/canonfd2-6.png'), thumbnail: require('../../Assets/Products/canonfd2-6-small.png')},
+      {original: require('../../Assets/Products/canonfd2-7.png'), thumbnail: require('../../Assets/Products/canonfd2-7-small.png')},
+      {original: require('../../Assets/Products/canonfd2-8.png'), thumbnail: require('../../Assets/Products/canonfd2-8-small.png')},
+      {original: require('../../Assets/Products/canonet-9.png'), thumbnail: require('../../Assets/Products/canonfd2-9-small.png')},
+      {original: require('../../Assets/Products/canonfd2-10.png'), thumbnail: require('../../Assets/Products/canonfd2-10-small.png')}
+    ],
+    title: "Canon FD 50mm f1.2 with UV Filter, Caps & Case",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "Lenses",
+    price: 299,
+    sold: false
+  },
+
   { image: require('../../Assets/Products/contax167-1-featured.png'),
     images: [
       {original: require('../../Assets/Products/contax167-1.png'), thumbnail: require('../../Assets/Products/contax167-1-small.png')},
@@ -195,6 +215,48 @@ const PRODUCTS = [
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "Lenses",
     price: 519,
+    sold: false
+  },
+
+  { image: require('../../Assets/Products/minoltam-1-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/minoltam-1.png'), thumbnail: require('../../Assets/Products/minoltam-1-small.png')},
+      {original: require('../../Assets/Products/minoltam-2.png'), thumbnail: require('../../Assets/Products/minoltam-2-small.png')},
+      {original: require('../../Assets/Products/minoltam-3.png'), thumbnail: require('../../Assets/Products/minoltam-3-small.png')},
+      {original: require('../../Assets/Products/minoltam-4.png'), thumbnail: require('../../Assets/Products/minoltam-4-small.png')},
+      {original: require('../../Assets/Products/minoltam-5.png'), thumbnail: require('../../Assets/Products/minoltam-5-small.png')},
+      {original: require('../../Assets/Products/minoltam-6.png'), thumbnail: require('../../Assets/Products/minoltam-6-small.png')},
+      {original: require('../../Assets/Products/minoltam-7.png'), thumbnail: require('../../Assets/Products/minoltam-7-small.png')},
+      {original: require('../../Assets/Products/minoltam-8.png'), thumbnail: require('../../Assets/Products/minoltam-8-small.png')},
+      {original: require('../../Assets/Products/minoltam-9.png'), thumbnail: require('../../Assets/Products/minoltam-9-small.png')},
+      {original: require('../../Assets/Products/minoltam-10.png'), thumbnail: require('../../Assets/Products/minoltam-10-small.png')}
+    ],
+    title: "Minolta M-Rokkor 40mm f2 with Minolta Cap, UV Filter & Case",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "Lenses",
+    price: 499,
+    sold: false
+  },
+
+  { image: require('../../Assets/Products/minoltarokkor-1-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/minoltarokkor-1.png'), thumbnail: require('../../Assets/Products/minoltarokkor-1-small.png')},
+      {original: require('../../Assets/Products/minoltarokkor-2.png'), thumbnail: require('../../Assets/Products/minoltarokkor-2-small.png')},
+      {original: require('../../Assets/Products/minoltarokkor-3.png'), thumbnail: require('../../Assets/Products/minoltarokkor-3-small.png')},
+      {original: require('../../Assets/Products/minoltarokkor-4.png'), thumbnail: require('../../Assets/Products/minoltarokkor-4-small.png')},
+      {original: require('../../Assets/Products/minoltarokkor-5.png'), thumbnail: require('../../Assets/Products/minoltarokkor-5-small.png')},
+      {original: require('../../Assets/Products/minoltarokkor-6.png'), thumbnail: require('../../Assets/Products/minoltarokkor-6-small.png')},
+      {original: require('../../Assets/Products/minoltarokkor-7.png'), thumbnail: require('../../Assets/Products/minoltarokkor-7-small.png')},
+      {original: require('../../Assets/Products/minoltarokkor-8.png'), thumbnail: require('../../Assets/Products/minoltarokkor-8-small.png')},
+      {original: require('../../Assets/Products/minoltarokkor-9.png'), thumbnail: require('../../Assets/Products/minoltarokkor-9-small.png')},
+      {original: require('../../Assets/Products/minoltarokkor-10.png'), thumbnail: require('../../Assets/Products/minoltarokkor-10-small.png')},
+      {original: require('../../Assets/Products/minoltarokkor-11.png'), thumbnail: require('../../Assets/Products/minoltarokkor-11-small.png')},
+      {original: require('../../Assets/Products/minoltarokkor-12.png'), thumbnail: require('../../Assets/Products/minoltarokkor-12-small.png')},
+    ],
+    title: "Minolta SRT101 with Rokkor-X 50mm f1.7 Lens & Original Leather Case",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "SLRs",
+    price: 89,
     sold: false
   },
 
@@ -300,6 +362,45 @@ const PRODUCTS = [
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
     category: "SLRs",
     price: 229,
+    sold: false
+  },
+
+  { image: require('../../Assets/Products/nikon5-1-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/nikon5-1.png'), thumbnail: require('../../Assets/Products/nikon5-1-small.png')},
+      {original: require('../../Assets/Products/nikon5-2.png'), thumbnail: require('../../Assets/Products/nikon5-2-small.png')},
+      {original: require('../../Assets/Products/nikon5-3.png'), thumbnail: require('../../Assets/Products/nikon5-3-small.png')},
+      {original: require('../../Assets/Products/nikon5-4.png'), thumbnail: require('../../Assets/Products/nikon5-4-small.png')},
+      {original: require('../../Assets/Products/nikon5-5.png'), thumbnail: require('../../Assets/Products/nikon5-5-small.png')},
+      {original: require('../../Assets/Products/nikon5-6.png'), thumbnail: require('../../Assets/Products/nikon5-6-small.png')},
+      {original: require('../../Assets/Products/nikon5-7.png'), thumbnail: require('../../Assets/Products/nikon5-7-small.png')},
+      {original: require('../../Assets/Products/nikon5-8.png'), thumbnail: require('../../Assets/Products/nikon5-8-small.png')},
+      {original: require('../../Assets/Products/nikon5-9.png'), thumbnail: require('../../Assets/Products/nikon5-9-small.png')},
+      {original: require('../../Assets/Products/nikon5-10.png'), thumbnail: require('../../Assets/Products/nikon5-10-small.png')},
+      {original: require('../../Assets/Products/nikon5-11.png'), thumbnail: require('../../Assets/Products/nikon5-11-small.png')}
+    ],
+    title: "Nippon Kogaku Nikkor 5.8cm f1.4 with Original Caps & Hood",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "Lenses",
+    price: 289,
+    sold: false
+  },
+
+  { image: require('../../Assets/Products/olympusxa2-1-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/olympusxa2-1.png'), thumbnail: require('../../Assets/Products/olympusxa2-1-small.png')},
+      {original: require('../../Assets/Products/olympusxa2-2.png'), thumbnail: require('../../Assets/Products/olympusxa2-2-small.png')},
+      {original: require('../../Assets/Products/olympusxa2-3.png'), thumbnail: require('../../Assets/Products/olympusxa2-3-small.png')},
+      {original: require('../../Assets/Products/olympusxa2-4.png'), thumbnail: require('../../Assets/Products/olympusxa2-4-small.png')},
+      {original: require('../../Assets/Products/olympusxa2-5.png'), thumbnail: require('../../Assets/Products/olympusxa2-5-small.png')},
+      {original: require('../../Assets/Products/olympusxa2-7.png'), thumbnail: require('../../Assets/Products/olympusxa2-7-small.png')},
+      {original: require('../../Assets/Products/olympusxa2-8.png'), thumbnail: require('../../Assets/Products/olympusxa2-8-small.png')},
+      {original: require('../../Assets/Products/olympusxa2-9.png'), thumbnail: require('../../Assets/Products/olympusxa2-9-small.png')}
+    ],
+    title: "Olympus XA2 with Strap, Manual & Case",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    category: "Rangefinders",
+    price: 99,
     sold: false
   },
 

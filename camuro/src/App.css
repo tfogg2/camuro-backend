@@ -558,7 +558,7 @@ h1{
   margin: 0 auto;
 }
 .gallery-header span{
-  color: #FFB3A4;
+  color: #c6574a;
 }
 .gallery-header h3{
   border-bottom: .5px solid #c6574a;
@@ -567,6 +567,9 @@ h1{
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 0;
+}
+.gallery-header a{
+  text-decoration: none;
 }
 .gallery-items{
   padding-top: 40px;
