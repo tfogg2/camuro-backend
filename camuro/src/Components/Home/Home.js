@@ -40,7 +40,7 @@ class Home extends Component {
           <About offer={this.OfferForm} ref={(section) => { this.About = section; }}/>
           <div className="home-gallery" ref={(section) => { this.Gallery = section; }}>
             <div className='home-content'>
-              <Gallery limit={limit}/>
+              <Gallery limit={limit} path="/"/>
               <Link to="/gallery" alt="Gallery" style={{color: '#c6574a', fontSize: '20px'}}>
                 More
               </Link>

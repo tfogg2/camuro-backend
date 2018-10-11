@@ -115,8 +115,47 @@ class Gallery extends Component {
           </div>
         </div>
       )
+      const UIHOME = ({ state, state: { gallery },  }) => (
+          <div className="gallery">
+            <div className="gallery-header">
+              <img src={require('../Assets/photos.svg')} alt="photos" />
+              <div>
+                <p>
+                  <Link to="/gallery/ours">
+                    Photos for the people.
+                  </Link><br />
+                  <Link to="/gallery">
+                    <span>By the people.</span>
+                  </Link>
+                </p>
+              </div>
+            </div>
+            <div className={galleryClass}>
+              <Gallery itemsCountPerPage={4} state={state} />
+              {this.state.isOpen ?
+                <div className="backdrop">
+                  <div className="modal-header">
+                    <span className="close-modal" onClick={this.toggleModal}><img src={require('../Assets/back-arrow.svg')} alt="back-arrow"/></span>
+                    <img className="photos-small" src={require('../Assets/photos-small.svg')} alt="photos" />
+                  </div>
+                  <div className="modal-items">
+                    {gallery
+                      .map(({image, title, credit}) => (
+                        <Modal show={this.state.isOpen} onClose={this.toggleModal} stopClose={this.stopClose} image={image} title={title} credit={credit}></Modal>
+                    ))}
+                  </div>
+                </div>
+              : null}
+            </div>
+          </div>
+        )
 
-    return <UI state={this.state}  />
+    if (this.props.path == '/'){
+      return <UIHOME state={this.state}  />
+    } else {
+      return <UI state={this.state}  />
+    }
+
 
   }
 }

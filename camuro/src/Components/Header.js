@@ -25,14 +25,14 @@ class Header extends Component {
                     </button>
                   </NavLink>
                 </li>
-                <li className="scrollLink">
+                <li className="scrollLink no-mobile">
                   <NavLink to="/offer">
                     <button>
                       Sell
                     </button>
                   </NavLink>
                 </li>
-                <li className="scrollLink no-mobile">
+                <li className="scrollLink">
                   <NavLink to="/gallery">
                     <button>
                       Photos
