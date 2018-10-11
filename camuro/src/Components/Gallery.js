@@ -80,6 +80,11 @@ class Gallery extends Component {
         <div className="gallery">
           <div className="gallery-header">
             <img src={require('../Assets/photos.svg')} alt="photos" />
+            <div className="gallery-forward-arrow">
+              <Link to="/gallery/ours">
+                <img src={require('../Assets/forward-arrow.svg')} alt="forward-arrow"/>
+              </Link>
+            </div>
             <div>
               <p>
                 <Link to="/gallery/ours">

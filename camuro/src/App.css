@@ -562,8 +562,24 @@ h1{
 }
 .gallery-header{
   color: #101010;
-  max-width: 225px;
+  max-width: 90%;
   margin: 0 auto;
+}
+.gallery-header .gallery-back-arrow{
+  float: left;
+  margin: 24px -30px 0 0;
+  transition: all .2s ease;
+}
+.gallery-header .gallery-forward-arrow{
+  float: right;
+  margin: 24px 0px 0 -30px;
+  transition: all .2s ease;
+}
+.gallery-header .gallery-back-arrow:hover{
+  transform: scale(1.1);
+}
+.gallery-header .gallery-forward-arrow:hover{
+  transform: scale(1.1);
 }
 .gallery-header span{
   color: #c6574a;
