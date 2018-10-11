@@ -80,13 +80,16 @@ class Gallery extends Component {
         <div className="gallery">
           <div className="gallery-header">
             <img src={require('../Assets/photos.svg')} alt="photos" />
-              <div>
-                <p>
-                    Photos for the people.
-                    <br />
-                    By the people.
-                </p>
-              </div>
+            <div>
+              <p>
+                <Link to="/gallery/ours">
+                  Photos for the people.
+                </Link><br />
+                <Link to="/gallery">
+                  <span>By the people.</span>
+                </Link>
+              </p>
+            </div>
           </div>
           <div className={galleryClass}>
             <Gallery itemsCountPerPage={4} state={state} />

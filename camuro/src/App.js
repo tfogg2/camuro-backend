@@ -38,8 +38,8 @@ class App extends Component {
             <Route exact path="/" render={() => <Home />}/>
             <Route path="/cart" render={() => <Cart removeProduct={removeProduct} cartProducts={cartProducts} total={total} isChecked={isChecked}/>} />
             <Route path="/products" render={() => <Products addProduct={addProduct}/>} />
-            <Route path="/gallery" render={() => <Gallery />}/>
-            <Route path="/ourgallery" render={() => <OurGallery />}/>
+            <Route exact path="/gallery" render={() => <Gallery />}/>
+            <Route path="/gallery/ours" render={() => <OurGallery />}/>
             <Route path="/offer" render={() => <Offer />}/>
             <Route component={NotFound} />
           </Switch>
