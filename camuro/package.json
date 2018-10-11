@@ -8,6 +8,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
     "axios": "^0.18.0",
     "bootstrap": "^4.0.0-alpha.4",
+    "dotenv": "^6.1.0",
     "install": "^0.12.1",
     "lodash": "^4.17.10",
     "nodemailer": "^4.6.7",
