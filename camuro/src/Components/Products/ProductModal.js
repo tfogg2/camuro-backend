@@ -30,6 +30,8 @@ class ProductModal extends Component {
       return null;
     }
     const modalClass = this.state.loaded ? 'visible-item product-modal modal' : 'modal'
+    const opticClass= this.props.optics.length > 1 ? '' : 'invisible'
+    const mechanicClass= this.props.mechanics.length > 1 ? '' : 'invisible'
 
     return (
       <div className={modalClass} onClick={this.props.stopClose}>
@@ -37,21 +39,22 @@ class ProductModal extends Component {
         <div className="product-info">
           <h2 className="modal-header-title">{this.props.title}</h2>
           <span><b>${this.props.price}</b></span>
-          <p>{this.props.description}</p>
+          <p>{this.props.description.split('\n').map((item, key) => {
+            return <span key={key}>{item}<br/></span>
+          })}</p>
           <ul>
-            <label><b>Mechanics:</b></label><br />
-            <li>Focus: Smooth throughout </li>
-            <li>Diaphragm: Clean & dry with snappy action-no oil </li>
-            <li>Shutter: Speeds accurate throughout the range </li>
-            <li>Film Transport: Clean and accurate. 36-40 frames possible. Film advance in strong and smooth throughout.</li>
-            <li>Light Seals: New</li>
-            <li>Meter: Functional and accurate </li>
-            <li>Viewfinder: Big, clean and bright</li><br />
-            <label><b>Optics:</b></label><br />
-            <li>Clean, clear and bright</li>
-            <li>No fungus, haze, scratches, separation or pitting</li>
-            <li>Coatings are clean and bright on front & rear</li>
-            <li>Minimal to no dust-CLA possible depending on model</li>
+            <div className={mechanicClass}>
+              <label><b>Mechanics:</b></label><br />
+              {this.props.mechanics.split('\n').map((item, key) => {
+                return <li key={key}>{item}<br/></li>
+              })}
+            </div>
+            <div className={opticClass}>
+              <br /><label><b>Optics:</b></label><br />
+              {this.props.optics.split('\n').map((item, key) => {
+                return <li key={key}>{item}<br/></li>
+              })}
+            </div>
           </ul>
 
           {this.props.sold ?

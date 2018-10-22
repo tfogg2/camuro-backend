@@ -10,6 +10,7 @@ import Fade from 'react-reveal/Fade'
 import _ from 'lodash'
 import scrollToComponent from 'react-scroll-to-component'
 import Footer from '../Footer.js'
+import Carousel from '../Products/Carousel'
 
 
 
@@ -36,6 +37,7 @@ class Home extends Component {
           <div className={homeClass}></div>
         </div>
         <HomeCta about={this.About} />
+        
         <div className="content">
           <About offer={this.OfferForm} ref={(section) => { this.About = section; }}/>
           <div className="home-gallery" ref={(section) => { this.Gallery = section; }}>

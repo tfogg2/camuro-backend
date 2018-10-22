@@ -76,7 +76,6 @@ h1{
 .home-bg{
   background: url('./Assets/leicaM6-dark-medium.png') no-repeat;
   background-color: #080808;
-  background-position-x: 0px;
   background-size: cover;
   height: 700px;
   width: 100%;
@@ -92,6 +91,7 @@ h1{
   opacity: 1;
 }
 .home-cta{
+  opacity: 0;
   width: 90%;
   text-align: left;
   margin: 0 5%;
@@ -221,6 +221,7 @@ h1{
   .home .splash-background .home-bg{
     height: 300px;
     position: relative;
+
   }
   .right-nav ul li:hover{
     background: #000;
@@ -974,9 +975,41 @@ h1{
 /* CART */
 
 /* PRODUCTS */
-@media (max-width: 1125px) {
-
+/* FEATURED PRODUCTS */
+.featured-product{
+  flex: 1 0 100%;
+  flex-basis: 20%;
+  margin-right: 20px;
+  cursor: pointer;
 }
+.wrapper{
+  width: 100%;
+  overflow: hidden;
+}
+.carousel{
+  display: flex;
+  margin: 20px 0 20px 20px;
+}
+.featured-product-image{
+  transition: opacity .5s ease-in-out;
+}
+.featured-product-image:hover img{
+  opacity: .2;
+}
+.featured-product-image:hover h2{
+  opacity: 1;
+}
+.featured-product-image h2{
+  opacity: 0;
+  color: #c6574a;
+  position: relative;
+  margin-top: -125px;
+  font-weight: 900;
+  font-size: 20px;
+  z-index: 1000;
+  transition: opacity .5s ease-in-out;
+}
+/* FEATURED PRODUCTS */
 @media (max-width: 890px) {
   .product-modal .product-gallery{
     width: 80%;

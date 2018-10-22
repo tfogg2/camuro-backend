@@ -52,10 +52,10 @@ class Products extends Component {
             ({ category }) =>
               displayCategory === category || displayCategory === "All"
           )
-          .map(({ product, category, title, description, price, index, image, images, sold }) => (
+          .map(({ product, category, title, description, price, index, image, images, sold, mechanics, optics }) => (
             <div className="product-box">
               <div>
-                <Product key={`ProductItems-${title}`} toggleModal={this.toggleModal} isOpen={this.state.isOpen} product={product} images={images} image={image} index={index} sold={sold} category={category} title={title} description={description} price={price} addProduct={this.props.addProduct} />
+                <Product key={`ProductItems-${title}`} toggleModal={this.toggleModal} isOpen={this.state.isOpen} mechanics={mechanics} optics={optics} product={product} images={images} image={image} index={index} sold={sold} category={category} title={title} description={description} price={price} addProduct={this.props.addProduct} />
               </div>
             </div>
           ))}
@@ -102,10 +102,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/canonet-10.png'), thumbnail: require('../../Assets/Products/canonet-10-small.png')}
     ],
     title: "Canon Canonet Giii QL 17 w/ Canonlite D, Filter & Cap-Boxes",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics: "",
+    optics:"",
     category: "SLRs",
     price: 299,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/canonfd2-1-featured.png'),
@@ -122,10 +124,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/canonfd2-10.png'), thumbnail: require('../../Assets/Products/canonfd2-10-small.png')}
     ],
     title: "Canon FD 50mm f1.2 with UV Filter, Caps & Case",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Lenses",
     price: 299,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/contax167-1-featured.png'),
@@ -142,10 +146,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/contax167-10.png'), thumbnail: require('../../Assets/Products/contax167-10-small.png')}
     ],
     title: "Contax 167mt SLR w/ Zeiss MMJ 45mm f2.8 Lens, Filter, Strap & Cap Combo",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "SLRs",
     price: 329,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/contaxii-1-featured.png'),
@@ -159,10 +165,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/contaxii-7.png'), thumbnail: require('../../Assets/Products/contaxii-7-small.png')}
     ],
     title: "Contax iia 'Color Dial' Rangefinder w/ Zeiss-Opton Sonnar 5cm f1.5 Post War T Coated Lens",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Rangefinders",
     price: 419,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/konicabigmini-1-featured.png'),
@@ -176,10 +184,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/konicabigmini-7.png'), thumbnail: require('../../Assets/Products/konicabigmini-7-small.png')}
     ],
     title: "Konica Big Mini BM-302 Pocket Camera w/ Original Konica Strap",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Pocket Cameras",
     price: 179,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/leicaiiib-1-featured.png'),
@@ -194,10 +204,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/leicaiiib-8.png'), thumbnail: require('../../Assets/Products/leicaiiib-8-small.png')}
     ],
     title: 'Leica iiib Rangefinder, “Of Era, A.C. Muller” Modified Flash Synchro w/ Silver Body Cap',
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Rangefinders",
     price: 339,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/leicasummicron-1-featured.png'),
@@ -212,10 +224,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/leicasummicron-8.png'), thumbnail: require('../../Assets/Products/leicasummicron-8-small.png')}
     ],
     title: "Leica Summaron 35 3.5 M Mount w/ Goggles & Hood",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Lenses",
     price: 519,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/minoltam-1-featured.png'),
@@ -232,10 +246,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/minoltam-10.png'), thumbnail: require('../../Assets/Products/minoltam-10-small.png')}
     ],
     title: "Minolta M-Rokkor 40mm f2 with Minolta Cap, UV Filter & Case",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Lenses",
     price: 499,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/minoltarokkor-1-featured.png'),
@@ -254,10 +270,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/minoltarokkor-12.png'), thumbnail: require('../../Assets/Products/minoltarokkor-12-small.png')},
     ],
     title: "Minolta SRT101 with Rokkor-X 50mm f1.7 Lens & Original Leather Case",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "SLRs",
     price: 89,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/nikonf1-3-featured.png'),
@@ -273,10 +291,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/nikonf1-9.png'), thumbnail: require('../../Assets/Products/nikonf1-9-small.png')}
     ],
     title: "Nikon F w/ 45mm 2.8 Pancake Lens & UV Filter",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "SLRs",
     price: 279,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/nikonfpho-1-featured.png'),
@@ -294,10 +314,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/nikonfpho-11.png'), thumbnail: require('../../Assets/Products/nikonfpho-11-small.png')}
     ],
     title: "Nikon F Photomic w/ 50mm f1.4 & Original Half Case",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "SLRs",
     price: 329,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/nikonf2w50-1-featured.png'),
@@ -317,10 +339,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/nikonf2w50-13.png'), thumbnail: require('../../Assets/Products/nikonf2w50-13-small.png')}
     ],
     title: "Nikon F2 w/ Nikkor 50mm 1.4",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "SLRs",
     price: 279,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/nikonf2-1-featured.png'),
@@ -341,10 +365,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/nikonf2-14.png'), thumbnail: require('../../Assets/Products/nikonf2-14-small.png')}
     ],
     title: "Nikon F2 w/ D-11 & Waist-Lever Finders",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "SLRs",
     price: 279,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/nikonf3-1-featured.png'),
@@ -359,10 +385,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/nikonf3-9.png'), thumbnail: require('../../Assets/Products/nikonf3-9-small.png')}
     ],
     title: "Nikon F3 w/ Original Strap, Body Cap & MD-4 Motor Drive",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "SLRs",
     price: 229,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/nikon5-1-featured.png'),
@@ -380,10 +408,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/nikon5-11.png'), thumbnail: require('../../Assets/Products/nikon5-11-small.png')}
     ],
     title: "Nippon Kogaku Nikkor 5.8cm f1.4 with Original Caps & Hood",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Lenses",
     price: 289,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/olympusxa2-1-featured.png'),
@@ -398,10 +428,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/olympusxa2-9.png'), thumbnail: require('../../Assets/Products/olympusxa2-9-small.png')}
     ],
     title: "Olympus XA2 with Strap, Manual & Case",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Rangefinders",
     price: 99,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/zeiss135-5-featured.png'),
@@ -415,10 +447,12 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/zeiss135-7.png'), thumbnail: require('../../Assets/Products/zeiss135-7-small.png')}
     ],
     title: "Zeiss 135mm f4 Sonnar-Contax RF",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Lenses",
     price: 119,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/mamya7-9-featured.png'),
@@ -438,7 +472,9 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/mamya7-13.png'), thumbnail: require('../../Assets/Products/mamya7-13-small.png')}
     ],
     title: "Mamiya 7ii 6x7 Medium Format Rangefinder w/ 65mm f4 Lens, Original Caps & Hood",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Rangefinders",
     price: 3719,
     sold: true
@@ -459,7 +495,9 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/o95-11.png'), thumbnail: require('../../Assets/Products/o95-11-small.png')}
     ],
     title: "Canon 7 Rangefinder w/ Canon 50mm f0.95 “Dream Lens” w/ Original Filter & Caps",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Rangefinders",
     price: 2850,
     sold: true
@@ -479,7 +517,9 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/yashica124-10.png'), thumbnail: require('../../Assets/Products/yashica124-10-small.png')}
     ],
     title: "Yashica 124G 6x6 Medium Format TLR",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "TLRs",
     price: 289,
     sold: true
@@ -500,7 +540,9 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/canonfd-11.png'), thumbnail: require('../../Assets/Products/canonfd-11-small.png')}
     ],
     title: "Canon nFD 28mm f2 In Box w/ Original Caps & Hood",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "Lenses",
     price: 279,
     sold: true
@@ -519,7 +561,9 @@ const PRODUCTS = [
       {original: require('../../Assets/Products/olympuspen-09.png'), thumbnail: require('../../Assets/Products/olympuspen-09-small.png')}
     ],
     title: "Olympus Pen Ft Half-Frame SLR w/ Zuiko 38mm f1.8 Lens, Filter & Original Cap",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    description: "",
+    mechanics:"",
+    optics:"",
     category: "SLRs",
     price: 249,
     sold: true
