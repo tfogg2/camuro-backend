@@ -401,7 +401,7 @@ const PRODUCTS = [
     mechanics: "",
     optics:"",
     category: "Lenses",
-    price: 0,
+    price: 99,
     sold: false
   },
 
@@ -491,7 +491,7 @@ const PRODUCTS = [
     mechanics: "",
     optics:"",
     category: "Lenses",
-    price: 0,
+    price: 559,
     sold: false
   },
 
