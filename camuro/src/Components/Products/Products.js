@@ -684,32 +684,7 @@ const PRODUCTS = [
     category: "SLRs",
     price: 329,
     sold: true
-  },
-
-  { image: require('../../Assets/Products/nikonf2w50-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/nikonf2w50-1.png'), thumbnail: require('../../Assets/Products/nikonf2w50-1-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-2.png'), thumbnail: require('../../Assets/Products/nikonf2w50-2-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-3.png'), thumbnail: require('../../Assets/Products/nikonf2w50-3-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-4.png'), thumbnail: require('../../Assets/Products/nikonf2w50-4-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-5.png'), thumbnail: require('../../Assets/Products/nikonf2w50-5-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-6.png'), thumbnail: require('../../Assets/Products/nikonf2w50-6-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-7.png'), thumbnail: require('../../Assets/Products/nikonf2w50-7-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-8.png'), thumbnail: require('../../Assets/Products/nikonf2w50-8-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-9.png'), thumbnail: require('../../Assets/Products/nikonf2w50-9-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-10.png'), thumbnail: require('../../Assets/Products/nikonf2w50-10-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-11.png'), thumbnail: require('../../Assets/Products/nikonf2w50-11-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-12.png'), thumbnail: require('../../Assets/Products/nikonf2w50-12-small.png')},
-      {original: require('../../Assets/Products/nikonf2w50-13.png'), thumbnail: require('../../Assets/Products/nikonf2w50-13-small.png')}
-    ],
-    title: "Nikon F2 w/ Nikkor 50mm 1.4",
-    description: "",
-    mechanics:"",
-    optics:"",
-    category: "SLRs",
-    price: 279,
-    sold: true
-  },
+  }, 
 
   { image: require('../../Assets/Products/nikonf2-1-featured.png'),
     images: [
