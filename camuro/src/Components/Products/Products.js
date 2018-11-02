@@ -642,30 +642,6 @@ const PRODUCTS = [
     sold: true
   },
 
-  { image: require('../../Assets/Products/minoltarokkor-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/minoltarokkor-1.png'), thumbnail: require('../../Assets/Products/minoltarokkor-1-small.png')},
-      {original: require('../../Assets/Products/minoltarokkor-2.png'), thumbnail: require('../../Assets/Products/minoltarokkor-2-small.png')},
-      {original: require('../../Assets/Products/minoltarokkor-3.png'), thumbnail: require('../../Assets/Products/minoltarokkor-3-small.png')},
-      {original: require('../../Assets/Products/minoltarokkor-4.png'), thumbnail: require('../../Assets/Products/minoltarokkor-4-small.png')},
-      {original: require('../../Assets/Products/minoltarokkor-5.png'), thumbnail: require('../../Assets/Products/minoltarokkor-5-small.png')},
-      {original: require('../../Assets/Products/minoltarokkor-6.png'), thumbnail: require('../../Assets/Products/minoltarokkor-6-small.png')},
-      {original: require('../../Assets/Products/minoltarokkor-7.png'), thumbnail: require('../../Assets/Products/minoltarokkor-7-small.png')},
-      {original: require('../../Assets/Products/minoltarokkor-8.png'), thumbnail: require('../../Assets/Products/minoltarokkor-8-small.png')},
-      {original: require('../../Assets/Products/minoltarokkor-9.png'), thumbnail: require('../../Assets/Products/minoltarokkor-9-small.png')},
-      {original: require('../../Assets/Products/minoltarokkor-10.png'), thumbnail: require('../../Assets/Products/minoltarokkor-10-small.png')},
-      {original: require('../../Assets/Products/minoltarokkor-11.png'), thumbnail: require('../../Assets/Products/minoltarokkor-11-small.png')},
-      {original: require('../../Assets/Products/minoltarokkor-12.png'), thumbnail: require('../../Assets/Products/minoltarokkor-12-small.png')},
-    ],
-    title: "Minolta SRT101 with Rokkor-X 50mm f1.7 Lens & Original Leather Case",
-    description: "",
-    mechanics:"",
-    optics:"",
-    category: "SLRs",
-    price: 89,
-    sold: true
-  },
-
   { image: require('../../Assets/Products/nikonf1-3-featured.png'),
     images: [
       {original: require('../../Assets/Products/nikonf1-3.png'), thumbnail: require('../../Assets/Products/nikonf1-3-small.png')},
@@ -781,66 +757,6 @@ const PRODUCTS = [
     sold: true
   },
 
-  { image: require('../../Assets/Products/nikon5-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/nikon5-1.png'), thumbnail: require('../../Assets/Products/nikon5-1-small.png')},
-      {original: require('../../Assets/Products/nikon5-2.png'), thumbnail: require('../../Assets/Products/nikon5-2-small.png')},
-      {original: require('../../Assets/Products/nikon5-3.png'), thumbnail: require('../../Assets/Products/nikon5-3-small.png')},
-      {original: require('../../Assets/Products/nikon5-4.png'), thumbnail: require('../../Assets/Products/nikon5-4-small.png')},
-      {original: require('../../Assets/Products/nikon5-5.png'), thumbnail: require('../../Assets/Products/nikon5-5-small.png')},
-      {original: require('../../Assets/Products/nikon5-6.png'), thumbnail: require('../../Assets/Products/nikon5-6-small.png')},
-      {original: require('../../Assets/Products/nikon5-7.png'), thumbnail: require('../../Assets/Products/nikon5-7-small.png')},
-      {original: require('../../Assets/Products/nikon5-8.png'), thumbnail: require('../../Assets/Products/nikon5-8-small.png')},
-      {original: require('../../Assets/Products/nikon5-9.png'), thumbnail: require('../../Assets/Products/nikon5-9-small.png')},
-      {original: require('../../Assets/Products/nikon5-10.png'), thumbnail: require('../../Assets/Products/nikon5-10-small.png')},
-      {original: require('../../Assets/Products/nikon5-11.png'), thumbnail: require('../../Assets/Products/nikon5-11-small.png')}
-    ],
-    title: "Nippon Kogaku Nikkor 5.8cm f1.4 with Original Caps & Hood",
-    description: "",
-    mechanics:"",
-    optics:"",
-    category: "Lenses",
-    price: 289,
-    sold: true
-  },
-
-  { image: require('../../Assets/Products/olympusXa2-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/olympusXa2-1.png'), thumbnail: require('../../Assets/Products/olympusXa2-1-small.png')},
-      {original: require('../../Assets/Products/olympusXa2-2.png'), thumbnail: require('../../Assets/Products/olympusXa2-2-small.png')},
-      {original: require('../../Assets/Products/olympusXa2-3.png'), thumbnail: require('../../Assets/Products/olympusXa2-3-small.png')},
-      {original: require('../../Assets/Products/olympusXa2-4.png'), thumbnail: require('../../Assets/Products/olympusXa2-4-small.png')},
-      {original: require('../../Assets/Products/olympusXa2-5.png'), thumbnail: require('../../Assets/Products/olympusXa2-5-small.png')},
-      {original: require('../../Assets/Products/olympusXa2-7.png'), thumbnail: require('../../Assets/Products/olympusXa2-7-small.png')}
-    ],
-    title: "Olympus XA2 with Strap, Manual & Case",
-    description: "",
-    mechanics:"",
-    optics:"",
-    category: "Rangefinders",
-    price: 99,
-    sold: true
-  },
-
-  { image: require('../../Assets/Products/zeiss135-5-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/zeiss135-5.png'), thumbnail: require('../../Assets/Products/zeiss135-5-small.png')},
-      {original: require('../../Assets/Products/zeiss135-2.png'), thumbnail: require('../../Assets/Products/zeiss135-2-small.png')},
-      {original: require('../../Assets/Products/zeiss135-3.png'), thumbnail: require('../../Assets/Products/zeiss135-3-small.png')},
-      {original: require('../../Assets/Products/zeiss135-4.png'), thumbnail: require('../../Assets/Products/zeiss135-4-small.png')},
-      {original: require('../../Assets/Products/zeiss135-1.png'), thumbnail: require('../../Assets/Products/zeiss135-1-small.png')},
-      {original: require('../../Assets/Products/zeiss135-6.png'), thumbnail: require('../../Assets/Products/zeiss135-6-small.png')},
-      {original: require('../../Assets/Products/zeiss135-7.png'), thumbnail: require('../../Assets/Products/zeiss135-7-small.png')}
-    ],
-    title: "Zeiss 135mm f4 Sonnar-Contax RF",
-    description: "",
-    mechanics:"",
-    optics:"",
-    category: "Lenses",
-    price: 119,
-    sold: true
-  },
-
   { image: require('../../Assets/Products/mamya7-9-featured.png'),
     images: [
       {original: require('../../Assets/Products/mamya7-9.png'), thumbnail: require('../../Assets/Products/mamya7-9-small.png')},
@@ -886,72 +802,6 @@ const PRODUCTS = [
     optics:"",
     category: "Rangefinders",
     price: 2850,
-    sold: true
-  },
-
-  { image: require('../../Assets/Products/yashica124-9-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/yashica124-9.png'), thumbnail: require('../../Assets/Products/yashica124-9-small.png')},
-      {original: require('../../Assets/Products/yashica124-2.png'), thumbnail: require('../../Assets/Products/yashica124-2-small.png')},
-      {original: require('../../Assets/Products/yashica124-3.png'), thumbnail: require('../../Assets/Products/yashica124-3-small.png')},
-      {original: require('../../Assets/Products/yashica124-4.png'), thumbnail: require('../../Assets/Products/yashica124-4-small.png')},
-      {original: require('../../Assets/Products/yashica124-5.png'), thumbnail: require('../../Assets/Products/yashica124-5-small.png')},
-      {original: require('../../Assets/Products/yashica124-6.png'), thumbnail: require('../../Assets/Products/yashica124-6-small.png')},
-      {original: require('../../Assets/Products/yashica124-7.png'), thumbnail: require('../../Assets/Products/yashica124-7-small.png')},
-      {original: require('../../Assets/Products/yashica124-8.png'), thumbnail: require('../../Assets/Products/yashica124-8-small.png')},
-      {original: require('../../Assets/Products/yashica124-1.png'), thumbnail: require('../../Assets/Products/yashica124-1-small.png')},
-      {original: require('../../Assets/Products/yashica124-10.png'), thumbnail: require('../../Assets/Products/yashica124-10-small.png')}
-    ],
-    title: "Yashica 124G 6x6 Medium Format TLR",
-    description: "",
-    mechanics:"",
-    optics:"",
-    category: "TLRs",
-    price: 289,
-    sold: true
-  },
-
-  { image: require('../../Assets/Products/canonfd-7-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/canonfd-7.png'), thumbnail: require('../../Assets/Products/canonfd-7-small.png')},
-      {original: require('../../Assets/Products/canonfd-2.png'), thumbnail: require('../../Assets/Products/canonfd-2-small.png')},
-      {original: require('../../Assets/Products/canonfd-3.png'), thumbnail: require('../../Assets/Products/canonfd-3-small.png')},
-      {original: require('../../Assets/Products/canonfd-4.png'), thumbnail: require('../../Assets/Products/canonfd-4-small.png')},
-      {original: require('../../Assets/Products/canonfd-5.png'), thumbnail: require('../../Assets/Products/canonfd-5-small.png')},
-      {original: require('../../Assets/Products/canonfd-6.png'), thumbnail: require('../../Assets/Products/canonfd-6-small.png')},
-      {original: require('../../Assets/Products/canonfd-1.png'), thumbnail: require('../../Assets/Products/canonfd-1-small.png')},
-      {original: require('../../Assets/Products/canonfd-8.png'), thumbnail: require('../../Assets/Products/canonfd-8-small.png')},
-      {original: require('../../Assets/Products/canonfd-9.png'), thumbnail: require('../../Assets/Products/canonfd-9-small.png')},
-      {original: require('../../Assets/Products/canonfd-10.png'), thumbnail: require('../../Assets/Products/canonfd-10-small.png')},
-      {original: require('../../Assets/Products/canonfd-11.png'), thumbnail: require('../../Assets/Products/canonfd-11-small.png')}
-    ],
-    title: "Canon nFD 28mm f2 In Box w/ Original Caps & Hood",
-    description: "",
-    mechanics:"",
-    optics:"",
-    category: "Lenses",
-    price: 279,
-    sold: true
-  },
-
-  { image: require('../../Assets/Products/olympuspen-01-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/olympuspen-01.png'), thumbnail: require('../../Assets/Products/olympuspen-01-small.png')},
-      {original: require('../../Assets/Products/olympuspen-02.png'), thumbnail: require('../../Assets/Products/olympuspen-02-small.png')},
-      {original: require('../../Assets/Products/olympuspen-03.png'), thumbnail: require('../../Assets/Products/olympuspen-03-small.png')},
-      {original: require('../../Assets/Products/olympuspen-04.png'), thumbnail: require('../../Assets/Products/olympuspen-04-small.png')},
-      {original: require('../../Assets/Products/olympuspen-05.png'), thumbnail: require('../../Assets/Products/olympuspen-05-small.png')},
-      {original: require('../../Assets/Products/olympuspen-06.png'), thumbnail: require('../../Assets/Products/olympuspen-06-small.png')},
-      {original: require('../../Assets/Products/olympuspen-07.png'), thumbnail: require('../../Assets/Products/olympuspen-07-small.png')},
-      {original: require('../../Assets/Products/olympuspen-08.png'), thumbnail: require('../../Assets/Products/olympuspen-08-small.png')},
-      {original: require('../../Assets/Products/olympuspen-09.png'), thumbnail: require('../../Assets/Products/olympuspen-09-small.png')}
-    ],
-    title: "Olympus Pen Ft Half-Frame SLR w/ Zuiko 38mm f1.8 Lens, Filter & Original Cap",
-    description: "",
-    mechanics:"",
-    optics:"",
-    category: "SLRs",
-    price: 249,
     sold: true
   },
 
