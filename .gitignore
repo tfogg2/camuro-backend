@@ -6,5 +6,3 @@ sendgrid.env
 .env.development.local
 .env.test.local
 .env.production.local
-
-constants/stripe.js
