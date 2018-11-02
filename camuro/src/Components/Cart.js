@@ -6,6 +6,7 @@ import SelectUSState from 'react-select-us-states'
 
 const Cart = props => {
   const products = props.cartProducts
+  const titles = products.map((product) => (product.title))
   const total = props.total
   const shipTotal = total + 15
   const sum = shipTotal * 100
@@ -71,7 +72,7 @@ const Cart = props => {
           <div className="cart-checkout">
             <Checkout
                name={'Checkout'}
-               description={''}
+               description={JSON.stringify(titles)}
                amount={shipTotal}
                data-billing-address={true}
             />
