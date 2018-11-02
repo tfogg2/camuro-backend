@@ -288,7 +288,11 @@ h1{
   .home .about-copy{
     width: 90%;
   }
-  .home .home-offer{
+  .home .home-offer p{
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .home .home-offer .offer-gallery{
     width: 90%;
   }
   .home .form-group.item.price span{
@@ -549,22 +553,29 @@ h1{
   background: #fff;
 }
 .home-gallery .gallery{
-  padding-bottom: 30px;
   padding-top: 0;
   margin-top: 0;
 }
 .gallery{
-  width: 90%;
+  width: 100%;
   margin-top: 60px;
   min-height: 300px;
-  padding: 40px 5%;
+  padding:0;
   overflow: overlay;
+  background: #fff;
+}
+.home-content .gallery-header{
   background: #fff;
 }
 .gallery-header{
   color: #101010;
-  max-width: 90%;
+  width: 100%;
+  padding: 40px 5% 40px 5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0 auto;
+  background: #f6f6f6;
+  height: 200px;
 }
 .gallery-header .gallery-back-arrow{
   float: left;
@@ -573,7 +584,7 @@ h1{
 }
 .gallery-header .gallery-forward-arrow{
   float: right;
-  margin: 50px 0px 0 -30px;
+  margin: 55px 0px 0 -30px;
   transition: all .2s ease;
 }
 .gallery-header .gallery-back-arrow:hover{
@@ -601,6 +612,9 @@ h1{
 }
 .gallery-header a{
   text-decoration: none;
+}
+.home-gallery .gallery-items{
+  padding-top: 0;
 }
 .gallery-items{
   padding-top: 40px;
@@ -976,21 +990,71 @@ h1{
 
 /* PRODUCTS */
 /* FEATURED PRODUCTS */
+@media (max-width: 1185px) {
+  .home .wrapper{
+    width: 100%;
+  }
+  .home .wrapper .featured-product{
+    width: 30%;
+    margin: 5px;
+  }
+}
+@media (max-width: 875px) {
+  .home .wrapper .featured-product{
+    width: 47%;
+  }
+
+}
+@media (max-width: 480px) {
+  .home .wrapper .featured-product{
+    width: 65%;
+    margin: 5px auto;
+    min-height: 150px;
+  }
+  .home .wrapper .featured-product img{
+    width: 100%;
+  }
+  .home .wrapper .featured-product .featured-product-image h2{
+    width: 90%;
+    text-align: center;
+    margin: -125px 5% 0 5%;
+  }
+}
+.split-section{
+  overflow: auto;
+}
+.featured-products{
+  margin-top: 20px;
+}
 .featured-product{
-  flex: 1 0 100%;
-  flex-basis: 20%;
-  margin-right: 20px;
+  display: inline-block;
   cursor: pointer;
+  width: 24%;
+  min-height: 180px;
+  margin: 0 10px;
+  overflow: hidden;
+}
+.gallery-btn.featured-btn{
+  margin-top: 10px;
+}
+.wrapper.filmpool{
+  display: none;
 }
 .wrapper{
   width: 100%;
-  overflow: hidden;
+  color: #000;
+  display: block;
+  float: left;
+  overflow: auto;
+  padding: 40px 0;
 }
 .carousel{
   display: flex;
   margin: 20px 0 20px 20px;
 }
 .featured-product-image{
+  width: 100%;
+  margin: 0 auto;
   transition: opacity .5s ease-in-out;
 }
 .featured-product-image:hover img{
@@ -999,11 +1063,28 @@ h1{
 .featured-product-image:hover h2{
   opacity: 1;
 }
-.featured-product-image h2{
+.featured-product-image:hover span{
+  opacity: 1;
+}
+.featured-product-image span{
   opacity: 0;
+  width: 80%;
+  margin-left: 10%;
+  line-height: 50px;
   color: #c6574a;
   position: relative;
-  margin-top: -125px;
+  font-weight: 900;
+  font-size: 20px;
+  z-index: 1000;
+  transition: opacity .5s ease-in-out;
+}
+.featured-product-image h2{
+  opacity: 0;
+  width: 80%;
+  margin-left: 10%;
+  color: #000;
+  position: relative;
+  margin-top: -150px;
   font-weight: 900;
   font-size: 20px;
   z-index: 1000;
@@ -1096,6 +1177,7 @@ h1{
 }
 .product-info{
   width: 100%;
+  color: #000;
   padding: 20px 20%;
   box-sizing: border-box;
   text-align: left;
@@ -1116,7 +1198,8 @@ h1{
 }
 .product-nav{
   color: #000;
-  margin-top: 30px;
+  width: 70%;
+  margin: 30px auto;
   padding: 0;
   box-sizing: border-box;
   display: block;
@@ -1154,7 +1237,7 @@ h1{
 }
 .product{
   width: 250px;
-  height: 300px;
+  min-height: 250px;
   float: left;
   padding: 0px;
   background: #fff;
@@ -1257,14 +1340,24 @@ h1{
 
 .home-offer{
   height: fit-content;
-  width: 50%;
   margin: 0 auto;
   text-align: center;
-  padding: 80px 0;
+  padding: 80px 0 40px 0;
   color: #000;
 }
+.home-offer span{
+  color: #c6574a;
+}
+.home-offer .offer-gallery{
+  width: 60%;
+  margin: 20px auto 0px auto;
+}
+.home-offer .gallery-btn{
+  margin-top: 20px;
+}
 .home-offer p{
+  width: 50%;
   font-size: 20px;
-  margin: 15px 0 30px 0;
+  margin: 15px auto 0px auto;
 }
 /* PRODUCTS */

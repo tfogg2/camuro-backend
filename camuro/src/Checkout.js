@@ -11,11 +11,12 @@ const CURRENCY = 'USD';
 const fromDollarToCent = amount => amount * 100;
 
 const successPayment = data => {
-  alert('Payment Successful');
+  alert("Thanks for shopping with us! We'll send you a confirmation email once your item is shipped.");
 };
 
 const errorPayment = data => {
   alert('Payment Error');
+  alert(data)
 };
 
 const onToken = (amount, description) => (token, args) =>

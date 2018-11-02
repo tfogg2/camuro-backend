@@ -6,11 +6,15 @@ const bodyParser = require('body-parser')
 const SERVER_CONFIGS = require('./constants/server');
 const configureServer = require('./server');
 const configureRoutes = require('./routes');
+require('dotenv').config()
+
+const keyPublishable = process.env.PUBLISHABLE_KEY;
+const keySecret = process.env.SECRET_KEY;
 
 const app = express()
 const path = require('path')
 
-require('dotenv').config()
+
 
 app.use(express.static(path.join(__dirname, 'camuro/build')))
 

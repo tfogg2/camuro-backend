@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ImageGallery from 'react-image-gallery'
 import HomeCta from './HomeCta.js'
 import Products from '../Products/Products.js'
 import Gallery from '../Gallery'
@@ -11,6 +12,7 @@ import _ from 'lodash'
 import scrollToComponent from 'react-scroll-to-component'
 import Footer from '../Footer.js'
 import Carousel from '../Products/Carousel'
+import FilmPool from './FilmPool'
 
 
 
@@ -28,29 +30,66 @@ class Home extends Component {
     const about = document.getElementById('about')
   }
 
+
+
   render(){
+
+    const images = [
+      {
+        original: require('../../Assets/Products/olympusOm1-8.png'),
+        thumbnail: require('../../Assets/Products/olympusOm1-8.png')
+      },
+      {
+        original: require('../../Assets/Products/nikkor35-3.png'),
+        thumbnail: require('../../Assets/Products/nikkor35-3.png')
+      },
+      {
+        original: require('../../Assets/Products/minolta7-1.png'),
+        thumbnail: require('../../Assets/Products/minolta7-1.png')
+      },
+      {
+        original: require('../../Assets/Products/leicaSummi40-4.png'),
+        thumbnail: require('../../Assets/Products/leicaSummi40-4.png')
+      },
+      {
+        original: require('../../Assets/Products/mamiya330-2.png'),
+        thumbnail: require('../../Assets/Products/mamiya330-2.png')
+      },
+      {
+        original: require('../../Assets/Products/leicaSummi50-4.png'),
+        thumbnail: require('../../Assets/Products/leicaSummi50-4.png')
+      },
+      {
+        original: require('../../Assets/Products/fujiGW-1.png'),
+        thumbnail: require('../../Assets/Products/fujiGW-1.png')
+      },
+    ]
+
+
     const homeClass = this.state.loaded ? 'home-bg visible' : 'home-bg'
-    const limit = 9
+    const limit = 12
     return(
       <div className="home">
         <div className="splash-background">
           <div className={homeClass}></div>
         </div>
         <HomeCta about={this.About} />
-        
+        <div className="split-section">
+          <Carousel />
+          <FilmPool />
+        </div>
         <div className="content">
-          <About offer={this.OfferForm} ref={(section) => { this.About = section; }}/>
           <div className="home-gallery" ref={(section) => { this.Gallery = section; }}>
             <div className='home-content'>
               <Gallery limit={limit} path="/"/>
-              <Link to="/gallery" alt="Gallery" style={{color: '#c6574a', fontSize: '20px'}}>
-                More
-              </Link>
             </div>
           </div>
           <div className="home-offer">
-            <h1>We Sell Clean Cameras</h1>
+            <h1><span>Camuro</span> Cameras</h1>
             <p>We're constantly adding to our collection and are excited to begin sharing it here. Our cameras come professionally cleaned so you can focus on what's important.</p>
+            <div className="offer-gallery">
+              <ImageGallery items={images} />
+            </div>
             <Link to="/products" alt="Products">
               <button className="gallery-btn">
                 Shop Now

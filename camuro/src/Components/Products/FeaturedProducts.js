@@ -10,56 +10,17 @@ class FeaturedProducts extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      products: PRODUCTS,
-      position: 0
+      products: PRODUCTS
     }
   }
-
-  getOrder(itemIndex) {
-    const  {position}  = this.state
-    const  children  = this.props
-    const numItems = children.length || 1
-    if (itemIndex - position < 0) {
-      return numItems - Math.abs(itemIndex - position)
-    }
-    return itemIndex - position
-  }
-
-  nextSlide = () => {
-    const  position  = this.state
-    const  children  = this.props
-    const numItems = children.length || 1
-    this.setState({
-      position: position === numItems - 1 ? 0 : position + 1
-    })
-  }
-
-  doSliding = (position) => {
-    this.setState({
-      sliding: true,
-      position
-    })
-    setTimeout(() => {
-     this.setState({
-        sliding: false
-      })
-    }, 50)
-  }
-
 
   render() {
-    const CarouselSlot = styled.div`
-      order: ${(props) => props.order};
-    `
     const ProductItems = ({ state: { products, displayCategory } }) => (
-      <div className="carousel">
+      <div className="featured-products">
         {products
-          .map(({ product, category, title, description, price, index, image, images, sold }) => (
-            <CarouselSlot key={ index } order={ this.getOrder(index) }>
-              <FeaturedProduct key={index} toggleModal={this.toggleModal} isOpen={this.state.isOpen} product={product} images={images} image={image} index={index} sold={sold} category={category} title={title} description={description} price={price} addProduct={this.props.addProduct} />
-            </CarouselSlot>
+          .map(({ product, category, title, description, price, index, image, images, sold, optics, mechanics }) => (
+            <FeaturedProduct key={index} toggleModal={this.toggleModal} optics={optics} mechanics={mechanics} isOpen={this.state.isOpen} product={product} images={images} image={image} index={index} sold={sold} category={category} title={title} description={description} price={price} addProduct={this.props.addProduct} />
           ))}
-          <button onClick={ () => this.nextSlide() } style={{position:'absolute'}}>Next</button>
       </div>
     )
     const UI = ({
@@ -68,162 +29,158 @@ class FeaturedProducts extends Component {
       setCategory,
       AllProducts,
     }) => (
-      <ProductItems state={state} />
+      <div>
+        <img src={require('../../Assets/shop-3.svg')} alt="Shop Now!" />
+        <ProductItems state={state} />
+        <Link to='/products' alt="Products">
+          <button className="gallery-btn featured-btn">See More</button>
+        </Link>
+      </div>
     )
-    return <UI setCategory={this.setCategory} state={this.state} className />
+    return <UI setCategory={this.setCategory} state={this.state} />
   }
 }
 
 // data
 const PRODUCTS = [
 
-  { image: require('../../Assets/Products/canonet-1-featured.png'),
+  { image: require('../../Assets/Products/konicaHex-1-featured.png'),
     images: [
-      {original: require('../../Assets/Products/canonet-1.png'), thumbnail: require('../../Assets/Products/canonet-1-small.png')},
-      {original: require('../../Assets/Products/canonet-2.png'), thumbnail: require('../../Assets/Products/canonet-2-small.png')},
-      {original: require('../../Assets/Products/canonet-3.png'), thumbnail: require('../../Assets/Products/canonet-3-small.png')},
-      {original: require('../../Assets/Products/canonet-4.png'), thumbnail: require('../../Assets/Products/canonet-4-small.png')},
-      {original: require('../../Assets/Products/canonet-5.png'), thumbnail: require('../../Assets/Products/canonet-5-small.png')},
-      {original: require('../../Assets/Products/canonet-6.png'), thumbnail: require('../../Assets/Products/canonet-6-small.png')},
-      {original: require('../../Assets/Products/canonet-7.png'), thumbnail: require('../../Assets/Products/canonet-7-small.png')},
-      {original: require('../../Assets/Products/canonet-8.png'), thumbnail: require('../../Assets/Products/canonet-8-small.png')},
-      {original: require('../../Assets/Products/canonet-9.png'), thumbnail: require('../../Assets/Products/canonet-9-small.png')},
-      {original: require('../../Assets/Products/canonet-10.png'), thumbnail: require('../../Assets/Products/canonet-10-small.png')}
+      {original: require('../../Assets/Products/konicaHex-1.png'), thumbnail: require('../../Assets/Products/konicaHex-1-small.png')},
+      {original: require('../../Assets/Products/konicaHex-2.png'), thumbnail: require('../../Assets/Products/konicaHex-2-small.png')},
+      {original: require('../../Assets/Products/konicaHex-3.png'), thumbnail: require('../../Assets/Products/konicaHex-3-small.png')},
+      {original: require('../../Assets/Products/konicaHex-4.png'), thumbnail: require('../../Assets/Products/konicaHex-4-small.png')},
+      {original: require('../../Assets/Products/konicaHex-5.png'), thumbnail: require('../../Assets/Products/konicaHex-5-small.png')},
+      {original: require('../../Assets/Products/konicaHex-6.png'), thumbnail: require('../../Assets/Products/konicaHex-6-small.png')},
+      {original: require('../../Assets/Products/konicaHex-7.png'), thumbnail: require('../../Assets/Products/konicaHex-7-small.png')},
+      {original: require('../../Assets/Products/konicaHex-8.png'), thumbnail: require('../../Assets/Products/konicaHex-8-small.png')},
+      {original: require('../../Assets/Products/konicaHex-9.png'), thumbnail: require('../../Assets/Products/konicaHex-9-small.png')},
+      {original: require('../../Assets/Products/konicaHex-10.png'), thumbnail: require('../../Assets/Products/konicaHex-10-small.png')},
+      {original: require('../../Assets/Products/konicaHex-11.png'), thumbnail: require('../../Assets/Products/konicaHex-11-small.png')},
+      {original: require('../../Assets/Products/konicaHex-12.png'), thumbnail: require('../../Assets/Products/konicaHex-12-small.png')},
+      {original: require('../../Assets/Products/konicaHex-13.png'), thumbnail: require('../../Assets/Products/konicaHex-13-small.png')},
+      {original: require('../../Assets/Products/konicaHex-14.png'), thumbnail: require('../../Assets/Products/konicaHex-14-small.png')},
+      {original: require('../../Assets/Products/konicaHex-15.png'), thumbnail: require('../../Assets/Products/konicaHex-15-small.png')},
     ],
-    title: "Canon Canonet Giii QL 17 w/ Canonlite D, Filter & Cap-Boxes",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    title: "Konica Hexar RF w 50mm M-Hexanon",
+    description: "",
+    mechanics: "",
+    optics:"",
     category: "SLRs",
-    price: 299,
+    price: 1499,
     sold: false
   },
 
-  { image: require('../../Assets/Products/canonfd2-1-featured.png'),
+  { image: require('../../Assets/Products/mamiya330-1-featured.png'),
     images: [
-      {original: require('../../Assets/Products/canonfd2-1.png'), thumbnail: require('../../Assets/Products/canonfd2-1-small.png')},
-      {original: require('../../Assets/Products/canonfd2-2.png'), thumbnail: require('../../Assets/Products/canonfd2-2-small.png')},
-      {original: require('../../Assets/Products/canonfd2-3.png'), thumbnail: require('../../Assets/Products/canonfd2-3-small.png')},
-      {original: require('../../Assets/Products/canonfd2-4.png'), thumbnail: require('../../Assets/Products/canonfd2-4-small.png')},
-      {original: require('../../Assets/Products/canonfd2-5.png'), thumbnail: require('../../Assets/Products/canonfd2-5-small.png')},
-      {original: require('../../Assets/Products/canonfd2-6.png'), thumbnail: require('../../Assets/Products/canonfd2-6-small.png')},
-      {original: require('../../Assets/Products/canonfd2-7.png'), thumbnail: require('../../Assets/Products/canonfd2-7-small.png')},
-      {original: require('../../Assets/Products/canonfd2-8.png'), thumbnail: require('../../Assets/Products/canonfd2-8-small.png')},
-      {original: require('../../Assets/Products/canonet-9.png'), thumbnail: require('../../Assets/Products/canonfd2-9-small.png')},
-      {original: require('../../Assets/Products/canonfd2-10.png'), thumbnail: require('../../Assets/Products/canonfd2-10-small.png')}
+      {original: require('../../Assets/Products/mamiya330-1.png'), thumbnail: require('../../Assets/Products/mamiya330-1-small.png')},
+      {original: require('../../Assets/Products/mamiya330-2.png'), thumbnail: require('../../Assets/Products/mamiya330-2-small.png')},
+      {original: require('../../Assets/Products/mamiya330-3.png'), thumbnail: require('../../Assets/Products/mamiya330-3-small.png')},
+      {original: require('../../Assets/Products/mamiya330-4.png'), thumbnail: require('../../Assets/Products/mamiya330-4-small.png')},
+      {original: require('../../Assets/Products/mamiya330-5.png'), thumbnail: require('../../Assets/Products/mamiya330-5-small.png')},
+      {original: require('../../Assets/Products/mamiya330-6.png'), thumbnail: require('../../Assets/Products/mamiya330-6-small.png')},
+      {original: require('../../Assets/Products/mamiya330-7.png'), thumbnail: require('../../Assets/Products/mamiya330-7-small.png')},
+      {original: require('../../Assets/Products/mamiya330-8.png'), thumbnail: require('../../Assets/Products/mamiya330-8-small.png')},
+      {original: require('../../Assets/Products/mamiya330-9.png'), thumbnail: require('../../Assets/Products/mamiya330-9-small.png')},
+      {original: require('../../Assets/Products/mamiya330-10.png'), thumbnail: require('../../Assets/Products/mamiya330-10-small.png')},
+      {original: require('../../Assets/Products/mamiya330-11.png'), thumbnail: require('../../Assets/Products/mamiya330-11-small.png')},
+      {original: require('../../Assets/Products/mamiya330-12.png'), thumbnail: require('../../Assets/Products/mamiya330-12-small.png')},
+      {original: require('../../Assets/Products/mamiya330-13.png'), thumbnail: require('../../Assets/Products/mamiya330-13-small.png')},
+      {original: require('../../Assets/Products/mamiya330-14.png'), thumbnail: require('../../Assets/Products/mamiya330-14-small.png')},
     ],
-    title: "Canon FD 50mm f1.2 with UV Filter, Caps & Case",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "Lenses",
-    price: 299,
-    sold: false
-  },
-
-  { image: require('../../Assets/Products/contax167-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/contax167-1.png'), thumbnail: require('../../Assets/Products/contax167-1-small.png')},
-      {original: require('../../Assets/Products/contax167-2.png'), thumbnail: require('../../Assets/Products/contax167-2-small.png')},
-      {original: require('../../Assets/Products/contax167-3.png'), thumbnail: require('../../Assets/Products/contax167-3-small.png')},
-      {original: require('../../Assets/Products/contax167-4.png'), thumbnail: require('../../Assets/Products/contax167-4-small.png')},
-      {original: require('../../Assets/Products/contax167-5.png'), thumbnail: require('../../Assets/Products/contax167-5-small.png')},
-      {original: require('../../Assets/Products/contax167-6.png'), thumbnail: require('../../Assets/Products/contax167-6-small.png')},
-      {original: require('../../Assets/Products/contax167-7.png'), thumbnail: require('../../Assets/Products/contax167-7-small.png')},
-      {original: require('../../Assets/Products/contax167-8.png'), thumbnail: require('../../Assets/Products/contax167-8-small.png')},
-      {original: require('../../Assets/Products/contax167-9.png'), thumbnail: require('../../Assets/Products/contax167-9-small.png')},
-      {original: require('../../Assets/Products/contax167-10.png'), thumbnail: require('../../Assets/Products/contax167-10-small.png')}
-    ],
-    title: "Contax 167mt SLR w/ Zeiss MMJ 45mm f2.8 Lens, Filter, Strap & Cap Combo",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
+    title: "Mamiya C330 Pro S Blue Dot 80mm 2.8",
+    description: "",
+    mechanics: "",
+    optics:"",
     category: "SLRs",
-    price: 329,
+    price: 999,
     sold: false
   },
 
-  { image: require('../../Assets/Products/contaxii-1-featured.png'),
+  { image: require('../../Assets/Products/nikkor35-10-featured.png'),
     images: [
-      {original: require('../../Assets/Products/contaxii-1.png'), thumbnail: require('../../Assets/Products/contaxii-1-small.png')},
-      {original: require('../../Assets/Products/contaxii-2.png'), thumbnail: require('../../Assets/Products/contaxii-2-small.png')},
-      {original: require('../../Assets/Products/contaxii-3.png'), thumbnail: require('../../Assets/Products/contaxii-3-small.png')},
-      {original: require('../../Assets/Products/contaxii-4.png'), thumbnail: require('../../Assets/Products/contaxii-4-small.png')},
-      {original: require('../../Assets/Products/contaxii-5.png'), thumbnail: require('../../Assets/Products/contaxii-5-small.png')},
-      {original: require('../../Assets/Products/contaxii-6.png'), thumbnail: require('../../Assets/Products/contaxii-6-small.png')},
-      {original: require('../../Assets/Products/contaxii-7.png'), thumbnail: require('../../Assets/Products/contaxii-7-small.png')}
+      {original: require('../../Assets/Products/nikkor35-10.png'), thumbnail: require('../../Assets/Products/nikkor35-10-small.png')},
+      {original: require('../../Assets/Products/nikkor35-2.png'), thumbnail: require('../../Assets/Products/nikkor35-2-small.png')},
+      {original: require('../../Assets/Products/nikkor35-3.png'), thumbnail: require('../../Assets/Products/nikkor35-3-small.png')},
+      {original: require('../../Assets/Products/nikkor35-4.png'), thumbnail: require('../../Assets/Products/nikkor35-4-small.png')},
+      {original: require('../../Assets/Products/nikkor35-5.png'), thumbnail: require('../../Assets/Products/nikkor35-5-small.png')},
+      {original: require('../../Assets/Products/nikkor35-6.png'), thumbnail: require('../../Assets/Products/nikkor35-6-small.png')},
+      {original: require('../../Assets/Products/nikkor35-7.png'), thumbnail: require('../../Assets/Products/nikkor35-7-small.png')},
+      {original: require('../../Assets/Products/nikkor35-8.png'), thumbnail: require('../../Assets/Products/nikkor35-8-small.png')},
+      {original: require('../../Assets/Products/nikkor35-9.png'), thumbnail: require('../../Assets/Products/nikkor35-9-small.png')},
+      {original: require('../../Assets/Products/nikkor35-1.png'), thumbnail: require('../../Assets/Products/nikkor35-1-small.png')}
     ],
-    title: "Contax iia 'Color Dial' Rangefinder w/ Zeiss-Opton Sonnar 5cm f1.5 Post War T Coated Lens",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "Rangefinders",
-    price: 419,
+    title: "Nikkor 35mm f1.4 Ai",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "SLRs",
+    price: 399,
     sold: false
   },
 
-  { image: require('../../Assets/Products/konicabigmini-1-featured.png'),
+  { image: require('../../Assets/Products/leicaM3-1-featured.png'),
     images: [
-      {original: require('../../Assets/Products/konicabigmini-1.png'), thumbnail: require('../../Assets/Products/konicabigmini-1-small.png')},
-      {original: require('../../Assets/Products/konicabigmini-2.png'), thumbnail: require('../../Assets/Products/konicabigmini-2-small.png')},
-      {original: require('../../Assets/Products/konicabigmini-3.png'), thumbnail: require('../../Assets/Products/konicabigmini-3-small.png')},
-      {original: require('../../Assets/Products/konicabigmini-4.png'), thumbnail: require('../../Assets/Products/konicabigmini-4-small.png')},
-      {original: require('../../Assets/Products/konicabigmini-5.png'), thumbnail: require('../../Assets/Products/konicabigmini-5-small.png')},
-      {original: require('../../Assets/Products/konicabigmini-6.png'), thumbnail: require('../../Assets/Products/konicabigmini-6-small.png')},
-      {original: require('../../Assets/Products/konicabigmini-7.png'), thumbnail: require('../../Assets/Products/konicabigmini-7-small.png')}
+      {original: require('../../Assets/Products/leicaM3-1.png'), thumbnail: require('../../Assets/Products/leicaM3-1-small.png')},
+      {original: require('../../Assets/Products/leicaM3-2.png'), thumbnail: require('../../Assets/Products/leicaM3-2-small.png')},
+      {original: require('../../Assets/Products/leicaM3-3.png'), thumbnail: require('../../Assets/Products/leicaM3-3-small.png')},
+      {original: require('../../Assets/Products/leicaM3-4.png'), thumbnail: require('../../Assets/Products/leicaM3-4-small.png')},
+      {original: require('../../Assets/Products/leicaM3-5.png'), thumbnail: require('../../Assets/Products/leicaM3-5-small.png')},
+      {original: require('../../Assets/Products/leicaM3-6.png'), thumbnail: require('../../Assets/Products/leicaM3-6-small.png')},
+      {original: require('../../Assets/Products/leicaM3-7.png'), thumbnail: require('../../Assets/Products/leicaM3-7-small.png')},
+      {original: require('../../Assets/Products/leicaM3-8.png'), thumbnail: require('../../Assets/Products/leicaM3-8-small.png')},
+      {original: require('../../Assets/Products/leicaM3-9.png'), thumbnail: require('../../Assets/Products/leicaM3-9-small.png')},
+      {original: require('../../Assets/Products/leicaM3-10.png'), thumbnail: require('../../Assets/Products/leicaM3-10-small.png')}
     ],
-    title: "Konica Big Mini BM-302 Pocket Camera w/ Original Konica Strap",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "Pocket Cameras",
-    price: 179,
+    title: "Leica M3 DS",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "SLRs",
+    price: 949,
     sold: false
   },
 
-  { image: require('../../Assets/Products/leicaiiib-1-featured.png'),
+  { image: require('../../Assets/Products/leicaSummi50-13-featured.png'),
     images: [
-      {original: require('../../Assets/Products/leicaiiib-1.png'), thumbnail: require('../../Assets/Products/leicaiiib-1-small.png')},
-      {original: require('../../Assets/Products/leicaiiib-2.png'), thumbnail: require('../../Assets/Products/leicaiiib-2-small.png')},
-      {original: require('../../Assets/Products/leicaiiib-3.png'), thumbnail: require('../../Assets/Products/leicaiiib-3-small.png')},
-      {original: require('../../Assets/Products/leicaiiib-4.png'), thumbnail: require('../../Assets/Products/leicaiiib-4-small.png')},
-      {original: require('../../Assets/Products/leicaiiib-5.png'), thumbnail: require('../../Assets/Products/leicaiiib-5-small.png')},
-      {original: require('../../Assets/Products/leicaiiib-6.png'), thumbnail: require('../../Assets/Products/leicaiiib-6-small.png')},
-      {original: require('../../Assets/Products/leicaiiib-7.png'), thumbnail: require('../../Assets/Products/leicaiiib-7-small.png')},
-      {original: require('../../Assets/Products/leicaiiib-8.png'), thumbnail: require('../../Assets/Products/leicaiiib-8-small.png')}
+      {original: require('../../Assets/Products/leicaSummi50-13.png'), thumbnail: require('../../Assets/Products/leicaSummi50-3-small.png')},
+      {original: require('../../Assets/Products/leicaSummi50-4.png'), thumbnail: require('../../Assets/Products/leicaSummi50-4-small.png')},
+      {original: require('../../Assets/Products/leicaSummi50-5.png'), thumbnail: require('../../Assets/Products/leicaSummi50-5-small.png')},
+      {original: require('../../Assets/Products/leicaSummi50-6.png'), thumbnail: require('../../Assets/Products/leicaSummi50-6-small.png')},
+      {original: require('../../Assets/Products/leicaSummi50-7.png'), thumbnail: require('../../Assets/Products/leicaSummi50-7-small.png')},
+      {original: require('../../Assets/Products/leicaSummi50-8.png'), thumbnail: require('../../Assets/Products/leicaSummi50-8-small.png')},
+      {original: require('../../Assets/Products/leicaSummi50-9.png'), thumbnail: require('../../Assets/Products/leicaSummi50-9-small.png')},
+      {original: require('../../Assets/Products/leicaSummi50-10.png'), thumbnail: require('../../Assets/Products/leicaSummi50-10-small.png')},
+      {original: require('../../Assets/Products/leicaSummi50-11.png'), thumbnail: require('../../Assets/Products/leicaSummi50-11-small.png')},
+      {original: require('../../Assets/Products/leicaSummi50-12.png'), thumbnail: require('../../Assets/Products/leicaSummi50-12-small.png')},
+      {original: require('../../Assets/Products/leicaSummi50-3.png'), thumbnail: require('../../Assets/Products/leicaSummi50-3-small.png')},
     ],
-    title: 'Leica iiib Rangefinder, “Of Era, A.C. Muller” Modified Flash Synchro w/ Silver Body Cap',
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "Rangefinders",
-    price: 339,
+    title: "Leica Summicron 50mm f2 Type V-NIB",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "SLRs",
+    price: 1749,
     sold: false
   },
 
-  { image: require('../../Assets/Products/leicasummicron-1-featured.png'),
+  { image: require('../../Assets/Products/contaxT2-1-featured.png'),
     images: [
-      {original: require('../../Assets/Products/leicasummicron-1.png'), thumbnail: require('../../Assets/Products/leicasummicron-1-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-2.png'), thumbnail: require('../../Assets/Products/leicasummicron-2-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-3.png'), thumbnail: require('../../Assets/Products/leicasummicron-3-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-4.png'), thumbnail: require('../../Assets/Products/leicasummicron-4-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-5.png'), thumbnail: require('../../Assets/Products/leicasummicron-5-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-6.png'), thumbnail: require('../../Assets/Products/leicasummicron-6-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-7.png'), thumbnail: require('../../Assets/Products/leicasummicron-7-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-8.png'), thumbnail: require('../../Assets/Products/leicasummicron-8-small.png')}
+      {original: require('../../Assets/Products/contaxT2-1.png'), thumbnail: require('../../Assets/Products/contaxT2-1-small.png')},
+      {original: require('../../Assets/Products/contaxT2-2.png'), thumbnail: require('../../Assets/Products/contaxT2-2-small.png')},
+      {original: require('../../Assets/Products/contaxT2-3.png'), thumbnail: require('../../Assets/Products/contaxT2-3-small.png')},
+      {original: require('../../Assets/Products/contaxT2-4.png'), thumbnail: require('../../Assets/Products/contaxT2-4-small.png')},
+      {original: require('../../Assets/Products/contaxT2-5.png'), thumbnail: require('../../Assets/Products/contaxT2-5-small.png')},
+      {original: require('../../Assets/Products/contaxT2-6.png'), thumbnail: require('../../Assets/Products/contaxT2-6-small.png')},
+      {original: require('../../Assets/Products/contaxT2-7.png'), thumbnail: require('../../Assets/Products/contaxT2-7-small.png')},
+      {original: require('../../Assets/Products/contaxT2-8.png'), thumbnail: require('../../Assets/Products/contaxT2-8-small.png')},
     ],
-    title: "Leica Summaron 35 3.5 M Mount w/ Goggles & Hood",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "Lenses",
-    price: 519,
-    sold: false
-  },
-
-  { image: require('../../Assets/Products/minoltam-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/minoltam-1.png'), thumbnail: require('../../Assets/Products/minoltam-1-small.png')},
-      {original: require('../../Assets/Products/minoltam-2.png'), thumbnail: require('../../Assets/Products/minoltam-2-small.png')},
-      {original: require('../../Assets/Products/minoltam-3.png'), thumbnail: require('../../Assets/Products/minoltam-3-small.png')},
-      {original: require('../../Assets/Products/minoltam-4.png'), thumbnail: require('../../Assets/Products/minoltam-4-small.png')},
-      {original: require('../../Assets/Products/minoltam-5.png'), thumbnail: require('../../Assets/Products/minoltam-5-small.png')},
-      {original: require('../../Assets/Products/minoltam-6.png'), thumbnail: require('../../Assets/Products/minoltam-6-small.png')},
-      {original: require('../../Assets/Products/minoltam-7.png'), thumbnail: require('../../Assets/Products/minoltam-7-small.png')},
-      {original: require('../../Assets/Products/minoltam-8.png'), thumbnail: require('../../Assets/Products/minoltam-8-small.png')},
-      {original: require('../../Assets/Products/minoltam-9.png'), thumbnail: require('../../Assets/Products/minoltam-9-small.png')},
-      {original: require('../../Assets/Products/minoltam-10.png'), thumbnail: require('../../Assets/Products/minoltam-10-small.png')}
-    ],
-    title: "Minolta M-Rokkor 40mm f2 with Minolta Cap, UV Filter & Case",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever",
-    category: "Lenses",
-    price: 499,
+    title: "Contax T2",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "SLRs",
+    price: 799,
     sold: false
   },
 

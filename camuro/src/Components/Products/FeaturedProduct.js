@@ -26,6 +26,7 @@ class FeaturedProduct extends Component {
           <div className="featured-product-image">
             <img src={this.props.image}/>
             <h2>{this.props.title}</h2>
+            <span>${this.props.price}</span>
           </div>
         </div>
         <div>
@@ -35,7 +36,7 @@ class FeaturedProduct extends Component {
                 <span className="close-modal" onClick={this.toggleModal}><img src={require('../../Assets/back-arrow.svg')} alt="back-arrow"/></span>
               </div>
               <div className="modal-items">
-                <ProductModal show={this.state.isOpen} onClose={this.toggleModal} addProduct={this.props.addProduct} stopClose={this.stopClose} product={this.state.activeProduct}  sold={this.props.sold} images={this.props.images} image={this.props.image} title={this.props.title} description={this.props.description} price={this.props.price}></ProductModal>
+                <ProductModal show={this.state.isOpen} onClose={this.toggleModal} optics={this.props.optics} mechanics={this.props.mechanics} addProduct={this.props.addProduct} stopClose={this.stopClose} product={this.state.activeProduct}  sold={this.props.sold} images={this.props.images} image={this.props.image} title={this.props.title} description={this.props.description} price={this.props.price}></ProductModal>
               </div>
             </div>
           : null}

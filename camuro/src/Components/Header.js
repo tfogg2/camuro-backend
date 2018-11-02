@@ -25,17 +25,17 @@ class Header extends Component {
                     </button>
                   </NavLink>
                 </li>
-                <li className="scrollLink no-mobile">
-                  <NavLink to="/offer">
-                    <button>
-                      Sell
-                    </button>
-                  </NavLink>
-                </li>
                 <li className="scrollLink">
                   <NavLink to="/gallery">
                     <button>
                       Photos
+                    </button>
+                  </NavLink>
+                </li>
+                <li className="scrollLink no-mobile">
+                  <NavLink to="/offer">
+                    <button>
+                      Sell
                     </button>
                   </NavLink>
                 </li>
@@ -72,13 +72,6 @@ class Header extends Component {
                     </button>
                   </NavLink>
                 </li>
-                <li className="scrollLink no-mobile">
-                  <NavLink to="/offer">
-                    <button>
-                      Sell
-                    </button>
-                  </NavLink>
-                </li>
                 <li className="scrollLink">
                   <NavLink to="/gallery">
                     <button>
@@ -86,6 +79,13 @@ class Header extends Component {
                     </button>
                   </NavLink>
                 </li>
+                <li className="scrollLink no-mobile">
+                  <NavLink to="/offer">
+                    <button>
+                      Sell
+                    </button>
+                  </NavLink>
+                </li>    
                 <li>
                   <NavLink to="/cart">
                     <button>
