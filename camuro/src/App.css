@@ -315,13 +315,16 @@ h1{
     padding: 0 8px;
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 680px, min-width: 480px) {
   .home .splash-background .home-bg{
     height: 400px;
     position: relative;
     background-position-x: -75px;
   }
   .home .splash-background{
+    height: 400px;
+  }
+  .home .home-cta{
     height: 400px;
   }
   .home .form-group input{
