@@ -1005,6 +1005,14 @@ h1{
   }
 
 }
+@media (min-width: 600px) {
+  .featured-product-image:hover h2{
+    opacity: 1;
+  }
+  .featured-product-image:hover span{
+    opacity: 1;
+  }
+}
 @media (max-width: 480px) {
   .home .wrapper .featured-product{
     width: 65%;
@@ -1059,12 +1067,6 @@ h1{
 }
 .featured-product-image:hover img{
   opacity: .2;
-}
-.featured-product-image:hover h2{
-  opacity: 1;
-}
-.featured-product-image:hover span{
-  opacity: 1;
 }
 .featured-product-image span{
   opacity: 0;
