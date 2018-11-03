@@ -218,6 +218,9 @@ h1{
 }
 /* MOBILE FRIENDLY */
 @media (max-width: 480px) {
+  .App .home .splash-background .home-bg{
+    background-position-x: -75px;
+  }
   .right-nav ul li:hover{
     background: #000;
   }
@@ -304,7 +307,7 @@ h1{
   .home .splash-background .home-bg{
     height: 300px;
     position: relative;
-    background-position-x: -50px;
+    background-position-x: 0px;
   }
   .home .splash-background{
     height: 300px;
