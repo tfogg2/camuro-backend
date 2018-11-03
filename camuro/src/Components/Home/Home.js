@@ -36,12 +36,24 @@ class Home extends Component {
 
     const images = [
       {
+        original: require('../../Assets/nikon-gallery.png'),
+        thumbnail: require('../../Assets/nikon-gallery.png')
+      },
+      {
         original: require('../../Assets/Products/olympusOm1-8.png'),
         thumbnail: require('../../Assets/Products/olympusOm1-8.png')
       },
       {
+        original: require('../../Assets/canon-gallery.png'),
+        thumbnail: require('../../Assets/canon-gallery.png')
+      },
+      {
         original: require('../../Assets/Products/nikkor35-3.png'),
         thumbnail: require('../../Assets/Products/nikkor35-3.png')
+      },
+      {
+        original: require('../../Assets/pentax-gallery.png'),
+        thumbnail: require('../../Assets/pentax-gallery.png')
       },
       {
         original: require('../../Assets/Products/minolta7-1.png'),
@@ -52,8 +64,8 @@ class Home extends Component {
         thumbnail: require('../../Assets/Products/leicaSummi40-4.png')
       },
       {
-        original: require('../../Assets/Products/mamiya330-2.png'),
-        thumbnail: require('../../Assets/Products/mamiya330-2.png')
+        original: require('../../Assets/konica-gallery.png'),
+        thumbnail: require('../../Assets/konica-gallery.png')
       },
       {
         original: require('../../Assets/Products/leicaSummi50-4.png'),
@@ -62,6 +74,10 @@ class Home extends Component {
       {
         original: require('../../Assets/Products/fujiGW-1.png'),
         thumbnail: require('../../Assets/Products/fujiGW-1.png')
+      },
+      {
+        original: require('../../Assets/mamiya-gallery.png'),
+        thumbnail: require('../../Assets/mamiya-gallery.png')
       },
     ]
 
