@@ -1005,14 +1005,6 @@ h1{
   }
 
 }
-@media (min-width: 600px) {
-  .featured-product-image:hover h2{
-    opacity: 1;
-  }
-  .featured-product-image:hover span{
-    opacity: 1;
-  }
-}
 @media (max-width: 480px) {
   .home .wrapper .featured-product{
     width: 90%;
@@ -1062,8 +1054,16 @@ h1{
 }
 .featured-product-image{
   width: 100%;
+  position: relative;
+  z-index: 100;
   margin: 0 auto;
   transition: opacity .5s ease-in-out;
+}
+.featured-product-image:hover h2{
+  opacity: 1;
+}
+.featured-product-image:hover span{
+  opacity: 1;
 }
 .featured-product-image img{
   width: 100%;
