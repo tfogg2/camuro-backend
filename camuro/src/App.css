@@ -1038,7 +1038,7 @@ h1{
   overflow: hidden;
 }
 .gallery-btn.featured-btn{
-  margin-top: 25px;
+  margin-top: 10px;
 }
 .wrapper.filmpool{
   display: none;
@@ -1125,6 +1125,7 @@ h1{
   }
   .cart-product .cart-product-info{
     padding-left: 0;
+    min-width: 250px;
   }
 }
 .App .product-content{
@@ -1363,7 +1364,7 @@ h1{
   min-height: 185px;
 }
 .home-offer .gallery-btn{
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .home-offer p{
   width: 50%;
