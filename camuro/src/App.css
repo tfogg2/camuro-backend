@@ -95,7 +95,7 @@ h1{
   width: 90%;
   text-align: left;
   margin: 0 5%;
-  height: 575px;
+  height: 530px;
   box-sizing: border-box;
   padding-top: 40px;
   position: relative;
@@ -208,7 +208,7 @@ h1{
 .content{
   background: #fff;
   width: 100%;
-  margin: 20px auto;
+  margin: 0px auto;
   /*box-shadow: 1px 1px 6px #a5a5a5;*/
 }
 .content h2,h3,h4 {
@@ -554,6 +554,7 @@ h1{
 .home-gallery .gallery{
   padding-top: 0;
   margin-top: 0;
+  padding-bottom: 40px;
 }
 .gallery{
   width: 100%;
@@ -1042,7 +1043,7 @@ h1{
   overflow: hidden;
 }
 .gallery-btn.featured-btn{
-  margin-top: 10px;
+  margin-top: 25px;
 }
 .wrapper.filmpool{
   display: none;
@@ -1171,6 +1172,7 @@ h1{
 }
 .product-gallery{
   width: 60%;
+  min-height: 300px;
   margin: 0 auto;
   padding-top: 0px;
   position: relative;
@@ -1343,7 +1345,7 @@ h1{
   height: fit-content;
   margin: 0 auto;
   text-align: center;
-  padding: 80px 0 20px 0;
+  padding: 40px 0 40px 0;
   color: #000;
 }
 .home-offer span{
@@ -1352,6 +1354,7 @@ h1{
 .home-offer .offer-gallery{
   width: 75%;
   margin: 20px auto 0px auto;
+  min-height: 225px;
 }
 .home-offer .gallery-btn{
   margin-top: 40px;
@@ -1359,6 +1362,6 @@ h1{
 .home-offer p{
   width: 50%;
   font-size: 20px;
-  margin: 15px auto 30px auto;
+  margin: 15px auto 40px auto;
 }
 /* PRODUCTS */
