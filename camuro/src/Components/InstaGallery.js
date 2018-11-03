@@ -5,7 +5,7 @@ import Insta from './Insta'
 
 
 
-class OurGallery extends Component {
+class InstaGallery extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -26,7 +26,7 @@ class OurGallery extends Component {
             <img src={require('../Assets/photos.svg')} alt="photos" />
             <div>
               <p>
-                <Link to="/gallery/ours">
+                <Link to="/gallery/insta">
                   <span>Photos for the people.</span>
                 </Link><br />
                 <Link to="/gallery">By the people.</Link>
@@ -44,4 +44,4 @@ class OurGallery extends Component {
 
 const GALLERY = []
 
-export default OurGallery;
+export default InstaGallery;

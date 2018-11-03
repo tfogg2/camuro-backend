@@ -81,13 +81,13 @@ class Gallery extends Component {
           <div className="gallery-header">
             <img src={require('../Assets/photos.svg')} alt="photos" />
             <div className="gallery-forward-arrow">
-              <Link to="/gallery/ours">
+              <Link to="/gallery/insta">
                 <img src={require('../Assets/forward-arrow.svg')} alt="forward-arrow"/>
               </Link>
             </div>
             <div>
               <p>
-                <Link to="/gallery/ours">
+                <Link to="/gallery/insta">
                   Photos for the people.
                 </Link><br />
                 <Link to="/gallery">
@@ -121,7 +121,7 @@ class Gallery extends Component {
               <img src={require('../Assets/photos.svg')} alt="photos" />
               <div>
                 <p>
-                  <Link to="/gallery/ours">
+                  <Link to="/gallery/insta">
                     Photos for the people.
                   </Link><br />
                   <Link to="/gallery">
