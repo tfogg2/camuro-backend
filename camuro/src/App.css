@@ -218,11 +218,6 @@ h1{
 }
 /* MOBILE FRIENDLY */
 @media (max-width: 480px) {
-  .home .splash-background .home-bg{
-    height: 300px;
-    position: relative;
-    background-position-x: -75px;
-  }
   .right-nav ul li:hover{
     background: #000;
   }
@@ -231,16 +226,6 @@ h1{
   }
   .instagram:hover{
     background-color: #000;
-  }
-  .home .splash-background{
-    height: 300px;
-    position: relative;
-  }
-  .home .home-cta{
-    position: absolute;
-    top: 80px;
-    height: 360px;
-    padding-top: 0;
   }
   .home .home-cta h1{
     font-size: 24px;
@@ -315,17 +300,21 @@ h1{
     padding: 0 8px;
   }
 }
-@media (max-width: 680px, min-width: 480px) {
+@media (max-width: 680px) {
   .home .splash-background .home-bg{
-    height: 400px;
+    height: 300px;
     position: relative;
-    background-position-x: -75px;
+    background-position-x: -50px;
   }
   .home .splash-background{
-    height: 400px;
+    height: 300px;
+    position: relative;
   }
   .home .home-cta{
-    height: 400px;
+    position: absolute;
+    top: 80px;
+    height: 300px;
+    padding-top: 0;
   }
   .home .form-group input{
     padding: 0 2px;
