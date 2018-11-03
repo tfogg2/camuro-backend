@@ -5,7 +5,7 @@ class Carousel extends Component {
   render() {
     return (
       <div className="wrapper">
-        <FeaturedProducts />
+        <FeaturedProducts addProduct={this.props.addProduct}/>
       </div>
     )
   }

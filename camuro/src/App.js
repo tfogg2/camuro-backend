@@ -35,7 +35,7 @@ class App extends Component {
         <div className="App">
           <Header cartProducts={cartProducts} />
           <Switch>
-            <Route exact path="/" render={() => <Home />}/>
+            <Route exact path="/" render={() => <Home addProduct={addProduct} />}/>
             <Route path="/cart" render={() => <Cart removeProduct={removeProduct} cartProducts={cartProducts} total={total} isChecked={isChecked}/>} />
             <Route path="/products" render={() => <Products addProduct={addProduct}/>} />
             <Route exact path="/gallery" render={() => <Gallery />}/>

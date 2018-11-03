@@ -91,7 +91,7 @@ class Home extends Component {
         </div>
         <HomeCta about={this.About} />
         <div className="split-section">
-          <Carousel />
+          <Carousel addProduct={this.props.addProduct}/>
           <FilmPool />
         </div>
         <div className="content">
