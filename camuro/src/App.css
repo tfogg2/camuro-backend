@@ -1104,7 +1104,7 @@ h1{
     padding: 20px 10%;
   }
   .product .backdrop.product-backdrop{
-    min-height: 1600px;
+    min-height: 3600px;
   }
 }
 @media (max-width: 480px) {
@@ -1115,7 +1115,7 @@ h1{
     padding: 20px 5%;
   }
   .product .backdrop.product-backdrop{
-    min-height: 2850px;
+    min-height: 5000px;
   }
   .home-offer h1{
     font-size: 28px;
@@ -1153,7 +1153,7 @@ h1{
   display: none;
 }
 .backdrop.product-backdrop{
-  min-height: 1200px;
+  min-height: 5000px;
   position: absolute;
   z-index: 500;
   top: 20px;
