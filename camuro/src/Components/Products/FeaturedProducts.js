@@ -44,7 +44,7 @@ class FeaturedProducts extends Component {
 // data
 const PRODUCTS = [
 
-  { image: require('../../Assets/Products/konicaHex-1-featured.png'),
+  { image: require('../../Assets/Products/konicaHex-1.png'),
     images: [
       {original: require('../../Assets/Products/konicaHex-1.png'), thumbnail: require('../../Assets/Products/konicaHex-1-small.png')},
       {original: require('../../Assets/Products/konicaHex-2.png'), thumbnail: require('../../Assets/Products/konicaHex-2-small.png')},
@@ -71,7 +71,7 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/mamiya330-1-featured.png'),
+  { image: require('../../Assets/Products/mamiya330-1.png'),
     images: [
       {original: require('../../Assets/Products/mamiya330-1.png'), thumbnail: require('../../Assets/Products/mamiya330-1-small.png')},
       {original: require('../../Assets/Products/mamiya330-2.png'), thumbnail: require('../../Assets/Products/mamiya330-2-small.png')},
@@ -97,7 +97,7 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/nikkor35-10-featured.png'),
+  { image: require('../../Assets/Products/nikkor35-10.png'),
     images: [
       {original: require('../../Assets/Products/nikkor35-10.png'), thumbnail: require('../../Assets/Products/nikkor35-10-small.png')},
       {original: require('../../Assets/Products/nikkor35-2.png'), thumbnail: require('../../Assets/Products/nikkor35-2-small.png')},
@@ -119,7 +119,7 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/leicaM3-1-featured.png'),
+  { image: require('../../Assets/Products/leicaM3-1.png'),
     images: [
       {original: require('../../Assets/Products/leicaM3-1.png'), thumbnail: require('../../Assets/Products/leicaM3-1-small.png')},
       {original: require('../../Assets/Products/leicaM3-2.png'), thumbnail: require('../../Assets/Products/leicaM3-2-small.png')},
@@ -141,7 +141,7 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/leicaSummi50-13-featured.png'),
+  { image: require('../../Assets/Products/leicaSummi50-13.png'),
     images: [
       {original: require('../../Assets/Products/leicaSummi50-13.png'), thumbnail: require('../../Assets/Products/leicaSummi50-3-small.png')},
       {original: require('../../Assets/Products/leicaSummi50-4.png'), thumbnail: require('../../Assets/Products/leicaSummi50-4-small.png')},
@@ -164,7 +164,7 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/contaxT2-1-featured.png'),
+  { image: require('../../Assets/Products/contaxT2-1.png'),
     images: [
       {original: require('../../Assets/Products/contaxT2-1.png'), thumbnail: require('../../Assets/Products/contaxT2-1-small.png')},
       {original: require('../../Assets/Products/contaxT2-2.png'), thumbnail: require('../../Assets/Products/contaxT2-2-small.png')},
