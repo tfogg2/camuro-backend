@@ -207,8 +207,8 @@ h1{
 }
 .content{
   background: #fff;
-  width: 95%;
-  margin: 20px 2.5%;
+  width: 100%;
+  margin: 20px auto;
   /*box-shadow: 1px 1px 6px #a5a5a5;*/
 }
 .content h2,h3,h4 {
@@ -293,7 +293,7 @@ h1{
     margin-bottom: 10px;
   }
   .home .home-offer .offer-gallery{
-    width: 90%;
+    width: 100%;
   }
   .home .form-group.item.price span{
     margin-top: 26px;
