@@ -68,7 +68,7 @@ h1{
   font-family: BryantWeb,Helvetica,Arial,sans-serif;
 }
 .splash-background{
-  height: 700px;
+  height: 600px;
   width: 100%;
   background: #000;
   position: absolute;
@@ -77,8 +77,7 @@ h1{
   background: url('./Assets/leicaM6-dark-medium.png') no-repeat;
   background-color: #080808;
   background-size: cover;
-  background-position-x: -50px;
-  height: 700px;
+  height: 600px;
   width: 100%;
   position: absolute;
   -webkit-transform:translate3d(0, 0, 0.1);
@@ -96,7 +95,7 @@ h1{
   width: 90%;
   text-align: left;
   margin: 0 5%;
-  height: 700px;
+  height: 600px;
   box-sizing: border-box;
   padding-top: 40px;
   position: relative;
