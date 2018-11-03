@@ -290,7 +290,6 @@ h1{
   }
   .home .home-offer p{
     width: 90%;
-    margin-bottom: 10px;
   }
   .home .home-offer .offer-gallery{
     width: 100%;
@@ -1360,6 +1359,6 @@ h1{
 .home-offer p{
   width: 50%;
   font-size: 20px;
-  margin: 15px auto 0px auto;
+  margin: 15px auto 30px auto;
 }
 /* PRODUCTS */
