@@ -1342,7 +1342,7 @@ h1{
   height: fit-content;
   margin: 0 auto;
   text-align: center;
-  padding: 80px 0 40px 0;
+  padding: 80px 0 20px 0;
   color: #000;
 }
 .home-offer span{
@@ -1353,7 +1353,7 @@ h1{
   margin: 20px auto 0px auto;
 }
 .home-offer .gallery-btn{
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .home-offer p{
   width: 50%;
