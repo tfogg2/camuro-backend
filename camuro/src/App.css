@@ -316,6 +316,11 @@ h1{
   }
 }
 @media (max-width: 680px) {
+  .home .splash-background .home-bg{
+    height: 400px;
+    position: relative;
+    background-position-x: -75px;
+  }
   .home .form-group input{
     padding: 0 2px;
     height: 30px;
