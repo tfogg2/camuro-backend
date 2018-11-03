@@ -221,7 +221,7 @@ h1{
   .home .splash-background .home-bg{
     height: 300px;
     position: relative;
-
+    background-position-x: -75px;
   }
   .right-nav ul li:hover{
     background: #000;
