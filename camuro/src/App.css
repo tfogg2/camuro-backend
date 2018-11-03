@@ -77,6 +77,7 @@ h1{
   background: url('./Assets/leicaM6-dark-medium.png') no-repeat;
   background-color: #080808;
   background-size: cover;
+  background-position-x: -50px;
   height: 700px;
   width: 100%;
   position: absolute;
