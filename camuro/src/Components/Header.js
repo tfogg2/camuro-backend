@@ -1,8 +1,52 @@
 import React, {Component} from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import scrollToComponent from 'react-scroll-to-component'
+import Dropdown from './Dropdown'
 
 class Header extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      menu: [
+        {
+          id: 0,
+          url:'/products',
+          title: 'Shop',
+          selected: false,
+          key: 'menu'
+        },
+        {
+          id: 1,
+          url:'/gallery',
+          title: 'Photos',
+          selected: false,
+          key: 'menu'
+        },
+        {
+          id: 2,
+          url:'/offer',
+          title: 'Sell',
+          selected: false,
+          key: 'menu'
+        },
+        {
+          id: 3,
+          url:'/cart',
+          title: 'Cart',
+          selected: false,
+          key: 'menu'
+        }
+      ]
+    }
+    this.toggleSelected = this.toggleSelected.bind(this);
+  }
+  toggleSelected(id, key){
+    let temp = this.state[key]
+    temp[id].selected = !temp[id].selected
+    this.setState({
+      [key]: temp
+    })
+  }
   render(){
     const products = this.props.cartProducts
     if(products.length > 0 ){
@@ -64,36 +108,11 @@ class Header extends Component {
           </div>
           <div className="nav">
             <div  className="right-nav">
-              <ul className="navLinks">
-                <li className="shop-link">
-                  <NavLink to="/products">
-                    <button>
-                      Shop
-                    </button>
-                  </NavLink>
-                </li>
-                <li className="scrollLink">
-                  <NavLink to="/gallery">
-                    <button>
-                      Photos
-                    </button>
-                  </NavLink>
-                </li>
-                <li className="scrollLink no-mobile">
-                  <NavLink to="/offer">
-                    <button>
-                      Sell
-                    </button>
-                  </NavLink>
-                </li>    
-                <li>
-                  <NavLink to="/cart">
-                    <button>
-                      <img src={require("../Assets/bag-small.svg")} alt="Cart"/>
-                    </button>
-                  </NavLink>
-                </li>
-              </ul>
+              <Dropdown
+                title="Menu"
+                list={this.state.menu}
+                toggleItem={this.toggleSelected}
+              />
             </div>
           </div>
         </div>
