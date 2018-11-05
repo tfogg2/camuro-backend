@@ -61,36 +61,11 @@ class Header extends Component {
           </div>
           <div className="nav">
             <div  className="right-nav">
-              <ul className="navLinks">
-                <li className="shop-link">
-                  <NavLink to="/products">
-                    <button>
-                      Shop
-                    </button>
-                  </NavLink>
-                </li>
-                <li className="scrollLink">
-                  <NavLink to="/gallery">
-                    <button>
-                      Photos
-                    </button>
-                  </NavLink>
-                </li>
-                <li className="scrollLink no-mobile">
-                  <NavLink to="/offer">
-                    <button>
-                      Sell
-                    </button>
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/cart">
-                    <button>
-                      <img src={require("../Assets/bag-full.svg")} alt="Cart"/>
-                    </button>
-                  </NavLink>
-                </li>
-              </ul>
+              <Dropdown
+                title="Menu"
+                list={this.state.menu}
+                toggleItem={this.toggleSelected}
+              />
             </div>
           </div>
         </div>
