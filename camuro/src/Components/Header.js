@@ -25,7 +25,7 @@ class Header extends Component {
         {
           id: 2,
           url:'/offer',
-          title: 'Sell',
+          title: 'Sell Gear',
           selected: false,
           key: 'menu'
         },
