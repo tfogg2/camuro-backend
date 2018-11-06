@@ -309,9 +309,20 @@ h1{
   padding: 10px;
 }
 /* MOBILE FRIENDLY */
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .App .home .splash-background .home-bg{
-    background-position-x: -75px;
+    background: url('./Assets/leicaM6-dark-400.png') no-repeat;
+    height: 250px;
+  }
+  .App .home .splash-background{
+    height: 250px;
+  }
+  .App .home .home-cta{
+    height: 250px;
+  }
+}
+@media (max-width: 480px) {
+  .splash-background .home-bg{
     background: url('./Assets/leicaM6-dark-small.png') no-repeat;
   }
   .right-nav ul li:hover{
