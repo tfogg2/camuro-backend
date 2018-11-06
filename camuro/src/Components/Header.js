@@ -66,6 +66,7 @@ class Header extends Component {
                 title="Menu"
                 list={this.state.menu}
                 toggleItem={this.toggleSelected}
+                cartProducts={this.props.cartProducts}
               />
             </div>
           </div>
@@ -88,6 +89,7 @@ class Header extends Component {
                 title="Menu"
                 list={this.state.menu}
                 toggleItem={this.toggleSelected}
+                cartProducts={this.props.cartProducts}
               />
             </div>
           </div>

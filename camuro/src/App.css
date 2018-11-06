@@ -76,6 +76,13 @@ h1{
 .dd-open .dd-list .dd-list-item:hover{
   background: #c6574a;
 }
+.dd-cart.dd-cart-empty{
+  opacity: 0;
+}
+.dd-cart{
+  transition: opacity .5s ease;
+  opacity: 1;
+}
 .dd-header{
   height: 60px;
   line-height: 60px;

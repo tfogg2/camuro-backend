@@ -28,6 +28,8 @@ class Dropdown extends Component{
     const{list} = this.props
     const{listOpen, headerTitle} = this.state
     const ddClass = this.state.listOpen ? 'dd-open dd-wrapper' : 'dd-wrapper'
+    const products = this.props.cartProducts
+    const cartClass = products.length > 0 ? 'dd-list-item dd-cart' : 'dd-list-item dd-cart dd-cart-empty'
     return(
       <div className={ddClass}>
         <div className="dd-header" onClick={() => this.toggleList()}>
@@ -36,7 +38,12 @@ class Dropdown extends Component{
         </div>
          <ul className="dd-list">
          {list.map((item) => (
-           <NavLink to={item.url}><li className="dd-list-item" onClick={() => this.toggleList()}>{item.title}</li></NavLink>
+           item.title === 'Cart' ?
+            <NavLink to={item.url}><li className={cartClass} onClick={() => this.toggleList()}>{item.title} ({products.length})</li></NavLink>
+          :
+            <NavLink to={item.url}><li className="dd-list-item" onClick={() => this.toggleList()}>{item.title}</li></NavLink>
+
+
          ))}
         </ul>
       </div>
