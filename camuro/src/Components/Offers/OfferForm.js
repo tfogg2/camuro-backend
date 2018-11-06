@@ -193,7 +193,7 @@ class OfferForm extends Component {
         <div className="sell-form-content">
           <div className="sell-form-header">
             <h1>Get An Offer</h1>
-            <span>We are always looking to add to our collection. Tell us what you'd like to sell and we'll get back to you with an offer.</span>
+            <span>We are always looking to add to our inventory. Tell us what you'd like to sell and we'll get back to you with an offer.</span>
           </div>
           <form className="sell-form" id="contact-form" onSubmit={this.handleSubmit} method="POST">
             <div className="personal-info">
