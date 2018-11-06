@@ -1378,6 +1378,9 @@ h1{
 .product-hover:hover{
   transform: scale(1.1);
 }
+.product-hover.sold:hover{
+  transform: scale(1);
+}
 .modal-header h2{
   display: inline-block;
   line-height: 60px;

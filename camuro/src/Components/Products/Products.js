@@ -88,27 +88,6 @@ class Products extends Component {
 // data
 const PRODUCTS = [
 
-  { image: require('../../Assets/Products/canonA1-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/canonA1-1.png'), thumbnail: require('../../Assets/Products/canonA1-1-small.png')},
-      {original: require('../../Assets/Products/canonA1-2.png'), thumbnail: require('../../Assets/Products/canonA1-2-small.png')},
-      {original: require('../../Assets/Products/canonA1-3.png'), thumbnail: require('../../Assets/Products/canonA1-3-small.png')},
-      {original: require('../../Assets/Products/canonA1-4.png'), thumbnail: require('../../Assets/Products/canonA1-4-small.png')},
-      {original: require('../../Assets/Products/canonA1-5.png'), thumbnail: require('../../Assets/Products/canonA1-5-small.png')},
-      {original: require('../../Assets/Products/canonA1-6.png'), thumbnail: require('../../Assets/Products/canonA1-6-small.png')},
-      {original: require('../../Assets/Products/canonA1-7.png'), thumbnail: require('../../Assets/Products/canonA1-7-small.png')},
-      {original: require('../../Assets/Products/canonA1-8.png'), thumbnail: require('../../Assets/Products/canonA1-8-small.png')},
-      {original: require('../../Assets/Products/canonA1-9.png'), thumbnail: require('../../Assets/Products/canonA1-9-small.png')}
-    ],
-    title: "Canon A-1 w nFD 50mm f1.8",
-    description: "",
-    mechanics: "",
-    optics:"",
-    category: "SLRs",
-    price: 179,
-    sold: false
-  },
-
   { image: require('../../Assets/Products/canonFd50-1-featured.png'),
     images: [
       {original: require('../../Assets/Products/canonFd50-1.png'), thumbnail: require('../../Assets/Products/canonFd50-1-small.png')},
@@ -129,52 +108,6 @@ const PRODUCTS = [
     optics:"",
     category: "SLRs",
     price: 359,
-    sold: false
-  },
-
-  { image: require('../../Assets/Products/contaxT2-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/contaxT2-1.png'), thumbnail: require('../../Assets/Products/contaxT2-1-small.png')},
-      {original: require('../../Assets/Products/contaxT2-2.png'), thumbnail: require('../../Assets/Products/contaxT2-2-small.png')},
-      {original: require('../../Assets/Products/contaxT2-3.png'), thumbnail: require('../../Assets/Products/contaxT2-3-small.png')},
-      {original: require('../../Assets/Products/contaxT2-4.png'), thumbnail: require('../../Assets/Products/contaxT2-4-small.png')},
-      {original: require('../../Assets/Products/contaxT2-5.png'), thumbnail: require('../../Assets/Products/contaxT2-5-small.png')},
-      {original: require('../../Assets/Products/contaxT2-6.png'), thumbnail: require('../../Assets/Products/contaxT2-6-small.png')},
-      {original: require('../../Assets/Products/contaxT2-7.png'), thumbnail: require('../../Assets/Products/contaxT2-7-small.png')},
-      {original: require('../../Assets/Products/contaxT2-8.png'), thumbnail: require('../../Assets/Products/contaxT2-8-small.png')},
-    ],
-    title: "Contax T2",
-    description: "",
-    mechanics: "",
-    optics:"",
-    category: "Rangefinders",
-    price: 799,
-    sold: false
-  },
-
-  { image: require('../../Assets/Products/fujiGW-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/fujiGW-1.png'), thumbnail: require('../../Assets/Products/fujiGW-1-small.png')},
-      {original: require('../../Assets/Products/fujiGW-2.png'), thumbnail: require('../../Assets/Products/fujiGW-2-small.png')},
-      {original: require('../../Assets/Products/fujiGW-3.png'), thumbnail: require('../../Assets/Products/fujiGW-3-small.png')},
-      {original: require('../../Assets/Products/fujiGW-4.png'), thumbnail: require('../../Assets/Products/fujiGW-4-small.png')},
-      {original: require('../../Assets/Products/fujiGW-5.png'), thumbnail: require('../../Assets/Products/fujiGW-5-small.png')},
-      {original: require('../../Assets/Products/fujiGW-6.png'), thumbnail: require('../../Assets/Products/fujiGW-6-small.png')},
-      {original: require('../../Assets/Products/fujiGW-7.png'), thumbnail: require('../../Assets/Products/fujiGW-7-small.png')},
-      {original: require('../../Assets/Products/fujiGW-8.png'), thumbnail: require('../../Assets/Products/fujiGW-8-small.png')},
-      {original: require('../../Assets/Products/fujiGW-9.png'), thumbnail: require('../../Assets/Products/fujiGW-9-small.png')},
-      {original: require('../../Assets/Products/fujiGW-10.png'), thumbnail: require('../../Assets/Products/fujiGW-10-small.png')},
-      {original: require('../../Assets/Products/fujiGW-11.png'), thumbnail: require('../../Assets/Products/fujiGW-11-small.png')},
-      {original: require('../../Assets/Products/fujiGW-12.png'), thumbnail: require('../../Assets/Products/fujiGW-12-small.png')},
-      {original: require('../../Assets/Products/fujiGW-13.png'), thumbnail: require('../../Assets/Products/fujiGW-13-small.png')},
-      {original: require('../../Assets/Products/fujiGW-14.png'), thumbnail: require('../../Assets/Products/fujiGW-14-small.png')},
-    ],
-    title: "Fuji GW670III 6x7 Rangefinder",
-    description: "",
-    mechanics: "",
-    optics:"",
-    category: "Rangefinders",
-    price: 989,
     sold: false
   },
 
@@ -205,28 +138,6 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/leicaM3-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/leicaM3-1.png'), thumbnail: require('../../Assets/Products/leicaM3-1-small.png')},
-      {original: require('../../Assets/Products/leicaM3-2.png'), thumbnail: require('../../Assets/Products/leicaM3-2-small.png')},
-      {original: require('../../Assets/Products/leicaM3-3.png'), thumbnail: require('../../Assets/Products/leicaM3-3-small.png')},
-      {original: require('../../Assets/Products/leicaM3-4.png'), thumbnail: require('../../Assets/Products/leicaM3-4-small.png')},
-      {original: require('../../Assets/Products/leicaM3-5.png'), thumbnail: require('../../Assets/Products/leicaM3-5-small.png')},
-      {original: require('../../Assets/Products/leicaM3-6.png'), thumbnail: require('../../Assets/Products/leicaM3-6-small.png')},
-      {original: require('../../Assets/Products/leicaM3-7.png'), thumbnail: require('../../Assets/Products/leicaM3-7-small.png')},
-      {original: require('../../Assets/Products/leicaM3-8.png'), thumbnail: require('../../Assets/Products/leicaM3-8-small.png')},
-      {original: require('../../Assets/Products/leicaM3-9.png'), thumbnail: require('../../Assets/Products/leicaM3-9-small.png')},
-      {original: require('../../Assets/Products/leicaM3-10.png'), thumbnail: require('../../Assets/Products/leicaM3-10-small.png')}
-    ],
-    title: "Leica M3 DS",
-    description: "",
-    mechanics: "",
-    optics:"",
-    category: "Rangefinders",
-    price: 949,
-    sold: false
-  },
-
   { image: require('../../Assets/Products/leicaRed-1-featured.png'),
     images: [
       {original: require('../../Assets/Products/leicaRed-1.png'), thumbnail: require('../../Assets/Products/leicaRed-1-small.png')},
@@ -243,53 +154,6 @@ const PRODUCTS = [
     optics:"",
     category: "Rangefinders",
     price: 329,
-    sold: false
-  },
-
-  { image: require('../../Assets/Products/leicaSummi40-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/leicaSummi40-1.png'), thumbnail: require('../../Assets/Products/leicaSummi40-1-small.png')},
-      {original: require('../../Assets/Products/leicaSummi40-2.png'), thumbnail: require('../../Assets/Products/leicaSummi40-2-small.png')},
-      {original: require('../../Assets/Products/leicaSummi40-3.png'), thumbnail: require('../../Assets/Products/leicaSummi40-3-small.png')},
-      {original: require('../../Assets/Products/leicaSummi40-4.png'), thumbnail: require('../../Assets/Products/leicaSummi40-4-small.png')},
-      {original: require('../../Assets/Products/leicaSummi40-5.png'), thumbnail: require('../../Assets/Products/leicaSummi40-5-small.png')},
-      {original: require('../../Assets/Products/leicaSummi40-6.png'), thumbnail: require('../../Assets/Products/leicaSummi40-6-small.png')},
-      {original: require('../../Assets/Products/leicaSummi40-7.png'), thumbnail: require('../../Assets/Products/leicaSummi40-7-small.png')},
-      {original: require('../../Assets/Products/leicaSummi40-8.png'), thumbnail: require('../../Assets/Products/leicaSummi40-8-small.png')},
-      {original: require('../../Assets/Products/leicaSummi40-9.png'), thumbnail: require('../../Assets/Products/leicaSummi40-9-small.png')},
-      {original: require('../../Assets/Products/leicaSummi40-10.png'), thumbnail: require('../../Assets/Products/leicaSummi40-10-small.png')},
-      {original: require('../../Assets/Products/leicaSummi40-11.png'), thumbnail: require('../../Assets/Products/leicaSummi40-11-small.png')},
-      {original: require('../../Assets/Products/leicaSummi40-12.png'), thumbnail: require('../../Assets/Products/leicaSummi40-12-small.png')},
-    ],
-    title: "Leica Summicron 40mm f2",
-    description: "",
-    mechanics: "",
-    optics:"",
-    category: "Lenses",
-    price: 619,
-    sold: false
-  },
-
-  { image: require('../../Assets/Products/leicaSummi50-13-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/leicaSummi50-13.png'), thumbnail: require('../../Assets/Products/leicaSummi50-3-small.png')},
-      {original: require('../../Assets/Products/leicaSummi50-4.png'), thumbnail: require('../../Assets/Products/leicaSummi50-4-small.png')},
-      {original: require('../../Assets/Products/leicaSummi50-5.png'), thumbnail: require('../../Assets/Products/leicaSummi50-5-small.png')},
-      {original: require('../../Assets/Products/leicaSummi50-6.png'), thumbnail: require('../../Assets/Products/leicaSummi50-6-small.png')},
-      {original: require('../../Assets/Products/leicaSummi50-7.png'), thumbnail: require('../../Assets/Products/leicaSummi50-7-small.png')},
-      {original: require('../../Assets/Products/leicaSummi50-8.png'), thumbnail: require('../../Assets/Products/leicaSummi50-8-small.png')},
-      {original: require('../../Assets/Products/leicaSummi50-9.png'), thumbnail: require('../../Assets/Products/leicaSummi50-9-small.png')},
-      {original: require('../../Assets/Products/leicaSummi50-10.png'), thumbnail: require('../../Assets/Products/leicaSummi50-10-small.png')},
-      {original: require('../../Assets/Products/leicaSummi50-11.png'), thumbnail: require('../../Assets/Products/leicaSummi50-11-small.png')},
-      {original: require('../../Assets/Products/leicaSummi50-12.png'), thumbnail: require('../../Assets/Products/leicaSummi50-12-small.png')},
-      {original: require('../../Assets/Products/leicaSummi50-3.png'), thumbnail: require('../../Assets/Products/leicaSummi50-3-small.png')},
-    ],
-    title: "Leica Summicron 50mm f2 Type V-NIB",
-    description: "",
-    mechanics: "",
-    optics:"",
-    category: "Lenses",
-    price: 1749,
     sold: false
   },
 
@@ -363,28 +227,6 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/nikkor35-10-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/nikkor35-10.png'), thumbnail: require('../../Assets/Products/nikkor35-10-small.png')},
-      {original: require('../../Assets/Products/nikkor35-2.png'), thumbnail: require('../../Assets/Products/nikkor35-2-small.png')},
-      {original: require('../../Assets/Products/nikkor35-3.png'), thumbnail: require('../../Assets/Products/nikkor35-3-small.png')},
-      {original: require('../../Assets/Products/nikkor35-4.png'), thumbnail: require('../../Assets/Products/nikkor35-4-small.png')},
-      {original: require('../../Assets/Products/nikkor35-5.png'), thumbnail: require('../../Assets/Products/nikkor35-5-small.png')},
-      {original: require('../../Assets/Products/nikkor35-6.png'), thumbnail: require('../../Assets/Products/nikkor35-6-small.png')},
-      {original: require('../../Assets/Products/nikkor35-7.png'), thumbnail: require('../../Assets/Products/nikkor35-7-small.png')},
-      {original: require('../../Assets/Products/nikkor35-8.png'), thumbnail: require('../../Assets/Products/nikkor35-8-small.png')},
-      {original: require('../../Assets/Products/nikkor35-9.png'), thumbnail: require('../../Assets/Products/nikkor35-9-small.png')},
-      {original: require('../../Assets/Products/nikkor35-1.png'), thumbnail: require('../../Assets/Products/nikkor35-1-small.png')}
-    ],
-    title: "Nikkor 35mm f1.4 Ai",
-    description: "",
-    mechanics: "",
-    optics:"",
-    category: "Lenses",
-    price: 399,
-    sold: false
-  },
-
   { image: require('../../Assets/Products/nikkorH-1-featured.png'),
     images: [
       {original: require('../../Assets/Products/nikkorH-1.png'), thumbnail: require('../../Assets/Products/nikkorH-1-small.png')},
@@ -405,26 +247,70 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/olympusEpic-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/olympusEpic-1.png'), thumbnail: require('../../Assets/Products/olympusEpic-1-small.png')},
-      {original: require('../../Assets/Products/olympusEpic-2.png'), thumbnail: require('../../Assets/Products/olympusEpic-2-small.png')},
-      {original: require('../../Assets/Products/olympusEpic-3.png'), thumbnail: require('../../Assets/Products/olympusEpic-3-small.png')},
-      {original: require('../../Assets/Products/olympusEpic-4.png'), thumbnail: require('../../Assets/Products/olympusEpic-4-small.png')},
-      {original: require('../../Assets/Products/olympusEpic-5.png'), thumbnail: require('../../Assets/Products/olympusEpic-5-small.png')},
-      {original: require('../../Assets/Products/olympusEpic-6.png'), thumbnail: require('../../Assets/Products/olympusEpic-6-small.png')},
-      {original: require('../../Assets/Products/olympusEpic-7.png'), thumbnail: require('../../Assets/Products/olympusEpic-7-small.png')},
-      {original: require('../../Assets/Products/olympusEpic-8.png'), thumbnail: require('../../Assets/Products/olympusEpic-8-small.png')},
-      {original: require('../../Assets/Products/olympusEpic-9.png'), thumbnail: require('../../Assets/Products/olympusEpic-9-small.png')},
-      {original: require('../../Assets/Products/olympusEpic-10.png'), thumbnail: require('../../Assets/Products/olympusEpic-10-small.png')}
-    ],
-    title: "Olympus Stylus Epic 35mm 2.8 P&S",
+  { image: require('../../Assets/Products/canonA1-1-featured.png'),
+    images: [],
+    title: "Canon A-1 w nFD 50mm f1.8",
     description: "",
     mechanics: "",
     optics:"",
     category: "SLRs",
-    price: 239,
-    sold: false
+    price: 179,
+    sold: true
+  },
+
+  { image: require('../../Assets/Products/leicaM3-1-featured.png'),
+    images: [
+      {original: require('../../Assets/Products/leicaM3-1.png'), thumbnail: require('../../Assets/Products/leicaM3-1-small.png')},
+      {original: require('../../Assets/Products/leicaM3-2.png'), thumbnail: require('../../Assets/Products/leicaM3-2-small.png')},
+      {original: require('../../Assets/Products/leicaM3-3.png'), thumbnail: require('../../Assets/Products/leicaM3-3-small.png')},
+      {original: require('../../Assets/Products/leicaM3-4.png'), thumbnail: require('../../Assets/Products/leicaM3-4-small.png')},
+      {original: require('../../Assets/Products/leicaM3-5.png'), thumbnail: require('../../Assets/Products/leicaM3-5-small.png')},
+      {original: require('../../Assets/Products/leicaM3-6.png'), thumbnail: require('../../Assets/Products/leicaM3-6-small.png')},
+      {original: require('../../Assets/Products/leicaM3-7.png'), thumbnail: require('../../Assets/Products/leicaM3-7-small.png')},
+      {original: require('../../Assets/Products/leicaM3-8.png'), thumbnail: require('../../Assets/Products/leicaM3-8-small.png')},
+      {original: require('../../Assets/Products/leicaM3-9.png'), thumbnail: require('../../Assets/Products/leicaM3-9-small.png')},
+      {original: require('../../Assets/Products/leicaM3-10.png'), thumbnail: require('../../Assets/Products/leicaM3-10-small.png')}
+    ],
+    title: "Leica M3 DS",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "Rangefinders",
+    price: 949,
+    sold: true
+  },
+
+  { image: require('../../Assets/Products/nikkor35-10-featured.png'),
+    images: [],
+    title: "Nikkor 35mm f1.4 Ai",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "Lenses",
+    price: 399,
+    sold: true
+  },
+
+  { image: require('../../Assets/Products/contaxT2-1-featured.png'),
+    images: [],
+    title: "Contax T2",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "Rangefinders",
+    price: 799,
+    sold: true
+  },
+
+  { image: require('../../Assets/Products/fujiGW-1-featured.png'),
+    images: [],
+    title: "Fuji GW670III 6x7 Rangefinder",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "Rangefinders",
+    price: 989,
+    sold: true
   },
 
   { image: require('../../Assets/Products/olympusOm1-1-featured.png'),
@@ -446,68 +332,11 @@ const PRODUCTS = [
     optics:"",
     category: "SLRs",
     price: 229,
-    sold: false
-  },
-
-  { image: require('../../Assets/Products/pentaxP3-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/pentaxP3-1.png'), thumbnail: require('../../Assets/Products/pentaxP3-1-small.png')},
-      {original: require('../../Assets/Products/pentaxP3-2.png'), thumbnail: require('../../Assets/Products/pentaxP3-2-small.png')},
-      {original: require('../../Assets/Products/pentaxP3-3.png'), thumbnail: require('../../Assets/Products/pentaxP3-3-small.png')},
-      {original: require('../../Assets/Products/pentaxP3-4.png'), thumbnail: require('../../Assets/Products/pentaxP3-4-small.png')},
-      {original: require('../../Assets/Products/pentaxP3-5.png'), thumbnail: require('../../Assets/Products/pentaxP3-5-small.png')},
-      {original: require('../../Assets/Products/pentaxP3-6.png'), thumbnail: require('../../Assets/Products/pentaxP3-6-small.png')},
-      {original: require('../../Assets/Products/pentaxP3-7.png'), thumbnail: require('../../Assets/Products/pentaxP3-7-small.png')},
-      {original: require('../../Assets/Products/pentaxP3-8.png'), thumbnail: require('../../Assets/Products/pentaxP3-8-small.png')},
-      {original: require('../../Assets/Products/pentaxP3-9.png'), thumbnail: require('../../Assets/Products/pentaxP3-9-small.png')},
-      {original: require('../../Assets/Products/pentaxP3-10.png'), thumbnail: require('../../Assets/Products/pentaxP3-10-small.png')},
-      {original: require('../../Assets/Products/pentaxP3-11.png'), thumbnail: require('../../Assets/Products/pentaxP3-11-small.png')},
-    ],
-    title: "Pentax P3",
-    description: "",
-    mechanics: "",
-    optics:"",
-    category: "SLRs",
-    price: 89,
-    sold: false
-  },
-
-  { image: require('../../Assets/Products/voig-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/voig-1.png'), thumbnail: require('../../Assets/Products/voig-1-small.png')},
-      {original: require('../../Assets/Products/voig-2.png'), thumbnail: require('../../Assets/Products/voig-2-small.png')},
-      {original: require('../../Assets/Products/voig-3.png'), thumbnail: require('../../Assets/Products/voig-3-small.png')},
-      {original: require('../../Assets/Products/voig-4.png'), thumbnail: require('../../Assets/Products/voig-4-small.png')},
-      {original: require('../../Assets/Products/voig-5.png'), thumbnail: require('../../Assets/Products/voig-5-small.png')},
-      {original: require('../../Assets/Products/voig-6.png'), thumbnail: require('../../Assets/Products/voig-6-small.png')},
-      {original: require('../../Assets/Products/voig-7.png'), thumbnail: require('../../Assets/Products/voig-7-small.png')},
-      {original: require('../../Assets/Products/voig-8.png'), thumbnail: require('../../Assets/Products/voig-8-small.png')},
-      {original: require('../../Assets/Products/voig-9.png'), thumbnail: require('../../Assets/Products/voig-9-small.png')},
-      {original: require('../../Assets/Products/voig-10.png'), thumbnail: require('../../Assets/Products/voig-10-small.png')},
-      {original: require('../../Assets/Products/voig-11.png'), thumbnail: require('../../Assets/Products/voig-11-small.png')},
-    ],
-    title: "Voigtlander Nokton 35mm f1.4",
-    description: "",
-    mechanics: "",
-    optics:"",
-    category: "Lenses",
-    price: 559,
-    sold: false
+    sold: true
   },
 
   { image: require('../../Assets/Products/canonet-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/canonet-1.png'), thumbnail: require('../../Assets/Products/canonet-1-small.png')},
-      {original: require('../../Assets/Products/canonet-2.png'), thumbnail: require('../../Assets/Products/canonet-2-small.png')},
-      {original: require('../../Assets/Products/canonet-3.png'), thumbnail: require('../../Assets/Products/canonet-3-small.png')},
-      {original: require('../../Assets/Products/canonet-4.png'), thumbnail: require('../../Assets/Products/canonet-4-small.png')},
-      {original: require('../../Assets/Products/canonet-5.png'), thumbnail: require('../../Assets/Products/canonet-5-small.png')},
-      {original: require('../../Assets/Products/canonet-6.png'), thumbnail: require('../../Assets/Products/canonet-6-small.png')},
-      {original: require('../../Assets/Products/canonet-7.png'), thumbnail: require('../../Assets/Products/canonet-7-small.png')},
-      {original: require('../../Assets/Products/canonet-8.png'), thumbnail: require('../../Assets/Products/canonet-8-small.png')},
-      {original: require('../../Assets/Products/canonet-9.png'), thumbnail: require('../../Assets/Products/canonet-9-small.png')},
-      {original: require('../../Assets/Products/canonet-10.png'), thumbnail: require('../../Assets/Products/canonet-10-small.png')}
-    ],
+      images: [],
     title: "Canon Canonet Giii QL 17 w/ Canonlite D, Filter & Cap-Boxes",
     description: "",
     mechanics: "",
@@ -518,18 +347,7 @@ const PRODUCTS = [
   },
 
   { image: require('../../Assets/Products/canonfd2-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/canonfd2-1.png'), thumbnail: require('../../Assets/Products/canonfd2-1-small.png')},
-      {original: require('../../Assets/Products/canonfd2-2.png'), thumbnail: require('../../Assets/Products/canonfd2-2-small.png')},
-      {original: require('../../Assets/Products/canonfd2-3.png'), thumbnail: require('../../Assets/Products/canonfd2-3-small.png')},
-      {original: require('../../Assets/Products/canonfd2-4.png'), thumbnail: require('../../Assets/Products/canonfd2-4-small.png')},
-      {original: require('../../Assets/Products/canonfd2-5.png'), thumbnail: require('../../Assets/Products/canonfd2-5-small.png')},
-      {original: require('../../Assets/Products/canonfd2-6.png'), thumbnail: require('../../Assets/Products/canonfd2-6-small.png')},
-      {original: require('../../Assets/Products/canonfd2-7.png'), thumbnail: require('../../Assets/Products/canonfd2-7-small.png')},
-      {original: require('../../Assets/Products/canonfd2-8.png'), thumbnail: require('../../Assets/Products/canonfd2-8-small.png')},
-      {original: require('../../Assets/Products/canonet-9.png'), thumbnail: require('../../Assets/Products/canonfd2-9-small.png')},
-      {original: require('../../Assets/Products/canonfd2-10.png'), thumbnail: require('../../Assets/Products/canonfd2-10-small.png')}
-    ],
+      images: [],
     title: "Canon FD 50mm f1.2 with UV Filter, Caps & Case",
     description: "",
     mechanics:"",
@@ -540,18 +358,7 @@ const PRODUCTS = [
   },
 
   { image: require('../../Assets/Products/contax167-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/contax167-1.png'), thumbnail: require('../../Assets/Products/contax167-1-small.png')},
-      {original: require('../../Assets/Products/contax167-2.png'), thumbnail: require('../../Assets/Products/contax167-2-small.png')},
-      {original: require('../../Assets/Products/contax167-3.png'), thumbnail: require('../../Assets/Products/contax167-3-small.png')},
-      {original: require('../../Assets/Products/contax167-4.png'), thumbnail: require('../../Assets/Products/contax167-4-small.png')},
-      {original: require('../../Assets/Products/contax167-5.png'), thumbnail: require('../../Assets/Products/contax167-5-small.png')},
-      {original: require('../../Assets/Products/contax167-6.png'), thumbnail: require('../../Assets/Products/contax167-6-small.png')},
-      {original: require('../../Assets/Products/contax167-7.png'), thumbnail: require('../../Assets/Products/contax167-7-small.png')},
-      {original: require('../../Assets/Products/contax167-8.png'), thumbnail: require('../../Assets/Products/contax167-8-small.png')},
-      {original: require('../../Assets/Products/contax167-9.png'), thumbnail: require('../../Assets/Products/contax167-9-small.png')},
-      {original: require('../../Assets/Products/contax167-10.png'), thumbnail: require('../../Assets/Products/contax167-10-small.png')}
-    ],
+      images: [],
     title: "Contax 167mt SLR w/ Zeiss MMJ 45mm f2.8 Lens, Filter, Strap & Cap Combo",
     description: "",
     mechanics:"",
@@ -562,21 +369,23 @@ const PRODUCTS = [
   },
 
   { image: require('../../Assets/Products/contaxii-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/contaxii-1.png'), thumbnail: require('../../Assets/Products/contaxii-1-small.png')},
-      {original: require('../../Assets/Products/contaxii-2.png'), thumbnail: require('../../Assets/Products/contaxii-2-small.png')},
-      {original: require('../../Assets/Products/contaxii-3.png'), thumbnail: require('../../Assets/Products/contaxii-3-small.png')},
-      {original: require('../../Assets/Products/contaxii-4.png'), thumbnail: require('../../Assets/Products/contaxii-4-small.png')},
-      {original: require('../../Assets/Products/contaxii-5.png'), thumbnail: require('../../Assets/Products/contaxii-5-small.png')},
-      {original: require('../../Assets/Products/contaxii-6.png'), thumbnail: require('../../Assets/Products/contaxii-6-small.png')},
-      {original: require('../../Assets/Products/contaxii-7.png'), thumbnail: require('../../Assets/Products/contaxii-7-small.png')}
-    ],
+    images: [],
     title: "Contax iia 'Color Dial' Rangefinder w/ Zeiss-Opton Sonnar 5cm f1.5 Post War T Coated Lens",
     description: "",
     mechanics:"",
     optics:"",
     category: "Rangefinders",
     price: 419,
+    sold: true
+  },
+  { image: require('../../Assets/Products/pentaxP3-1-featured.png'),
+    images: [],
+    title: "Pentax P3",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "SLRs",
+    price: 89,
     sold: true
   },
 
@@ -599,18 +408,19 @@ const PRODUCTS = [
     price: 339,
     sold: true
   },
+  { image: require('../../Assets/Products/leicaSummi40-1-featured.png'),
+    images: [],
+    title: "Leica Summicron 40mm f2",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "Lenses",
+    price: 619,
+    sold: true
+  },
 
   { image: require('../../Assets/Products/leicasummicron-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/leicasummicron-1.png'), thumbnail: require('../../Assets/Products/leicasummicron-1-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-2.png'), thumbnail: require('../../Assets/Products/leicasummicron-2-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-3.png'), thumbnail: require('../../Assets/Products/leicasummicron-3-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-4.png'), thumbnail: require('../../Assets/Products/leicasummicron-4-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-5.png'), thumbnail: require('../../Assets/Products/leicasummicron-5-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-6.png'), thumbnail: require('../../Assets/Products/leicasummicron-6-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-7.png'), thumbnail: require('../../Assets/Products/leicasummicron-7-small.png')},
-      {original: require('../../Assets/Products/leicasummicron-8.png'), thumbnail: require('../../Assets/Products/leicasummicron-8-small.png')}
-    ],
+    images: [],
     title: "Leica Summaron 35 3.5 M Mount w/ Goggles & Hood",
     description: "",
     mechanics:"",
@@ -620,19 +430,19 @@ const PRODUCTS = [
     sold: true
   },
 
+  { image: require('../../Assets/Products/leicaSummi50-13-featured.png'),
+      images: [],
+    title: "Leica Summicron 50mm f2 Type V-NIB",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "Lenses",
+    price: 1749,
+    sold: true
+  },
+
   { image: require('../../Assets/Products/minoltam-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/minoltam-1.png'), thumbnail: require('../../Assets/Products/minoltam-1-small.png')},
-      {original: require('../../Assets/Products/minoltam-2.png'), thumbnail: require('../../Assets/Products/minoltam-2-small.png')},
-      {original: require('../../Assets/Products/minoltam-3.png'), thumbnail: require('../../Assets/Products/minoltam-3-small.png')},
-      {original: require('../../Assets/Products/minoltam-4.png'), thumbnail: require('../../Assets/Products/minoltam-4-small.png')},
-      {original: require('../../Assets/Products/minoltam-5.png'), thumbnail: require('../../Assets/Products/minoltam-5-small.png')},
-      {original: require('../../Assets/Products/minoltam-6.png'), thumbnail: require('../../Assets/Products/minoltam-6-small.png')},
-      {original: require('../../Assets/Products/minoltam-7.png'), thumbnail: require('../../Assets/Products/minoltam-7-small.png')},
-      {original: require('../../Assets/Products/minoltam-8.png'), thumbnail: require('../../Assets/Products/minoltam-8-small.png')},
-      {original: require('../../Assets/Products/minoltam-9.png'), thumbnail: require('../../Assets/Products/minoltam-9-small.png')},
-      {original: require('../../Assets/Products/minoltam-10.png'), thumbnail: require('../../Assets/Products/minoltam-10-small.png')}
-    ],
+    images: [],
     title: "Minolta M-Rokkor 40mm f2 with Minolta Cap, UV Filter & Case",
     description: "",
     mechanics:"",
@@ -643,17 +453,7 @@ const PRODUCTS = [
   },
 
   { image: require('../../Assets/Products/nikonf1-3-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/nikonf1-3.png'), thumbnail: require('../../Assets/Products/nikonf1-3-small.png')},
-      {original: require('../../Assets/Products/nikonf1-2.png'), thumbnail: require('../../Assets/Products/nikonf1-2-small.png')},
-      {original: require('../../Assets/Products/nikonf1-1.png'), thumbnail: require('../../Assets/Products/nikonf1-1-small.png')},
-      {original: require('../../Assets/Products/nikonf1-4.png'), thumbnail: require('../../Assets/Products/nikonf1-4-small.png')},
-      {original: require('../../Assets/Products/nikonf1-5.png'), thumbnail: require('../../Assets/Products/nikonf1-5-small.png')},
-      {original: require('../../Assets/Products/nikonf1-6.png'), thumbnail: require('../../Assets/Products/nikonf1-6-small.png')},
-      {original: require('../../Assets/Products/nikonf1-7.png'), thumbnail: require('../../Assets/Products/nikonf1-7-small.png')},
-      {original: require('../../Assets/Products/nikonf1-8.png'), thumbnail: require('../../Assets/Products/nikonf1-8-small.png')},
-      {original: require('../../Assets/Products/nikonf1-9.png'), thumbnail: require('../../Assets/Products/nikonf1-9-small.png')}
-    ],
+      images: [],
     title: "Nikon F w/ 45mm 2.8 Pancake Lens & UV Filter",
     description: "",
     mechanics:"",
@@ -664,19 +464,7 @@ const PRODUCTS = [
   },
 
   { image: require('../../Assets/Products/nikonfpho-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/nikonfpho-1.png'), thumbnail: require('../../Assets/Products/nikonfpho-1-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-2.png'), thumbnail: require('../../Assets/Products/nikonfpho-2-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-3.png'), thumbnail: require('../../Assets/Products/nikonfpho-3-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-4.png'), thumbnail: require('../../Assets/Products/nikonfpho-4-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-5.png'), thumbnail: require('../../Assets/Products/nikonfpho-5-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-6.png'), thumbnail: require('../../Assets/Products/nikonfpho-6-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-7.png'), thumbnail: require('../../Assets/Products/nikonfpho-7-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-8.png'), thumbnail: require('../../Assets/Products/nikonfpho-8-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-9.png'), thumbnail: require('../../Assets/Products/nikonfpho-9-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-10.png'), thumbnail: require('../../Assets/Products/nikonfpho-10-small.png')},
-      {original: require('../../Assets/Products/nikonfpho-11.png'), thumbnail: require('../../Assets/Products/nikonfpho-11-small.png')}
-    ],
+      images: [],
     title: "Nikon F Photomic w/ 50mm f1.4 & Original Half Case",
     description: "",
     mechanics:"",
@@ -684,25 +472,10 @@ const PRODUCTS = [
     category: "SLRs",
     price: 329,
     sold: true
-  }, 
+  },
 
   { image: require('../../Assets/Products/nikonf2-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/nikonf2-1.png'), thumbnail: require('../../Assets/Products/nikonf2-1-small.png')},
-      {original: require('../../Assets/Products/nikonf2-2.png'), thumbnail: require('../../Assets/Products/nikonf2-2-small.png')},
-      {original: require('../../Assets/Products/nikonf2-3.png'), thumbnail: require('../../Assets/Products/nikonf2-3-small.png')},
-      {original: require('../../Assets/Products/nikonf2-4.png'), thumbnail: require('../../Assets/Products/nikonf2-4-small.png')},
-      {original: require('../../Assets/Products/nikonf2-5.png'), thumbnail: require('../../Assets/Products/nikonf2-5-small.png')},
-      {original: require('../../Assets/Products/nikonf2-6.png'), thumbnail: require('../../Assets/Products/nikonf2-6-small.png')},
-      {original: require('../../Assets/Products/nikonf2-7.png'), thumbnail: require('../../Assets/Products/nikonf2-7-small.png')},
-      {original: require('../../Assets/Products/nikonf2-8.png'), thumbnail: require('../../Assets/Products/nikonf2-8-small.png')},
-      {original: require('../../Assets/Products/nikonf2-9.png'), thumbnail: require('../../Assets/Products/nikonf2-9-small.png')},
-      {original: require('../../Assets/Products/nikonf2-10.png'), thumbnail: require('../../Assets/Products/nikonf2-10-small.png')},
-      {original: require('../../Assets/Products/nikonf2-11.png'), thumbnail: require('../../Assets/Products/nikonf2-11-small.png')},
-      {original: require('../../Assets/Products/nikonf2-12.png'), thumbnail: require('../../Assets/Products/nikonf2-12-small.png')},
-      {original: require('../../Assets/Products/nikonf2-13.png'), thumbnail: require('../../Assets/Products/nikonf2-13-small.png')},
-      {original: require('../../Assets/Products/nikonf2-14.png'), thumbnail: require('../../Assets/Products/nikonf2-14-small.png')}
-    ],
+      images: [],
     title: "Nikon F2 w/ D-11 & Waist-Lever Finders",
     description: "",
     mechanics:"",
@@ -713,16 +486,7 @@ const PRODUCTS = [
   },
 
   { image: require('../../Assets/Products/nikonf3-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/nikonf3-1.png'), thumbnail: require('../../Assets/Products/nikonf3-1-small.png')},
-      {original: require('../../Assets/Products/nikonf3-2.png'), thumbnail: require('../../Assets/Products/nikonf3-2-small.png')},
-      {original: require('../../Assets/Products/nikonf3-3.png'), thumbnail: require('../../Assets/Products/nikonf3-3-small.png')},
-      {original: require('../../Assets/Products/nikonf3-4.png'), thumbnail: require('../../Assets/Products/nikonf3-4-small.png')},
-      {original: require('../../Assets/Products/nikonf3-5.png'), thumbnail: require('../../Assets/Products/nikonf3-5-small.png')},
-      {original: require('../../Assets/Products/nikonf3-7.png'), thumbnail: require('../../Assets/Products/nikonf3-7-small.png')},
-      {original: require('../../Assets/Products/nikonf3-8.png'), thumbnail: require('../../Assets/Products/nikonf3-8-small.png')},
-      {original: require('../../Assets/Products/nikonf3-9.png'), thumbnail: require('../../Assets/Products/nikonf3-9-small.png')}
-    ],
+      images: [],
     title: "Nikon F3 w/ Original Strap, Body Cap & MD-4 Motor Drive",
     description: "",
     mechanics:"",
@@ -733,21 +497,7 @@ const PRODUCTS = [
   },
 
   { image: require('../../Assets/Products/mamya7-9-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/mamya7-9.png'), thumbnail: require('../../Assets/Products/mamya7-9-small.png')},
-      {original: require('../../Assets/Products/mamya7-2.png'), thumbnail: require('../../Assets/Products/mamya7-2-small.png')},
-      {original: require('../../Assets/Products/mamya7-3.png'), thumbnail: require('../../Assets/Products/mamya7-3-small.png')},
-      {original: require('../../Assets/Products/mamya7-4.png'), thumbnail: require('../../Assets/Products/mamya7-4-small.png')},
-      {original: require('../../Assets/Products/mamya7-5.png'), thumbnail: require('../../Assets/Products/mamya7-5-small.png')},
-      {original: require('../../Assets/Products/mamya7-6.png'), thumbnail: require('../../Assets/Products/mamya7-6-small.png')},
-      {original: require('../../Assets/Products/mamya7-7.png'), thumbnail: require('../../Assets/Products/mamya7-7-small.png')},
-      {original: require('../../Assets/Products/mamya7-8.png'), thumbnail: require('../../Assets/Products/mamya7-8-small.png')},
-      {original: require('../../Assets/Products/mamya7-1.png'), thumbnail: require('../../Assets/Products/mamya7-1-small.png')},
-      {original: require('../../Assets/Products/mamya7-10.png'), thumbnail: require('../../Assets/Products/mamya7-10-small.png')},
-      {original: require('../../Assets/Products/mamya7-11.png'), thumbnail: require('../../Assets/Products/mamya7-11-small.png')},
-      {original: require('../../Assets/Products/mamya7-12.png'), thumbnail: require('../../Assets/Products/mamya7-12-small.png')},
-      {original: require('../../Assets/Products/mamya7-13.png'), thumbnail: require('../../Assets/Products/mamya7-13-small.png')}
-    ],
+      images: [],
     title: "Mamiya 7ii 6x7 Medium Format Rangefinder w/ 65mm f4 Lens, Original Caps & Hood",
     description: "",
     mechanics:"",
@@ -757,26 +507,36 @@ const PRODUCTS = [
     sold: true
   },
 
+  { image: require('../../Assets/Products/olympusEpic-1-featured.png'),
+      images: [],
+    title: "Olympus Stylus Epic 35mm 2.8 P&S",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "SLRs",
+    price: 239,
+    sold: true
+  },
+
   { image: require('../../Assets/Products/o95-4-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/o95-4.png'), thumbnail: require('../../Assets/Products/o95-4-small.png')},
-      {original: require('../../Assets/Products/o95-2.png'), thumbnail: require('../../Assets/Products/o95-2-small.png')},
-      {original: require('../../Assets/Products/o95-3.png'), thumbnail: require('../../Assets/Products/o95-3-small.png')},
-      {original: require('../../Assets/Products/o95-1.png'), thumbnail: require('../../Assets/Products/o95-1-small.png')},
-      {original: require('../../Assets/Products/o95-5.png'), thumbnail: require('../../Assets/Products/o95-5-small.png')},
-      {original: require('../../Assets/Products/o95-6.png'), thumbnail: require('../../Assets/Products/o95-6-small.png')},
-      {original: require('../../Assets/Products/o95-7.png'), thumbnail: require('../../Assets/Products/o95-7-small.png')},
-      {original: require('../../Assets/Products/o95-8.png'), thumbnail: require('../../Assets/Products/o95-8-small.png')},
-      {original: require('../../Assets/Products/o95-9.png'), thumbnail: require('../../Assets/Products/o95-9-small.png')},
-      {original: require('../../Assets/Products/o95-10.png'), thumbnail: require('../../Assets/Products/o95-10-small.png')},
-      {original: require('../../Assets/Products/o95-11.png'), thumbnail: require('../../Assets/Products/o95-11-small.png')}
-    ],
+      images: [],
     title: "Canon 7 Rangefinder w/ Canon 50mm f0.95 “Dream Lens” w/ Original Filter & Caps",
     description: "",
     mechanics:"",
     optics:"",
     category: "Rangefinders",
     price: 2850,
+    sold: true
+  },
+
+  { image: require('../../Assets/Products/voig-1-featured.png'),
+  images: [],
+    title: "Voigtlander Nokton 35mm f1.4",
+    description: "",
+    mechanics: "",
+    optics:"",
+    category: "Lenses",
+    price: 559,
     sold: true
   },
 
