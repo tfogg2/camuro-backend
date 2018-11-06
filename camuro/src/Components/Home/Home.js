@@ -104,7 +104,7 @@ class Home extends Component {
             <h1><span>Camuro</span> Cameras</h1>
             <p>We're constantly adding to our collection and are excited to begin sharing it here. Our cameras come professionally cleaned so you can focus on what's important.</p>
             <div className="offer-gallery">
-              <ImageGallery items={images} showThumbnails={false} />
+              <ImageGallery items={images} showThumbnails={false} showFullscreenButton={false} />
             </div>
             <Link to="/products" alt="Products">
               <button className="gallery-btn">
