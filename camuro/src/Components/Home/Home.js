@@ -60,6 +60,10 @@ class Home extends Component {
         thumbnail: require('../../Assets/Products/minolta7-1.png')
       },
       {
+        original: require('../../Assets/yellow-gallery.png'),
+        thumbnail: require('../../Assets/yellow-gallery.png')
+      },
+      {
         original: require('../../Assets/Products/leicaSummi40-4.png'),
         thumbnail: require('../../Assets/Products/leicaSummi40-4.png')
       },
@@ -78,6 +82,10 @@ class Home extends Component {
       {
         original: require('../../Assets/mamiya-gallery.png'),
         thumbnail: require('../../Assets/mamiya-gallery.png')
+      },
+      {
+        original: require('../../Assets/camp-gallery.png'),
+        thumbnail: require('../../Assets/camp-gallery.png')
       },
     ]
 
