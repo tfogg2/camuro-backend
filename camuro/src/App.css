@@ -422,6 +422,10 @@ h1{
     padding: 20px 1%;
     width: 98%;
   }
+  .sell-content .sell-form-content .sell-form-header{
+    padding: 0px 1%;
+    width: 98%;
+  }
   .sell-content .sell-form-content .form-group.item{
     margin-bottom: 15px;
   }
@@ -453,14 +457,18 @@ h1{
   box-sizing: border-box;
   border-radius: 5px;
 }
+.sell-form-header{
+  width: 50%;
+  margin: 0 auto;
+}
+.sell-content .sell-form-content span{
+  color: #000;
+}
 .sell-form-content h1{
   margin-bottom: 0px;
   color: #1d1d1d;
   font-size: 42px;
   font-weight: 300;
-}
-.sell-content .sell-form-content span{
-  color: #c6574a;
 }
 .sell-form input{
   color: #3E2C28;
