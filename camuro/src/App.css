@@ -312,6 +312,7 @@ h1{
 @media (max-width: 480px) {
   .App .home .splash-background .home-bg{
     background-position-x: -75px;
+    background: url('./Assets/leicaM6-dark-small.png') no-repeat;
   }
   .right-nav ul li:hover{
     background: #000;
