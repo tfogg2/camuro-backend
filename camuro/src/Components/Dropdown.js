@@ -36,7 +36,7 @@ class Dropdown extends Component{
         </div>
          <ul className="dd-list">
          {list.map((item) => (
-           <NavLink to={item.url}><li className="dd-list-item" onClick={() => this.props.toggleItem(item.id, item.key)}>{item.title}</li></NavLink>
+           <NavLink to={item.url}><li className="dd-list-item" onClick={() => this.toggleList()}>{item.title}</li></NavLink>
          ))}
         </ul>
       </div>

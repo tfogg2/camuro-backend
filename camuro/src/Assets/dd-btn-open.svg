@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="40px" height="29px" viewBox="0 0 40 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="36px" height="26px" viewBox="0 0 36 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 4</title>
+    <title>dd-btn-open</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-4" transform="translate(0.000000, -1.000000)" fill="#FFFFFF">
-            <rect id="Rectangle" transform="translate(19.704429, 15.729151) rotate(35.000000) translate(-19.704429, -15.729151) " x="-3.15608044" y="14.229151" width="45.721019" height="3" rx="1.5"></rect>
-            <rect id="Rectangle" transform="translate(20.052603, 15.578881) scale(1, -1) rotate(35.000000) translate(-20.052603, -15.578881) " x="-2.92484732" y="14.078881" width="45.9549005" height="3" rx="1.5"></rect>
+        <g id="dd-btn-open" transform="translate(0.000000, -1.000000)" fill="#FFFFFF">
+            <rect id="Rectangle" transform="translate(17.733986, 13.699583) rotate(35.000000) translate(-17.733986, -13.699583) " x="-2.84047239" y="12.3931315" width="41.1489171" height="2.61290323" rx="1.30645161"></rect>
+            <rect id="Rectangle" transform="translate(18.047343, 13.568703) scale(1, -1) rotate(35.000000) translate(-18.047343, -13.568703) " x="-2.63236259" y="12.2622512" width="41.3594105" height="2.61290323" rx="1.30645161"></rect>
         </g>
     </g>
 </svg>

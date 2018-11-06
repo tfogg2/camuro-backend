@@ -7,6 +7,7 @@ class Header extends Component {
   constructor(props){
     super(props)
     this.state = {
+      cartProducts: this.props.cartProducts.length,
       menu: [
         {
           id: 0,
@@ -32,7 +33,7 @@ class Header extends Component {
         {
           id: 3,
           url:'/cart',
-          title: 'Cart',
+          title: `Cart`,
           selected: false,
           key: 'menu'
         }
