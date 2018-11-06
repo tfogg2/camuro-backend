@@ -23,7 +23,7 @@ h1{
 /* HEADER */
 @media (max-width: 480px) {
   .header .dd-wrapper{
-    width: 180px;
+    width: 175px;
   }
 }
 .header, .home-content{
