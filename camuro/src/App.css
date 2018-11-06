@@ -21,6 +21,11 @@ h1{
 }
 
 /* HEADER */
+@media (max-width: 480px) {
+  .header .dd-wrapper{
+    width: 180px;
+  }
+}
 .header, .home-content{
   margin: 0 auto;
 }
