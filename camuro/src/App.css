@@ -309,10 +309,17 @@ h1{
   padding: 10px;
 }
 /* MOBILE FRIENDLY */
+@media (max-width: 340px) {
+  #root .App .home .splash-background .home-bg{
+    background-position-x: -20px;
+  }
+}
 @media (max-width: 400px) {
   .App .home .splash-background .home-bg{
-    background: url('./Assets/leicaM6-dark-400-2.png') no-repeat;
+    background: url('./Assets/leicaM6-dark-ss.png') no-repeat;
     height: 250px;
+    width: 100%;
+    background-size: cover;
   }
   .App .home .splash-background{
     height: 250px;
