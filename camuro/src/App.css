@@ -311,7 +311,7 @@ h1{
 /* MOBILE FRIENDLY */
 @media (max-width: 400px) {
   .App .home .splash-background .home-bg{
-    background: url('./Assets/leicaM6-dark-400-2.svg') no-repeat;
+    background: url('./Assets/leicaM6-dark-400-2.png') no-repeat;
     height: 250px;
   }
   .App .home .splash-background{
