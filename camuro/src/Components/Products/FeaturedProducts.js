@@ -44,7 +44,7 @@ class FeaturedProducts extends Component {
 // data
 const PRODUCTS = [
 
-  { image: require('../../Assets/Products/konicaHex-1-featured.png'),
+  { image: require('../../Assets/Products/konicaHex-1.png'),
     images: [
       {original: require('../../Assets/Products/konicaHex-1.png'), thumbnail: require('../../Assets/Products/konicaHex-1-small.png')},
       {original: require('../../Assets/Products/konicaHex-2.png'), thumbnail: require('../../Assets/Products/konicaHex-2-small.png')},
@@ -71,7 +71,7 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/leicaRed-1-featured.png'),
+  { image: require('../../Assets/Products/leicaRed-1.png'),
     images: [
       {original: require('../../Assets/Products/leicaRed-1.png'), thumbnail: require('../../Assets/Products/leicaRed-1-small.png')},
       {original: require('../../Assets/Products/leicaRed-2.png'), thumbnail: require('../../Assets/Products/leicaRed-2-small.png')},
@@ -90,7 +90,7 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/canonF1-1-featured.png'),
+  { image: require('../../Assets/Products/canonF1-1.png'),
     images: [
       {original: require('../../Assets/Products/canonF1-1.png'), thumbnail: require('../../Assets/Products/canonF1-1-small.png')},
       {original: require('../../Assets/Products/canonF1-2.png'), thumbnail: require('../../Assets/Products/canonF1-2-small.png')},
@@ -116,7 +116,7 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/leicaiiib-1-featured.png'),
+  { image: require('../../Assets/Products/leicaiiib-1.png'),
     images: [
       {original: require('../../Assets/Products/leicaiiib-1.png'), thumbnail: require('../../Assets/Products/leicaiiib-1-small.png')},
       {original: require('../../Assets/Products/leicaiiib-2.png'), thumbnail: require('../../Assets/Products/leicaiiib-2-small.png')},
@@ -136,7 +136,7 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/mamiya330-1-featured.png'),
+  { image: require('../../Assets/Products/mamiya330-1.png'),
     images: [
       {original: require('../../Assets/Products/mamiya330-1.png'), thumbnail: require('../../Assets/Products/mamiya330-1-small.png')},
       {original: require('../../Assets/Products/mamiya330-2.png'), thumbnail: require('../../Assets/Products/mamiya330-2-small.png')},
@@ -162,7 +162,7 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: require('../../Assets/Products/minolta7-1-featured.png'),
+  { image: require('../../Assets/Products/minolta7-1.png'),
     images: [
       {original: require('../../Assets/Products/minolta7-1.png'), thumbnail: require('../../Assets/Products/minolta7-1-small.png')},
       {original: require('../../Assets/Products/minolta7-2.png'), thumbnail: require('../../Assets/Products/minolta7-2-small.png')},
