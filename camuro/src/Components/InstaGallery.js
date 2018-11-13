@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import { BrowserRouter, Route, NavLink, Link } from 'react-router-dom'
 import Insta from './Insta'
+import Fade from 'react-reveal/Fade'
+import _ from 'lodash'
 
 
 
@@ -9,11 +11,23 @@ class InstaGallery extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      gallery: GALLERY
     }
   }
 
+  componentDidMount() {
+    const { data: allPhotos = [] } = GALLERY;
+    this.setState({ allPhotos });
+    _.delay( () => {
+      this.setState({
+        loaded: true
+      })
+      window.scrollTo(0, 0)
+    }, 100 )
+  }
+
   render(){
-    const galleryClass = this.state.loaded ? 'gallery-items visible' : 'gallery-items'
+    const galleryClass = this.state.loaded ? 'insta-gallery-items visible' : 'insta-gallery-items'
 
     const UI = ({ state, state: { gallery },  }) => (
         <div className="gallery">
@@ -33,7 +47,9 @@ class InstaGallery extends Component {
               </p>
             </div>
           </div>
-          <Insta />
+          <div className={galleryClass}>
+            <Insta />
+          </div>
         </div>
       )
 

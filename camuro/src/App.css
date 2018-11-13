@@ -738,6 +738,13 @@ h1{
 .home-gallery .gallery-items{
   padding-top: 0;
 }
+.insta-gallery-items{
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+.insta-gallery-items.visible{
+  opacity: 1;
+}
 .gallery-items{
   padding-top: 40px;
   opacity: 0;
