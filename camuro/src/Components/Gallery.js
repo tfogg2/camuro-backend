@@ -79,12 +79,12 @@ class Gallery extends Component {
     const UI = ({ state, state: { gallery },  }) => (
         <div className="gallery">
           <div className="gallery-header">
-            <img src={require('../Assets/photos.svg')} alt="photos" />
-            <div className="gallery-forward-arrow">
+            <div className="gallery-back-arrow">
               <Link to="/gallery/insta">
-                <img src={require('../Assets/forward-arrow.svg')} alt="forward-arrow"/>
+                <img src={require('../Assets/back-arrow.svg')} alt="back-arrow"/>
               </Link>
             </div>
+            <img src={require('../Assets/photos.svg')} alt="photos" />
             <div>
               <p>
                 <Link to="/gallery/insta">

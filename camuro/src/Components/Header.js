@@ -18,7 +18,7 @@ class Header extends Component {
         },
         {
           id: 1,
-          url:'/gallery',
+          url:'/gallery/insta',
           title: 'Photos',
           selected: false,
           key: 'menu'

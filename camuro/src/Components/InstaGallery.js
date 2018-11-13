@@ -18,12 +18,12 @@ class InstaGallery extends Component {
     const UI = ({ state, state: { gallery },  }) => (
         <div className="gallery">
           <div className="gallery-header">
-            <div className="gallery-back-arrow">
+            <img src={require('../Assets/photos.svg')} alt="photos" />
+            <div className="gallery-forward-arrow">
               <Link to="/gallery">
-                <img src={require('../Assets/back-arrow.svg')} alt="back-arrow"/>
+                <img src={require('../Assets/forward-arrow.svg')} alt="forward-arrow"/>
               </Link>
             </div>
-            <img src={require('../Assets/photos.svg')} alt="photos" />
             <div>
               <p>
                 <Link to="/gallery/insta">
