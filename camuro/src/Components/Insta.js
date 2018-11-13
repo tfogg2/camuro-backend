@@ -27,16 +27,12 @@ class Insta extends Component {
       }, 400 )
     }
 
-    componentDidMount() {
-
-    }
-
     shouldComponentUpdate() {
         return false;
     }
 
     render() {
-        const galleryClass = this.state.loaded ? 'gallery-item insta-item visible' : 'gallery-item insta-item'
+        const galleryClass = this.state.loaded ? 'instafeed visible' : 'instafeed'
 
         const template = `<div class="gallery-item insta-item"><div><a href='{{link}}' target='_blank' class='instafeed__item'>
                                   <img class='instafeed__item__background img-responsive' src='{{image}}' />
@@ -50,7 +46,7 @@ class Insta extends Component {
 
         return (
             <div>
-              <div id={instafeedTarget}></div>
+              <div id={galleryClass}></div>
               <Instafeed
                   limit='20'
                   ref='instafeed'
