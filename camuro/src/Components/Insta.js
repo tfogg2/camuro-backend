@@ -3,9 +3,6 @@ import Instafeed from 'react-instafeed'
 import Fade from 'react-reveal/Fade'
 import _ from 'lodash'
 
-const instafeedTarget = 'instafeed';
-
-
 
 class Insta extends Component {
     constructor(props) {
@@ -32,7 +29,7 @@ class Insta extends Component {
     }
 
     render() {
-        const galleryClass = this.state.loaded ? 'instafeed visible' : 'instafeed'
+        const instafeedTarget = this.state.loaded ? 'instafeed visible' : 'instafeed'
 
         const template = `<div class="gallery-item insta-item"><div><a href='{{link}}' target='_blank' class='instafeed__item'>
                                   <img class='instafeed__item__background img-responsive' src='{{image}}' />
@@ -46,19 +43,18 @@ class Insta extends Component {
 
         return (
             <div>
-              <div id={galleryClass}>
-                <Instafeed
-                    limit='20'
-                    ref='instafeed'
-                    resolution='standard_resolution'
-                    sortBy='most-recent'
-                    target={instafeedTarget}
-                    template={template}
-                    userId={process.env.REACT_APP_INSTAGRAM_USER_ID}
-                    clientId={process.env.REACT_APP_INSTAGRAM_CLIENT_ID}
-                    accessToken={process.env.REACT_APP_INSTAGRAM_ACCESS_TOKEN}
-                />
-              </div>
+              <div id={instafeedTarget}></div>
+              <Instafeed
+                  limit='20'
+                  ref='instafeed'
+                  resolution='standard_resolution'
+                  sortBy='most-recent'
+                  target={instafeedTarget}
+                  template={template}
+                  userId={process.env.REACT_APP_INSTAGRAM_USER_ID}
+                  clientId={process.env.REACT_APP_INSTAGRAM_CLIENT_ID}
+                  accessToken={process.env.REACT_APP_INSTAGRAM_ACCESS_TOKEN}
+              />
             </div>
         )
     }
