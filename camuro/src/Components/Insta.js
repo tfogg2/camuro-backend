@@ -36,9 +36,9 @@ class Insta extends Component {
     }
 
     render() {
-        const galleryClass = this.state.loaded ? "gallery-item insta-item visible" : "gallery-item insta-item"
+        const galleryClass = this.state.loaded ? 'gallery-item insta-item visible' : 'gallery-item insta-item'
 
-        const template = `<div class=${galleryClass}><div><a href='{{link}}' target='_blank' class='instafeed__item'>
+        const template = `<div class="gallery-item insta-item"><div><a href='{{link}}' target='_blank' class='instafeed__item'>
                                   <img class='instafeed__item__background img-responsive' src='{{image}}' />
                                     <div class='instafeed__item__overlay'>
                                       <div class='instafeed__item__overlay--inner'>
@@ -67,6 +67,8 @@ class Insta extends Component {
     }
 }
 
-const GALLERY = []
+const GALLERY = [
+  { image: require("../Assets/annie-spratt-2.png"), title: "Annie Spratt", credit: "https://unsplash.com/@anniespratt"}
+]
 
 export default Insta;
