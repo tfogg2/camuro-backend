@@ -11,7 +11,8 @@ class InstaGallery extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      gallery: GALLERY
+      gallery: GALLERY,
+      loaded: false
     }
   }
 
