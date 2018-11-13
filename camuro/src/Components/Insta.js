@@ -36,7 +36,7 @@ class Insta extends Component {
     }
 
     render() {
-        const galleryClass = this.state.loaded ? 'gallery-item insta-item visible' : 'gallery-item insta-item'
+        const galleryClass = this.state.loaded ? "gallery-item insta-item visible" : "gallery-item insta-item"
 
         const template = `<div class=${this.galleryClass}><div><a href='{{link}}' target='_blank' class='instafeed__item'>
                                   <img class='instafeed__item__background img-responsive' src='{{image}}' />
