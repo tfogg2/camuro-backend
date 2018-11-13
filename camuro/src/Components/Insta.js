@@ -3,7 +3,7 @@ import Instafeed from 'react-instafeed'
 
 const instafeedTarget = 'instafeed';
 
-const template = `<div class="gallery-item insta-item"><div><a href='{{link}}' target='_blank' class='instafeed__item'>
+const template = `<div class={galleryClass}"gallery-item insta-item"><div><a href='{{link}}' target='_blank' class='instafeed__item'>
                           <img class='instafeed__item__background img-responsive' src='{{image}}' />
                             <div class='instafeed__item__overlay'>
                               <div class='instafeed__item__overlay--inner'>
@@ -14,6 +14,24 @@ const template = `<div class="gallery-item insta-item"><div><a href='{{link}}' t
                         </a></div></div>`;
 
 class Insta extends Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        gallery: GALLERY,
+        loaded: false
+      }
+    }
+
+    componentDidMount() {
+      const { data: allPhotos = [] } = GALLERY;
+      this.setState({ allPhotos });
+      _.delay( () => {
+        this.setState({
+          loaded: true
+        })
+        window.scrollTo(0, 0)
+      }, 100 )
+    }
 
     componentDidMount() {
 
@@ -24,6 +42,9 @@ class Insta extends Component {
     }
 
     render() {
+
+        const galleryClass = this.state.loaded ? 'gallery-item insta-item visible' : 'gallery-item insta-item'
+
         return (
             <div>
               <div id={instafeedTarget}></div>
@@ -42,4 +63,7 @@ class Insta extends Component {
         )
     }
 }
+
+const GALLERY = []
+
 export default Insta;
