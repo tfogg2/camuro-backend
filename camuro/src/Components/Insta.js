@@ -1,9 +1,11 @@
 import React, {Component} from 'react'
 import Instafeed from 'react-instafeed'
+import Fade from 'react-reveal/Fade'
+import _ from 'lodash'
 
 const instafeedTarget = 'instafeed';
 
-const template = `<div class={galleryClass}"gallery-item insta-item"><div><a href='{{link}}' target='_blank' class='instafeed__item'>
+const template = `<div class={galleryClass}><div><a href='{{link}}' target='_blank' class='instafeed__item'>
                           <img class='instafeed__item__background img-responsive' src='{{image}}' />
                             <div class='instafeed__item__overlay'>
                               <div class='instafeed__item__overlay--inner'>
@@ -30,7 +32,7 @@ class Insta extends Component {
           loaded: true
         })
         window.scrollTo(0, 0)
-      }, 100 )
+      }, 400 )
     }
 
     componentDidMount() {
