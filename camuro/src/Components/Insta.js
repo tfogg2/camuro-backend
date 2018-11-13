@@ -46,18 +46,19 @@ class Insta extends Component {
 
         return (
             <div>
-              <div id={galleryClass}></div>
-              <Instafeed
-                  limit='20'
-                  ref='instafeed'
-                  resolution='standard_resolution'
-                  sortBy='most-recent'
-                  target={instafeedTarget}
-                  template={template}
-                  userId={process.env.REACT_APP_INSTAGRAM_USER_ID}
-                  clientId={process.env.REACT_APP_INSTAGRAM_CLIENT_ID}
-                  accessToken={process.env.REACT_APP_INSTAGRAM_ACCESS_TOKEN}
-              />
+              <div id={galleryClass}>
+                <Instafeed
+                    limit='20'
+                    ref='instafeed'
+                    resolution='standard_resolution'
+                    sortBy='most-recent'
+                    target={instafeedTarget}
+                    template={template}
+                    userId={process.env.REACT_APP_INSTAGRAM_USER_ID}
+                    clientId={process.env.REACT_APP_INSTAGRAM_CLIENT_ID}
+                    accessToken={process.env.REACT_APP_INSTAGRAM_ACCESS_TOKEN}
+                />
+              </div>
             </div>
         )
     }
