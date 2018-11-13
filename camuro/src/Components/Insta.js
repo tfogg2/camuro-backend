@@ -5,15 +5,7 @@ import _ from 'lodash'
 
 const instafeedTarget = 'instafeed';
 
-const template = `<div class=${this.galleryClass}><div><a href='{{link}}' target='_blank' class='instafeed__item'>
-                          <img class='instafeed__item__background img-responsive' src='{{image}}' />
-                            <div class='instafeed__item__overlay'>
-                              <div class='instafeed__item__overlay--inner'>
-                                <span class='instafeed__item__caption' style='display: none'>{{model.short_caption}}</span>
-                                <span class='instafeed__item__location' style='display: none'>{{location}}</span>
-                              </div>
-                            </div>
-                        </a></div></div>`;
+
 
 class Insta extends Component {
     constructor(props) {
@@ -45,6 +37,17 @@ class Insta extends Component {
 
     render() {
         const galleryClass = this.state.loaded ? 'gallery-item insta-item visible' : 'gallery-item insta-item'
+
+        const template = `<div class=${galleryClass}><div><a href='{{link}}' target='_blank' class='instafeed__item'>
+                                  <img class='instafeed__item__background img-responsive' src='{{image}}' />
+                                    <div class='instafeed__item__overlay'>
+                                      <div class='instafeed__item__overlay--inner'>
+                                        <span class='instafeed__item__caption' style='display: none'>{{model.short_caption}}</span>
+                                        <span class='instafeed__item__location' style='display: none'>{{location}}</span>
+                                      </div>
+                                    </div>
+                                </a></div></div>`;
+
         return (
             <div>
               <div id={instafeedTarget}></div>
