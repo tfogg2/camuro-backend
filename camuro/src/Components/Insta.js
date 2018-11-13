@@ -14,8 +14,6 @@ class Insta extends Component {
     }
 
     componentDidMount() {
-      const { data: allPhotos = [] } = GALLERY;
-      this.setState({ allPhotos });
       _.delay( () => {
         this.setState({
           loaded: true

@@ -11,24 +11,11 @@ class InstaGallery extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      gallery: GALLERY,
-      loaded: false
+
     }
   }
 
-  componentDidMount() {
-    const { data: allPhotos = [] } = GALLERY;
-    this.setState({ allPhotos });
-    _.delay( () => {
-      this.setState({
-        loaded: true
-      })
-      window.scrollTo(0, 0)
-    }, 100 )
-  }
-
   render(){
-    const galleryClass = this.state.loaded ? 'insta-gallery-items visible' : 'insta-gallery-items'
 
     const UI = ({ state, state: { gallery },  }) => (
         <div className="gallery">
@@ -48,9 +35,7 @@ class InstaGallery extends Component {
               </p>
             </div>
           </div>
-          <div className={galleryClass}>
-            <Insta />
-          </div>
+          <Insta />
         </div>
       )
 
