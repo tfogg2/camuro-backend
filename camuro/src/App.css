@@ -763,18 +763,18 @@ h1{
   cursor: pointer;
   display: inline-block;
 }
-#instafeed .gallery-item.insta-item{
+#instafeed-visible .gallery-item.insta-item{
   height: 240px;
   width: auto;
 
   transition: opacity 2s ease;
 }
-#instafeed .gallery-item.insta-item.visible{
+#instafeed-visible .gallery-item.insta-item.visible{
   height: 240px;
   width: auto;
   opacity: 1;
 }
-#instafeed{
+#instafeed-visible{
   padding-top: 40px;
 }
 .galItem{

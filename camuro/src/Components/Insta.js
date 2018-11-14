@@ -27,7 +27,7 @@ class Insta extends Component {
     }
 
     render() {
-        const instafeedTarget = this.state.loaded ? 'instafeed visible' : 'instafeed'
+        const instafeedTarget = this.state.loaded ? 'instafeed-visible' : 'instafeed'
 
         const template = `<div class="gallery-item insta-item"><div><a href='{{link}}' target='_blank' class='instafeed__item'>
                                   <img class='instafeed__item__background img-responsive' src='{{image}}' />

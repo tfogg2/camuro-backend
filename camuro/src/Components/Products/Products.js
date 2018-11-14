@@ -179,7 +179,7 @@ const PRODUCTS = [
     mechanics: "Shutter: Speeds accurate throughout the range  \n Film Transport: Clean and strong. 40 frames possible. Film advance in strong and smooth throughout. \n Light Seals: Light tight  \n Meter: No meter! \n Viewfinder: Big, clean and bright. \n Rangefinder: Contrasty and easy to nail focus",
     optics:"",
     category: "Rangefinders",
-    price: 329,
+    price: 229,
     sold: false
   },
 
