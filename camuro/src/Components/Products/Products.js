@@ -176,7 +176,7 @@ const PRODUCTS = [
     description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
     mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
     optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
-    category: "SLRs",
+    category: "Lenses",
     price: 389,
     sold: false
   },
@@ -221,7 +221,7 @@ const PRODUCTS = [
     description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Minor “bright marks” on chrome from normal use. No dings, dents, etc. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n Just cleaned and lubed by Leica master tech Youxin Ye \n Original Vulcanite",
     mechanics: "Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 40 frames possible. Film advance in strong and smooth throughout. \n Light Seals: Light tight  \n Meter: No meter! \n Viewfinder: Big, clean and bright-the best, but you already know \n Rangefinder: Contrasty and easy to nail focus \n",
     optics:"",
-    category: "SLRs",
+    category: "Rangefinders",
     price: 1199,
     sold: false
   },
@@ -244,7 +244,7 @@ const PRODUCTS = [
     description: "Cosmetically in near mint condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n Comes with original rear cap, a metal Minolta front cap and a UV filter",
     mechanics: "Focus is smooth and clean \n Aperture clicks with distinct stops \n Blades are clean, dry and snappy",
     optics:"Excellent \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically it performs flawlessly. Sharp at all apertures",
-    category: "SLRs",
+    category: "Lenses",
     price: 189,
     sold: false
   },
@@ -287,7 +287,7 @@ const PRODUCTS = [
     description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
     mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
     optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
-    category: "SLRs",
+    category: "Rangefinders",
     price: 149,
     sold: false
   },
@@ -310,7 +310,7 @@ const PRODUCTS = [
     description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
     mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
     optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
-    category: "SLRs",
+    category: "Rangefinders",
     price: 169,
     sold: false
   },
@@ -329,7 +329,7 @@ const PRODUCTS = [
     description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
     mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
     optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
-    category: "SLRs",
+    category: "Lenses",
     price: 69,
     sold: false
   },
