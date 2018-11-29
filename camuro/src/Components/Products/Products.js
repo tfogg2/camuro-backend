@@ -247,30 +247,7 @@ const PRODUCTS = [
     category: "Lenses",
     price: 189,
     sold: false
-  },
-
-  { image: require('../../Assets/Products/nikonF3-1-featured.png'),
-    images: [
-      {original: require('../../Assets/Products/nikonF3-1.png'), thumbnail: require('../../Assets/Products/nikonF3-1-small.png')},
-      {original: require('../../Assets/Products/nikonF3-2.png'), thumbnail: require('../../Assets/Products/nikonF3-2-small.png')},
-      {original: require('../../Assets/Products/nikonF3-3.png'), thumbnail: require('../../Assets/Products/nikonF3-3-small.png')},
-      {original: require('../../Assets/Products/nikonF3-4.png'), thumbnail: require('../../Assets/Products/nikonF3-4-small.png')},
-      {original: require('../../Assets/Products/nikonF3-5.png'), thumbnail: require('../../Assets/Products/nikonF3-5-small.png')},
-      {original: require('../../Assets/Products/nikonF3-6.png'), thumbnail: require('../../Assets/Products/nikonF3-6-small.png')},
-      {original: require('../../Assets/Products/nikonF3-7.png'), thumbnail: require('../../Assets/Products/nikonF3-7-small.png')},
-      {original: require('../../Assets/Products/nikonF3-8.png'), thumbnail: require('../../Assets/Products/nikonF3-8-small.png')},
-      {original: require('../../Assets/Products/nikonF3-9.png'), thumbnail: require('../../Assets/Products/nikonF3-9-small.png')},
-      {original: require('../../Assets/Products/nikonF3-10.png'), thumbnail: require('../../Assets/Products/nikonF3-10-small.png')},
-      {original: require('../../Assets/Products/nikonF3-11.png'), thumbnail: require('../../Assets/Products/nikonF3-11-small.png')}
-    ],
-    title: "Nikon F3HP",
-    description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
-    optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
-    category: "SLRs",
-    price: 289,
-    sold: false
-  },
+  }
 
   { image: require('../../Assets/Products/nikonL3-1-featured.png'),
     images: [
