@@ -247,7 +247,7 @@ const PRODUCTS = [
     category: "Lenses",
     price: 189,
     sold: false
-  }
+  },
 
   { image: require('../../Assets/Products/nikonL3-1-featured.png'),
     images: [
