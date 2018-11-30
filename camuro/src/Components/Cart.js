@@ -8,7 +8,7 @@ const Cart = props => {
   const products = props.cartProducts
   const titles = products.map((product) => (product.title))
   const total = props.total
-  const shipTotal = total + 15
+  const shipTotal = total + 11
   const sum = shipTotal * 100
 
   window.scrollTo(0, 0)
@@ -40,7 +40,7 @@ const Cart = props => {
             <div className="order-summary">
               <h2>Order Summary</h2>
               <div className="order-item">Merchandise: <span>${total}</span></div>
-              <div className="order-item">Shipping: <span>$15</span></div>
+              <div className="order-item">Shipping: <span>$11</span></div>
               <div className="order-item">Tax: <span>$0</span></div>
               <div className="order-total">ORDER TOTAL: <span><b>${shipTotal}</b></span></div>
             </div>
