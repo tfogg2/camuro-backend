@@ -111,121 +111,6 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-10-small.png'}
-    ],
-    title: "Leica M2",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Minor “bright marks” on chrome from normal use. No dings, dents, etc. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n Just cleaned and lubed by Leica master tech Youxin Ye \n Orignal M6 chassis",
-    mechanics: "Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 40 frames possible. Film advance in strong and smooth throughout. \n Light Seals: Light tight  \n Meter: No meter! \n Viewfinder: Big, clean and bright-the best, but you already know \n Rangefinder: Contrasty and easy to nail focus \n",
-    optics:"",
-    category: "Rangefinders",
-    price: 1299,
-    sold: false
-  },
-
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-10-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-11-small.png'}
-    ],
-    title: "Leica M3",
-    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Minor “bright marks” on chrome from normal use. No dings, dents, etc. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n Just cleaned and lubed by Leica master tech Youxin Ye \n Original Vulcanite",
-    mechanics: "Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 40 frames possible. Film advance in strong and smooth throughout. \n Light Seals: Light tight  \n Meter: No meter! \n Viewfinder: Big, clean and bright-the best, but you already know \n Rangefinder: Contrasty and easy to nail focus \n",
-    optics:"",
-    category: "Rangefinders",
-    price: 1199,
-    sold: false
-  },
-
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-10-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-11-small.png'}
-    ],
-    title: "Nikkor 28mm 2.8 Ai-S",
-    description: "Cosmetically in near mint condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n Comes with original rear cap, a metal Minolta front cap and a UV filter",
-    mechanics: "Focus is smooth and clean \n Aperture clicks with distinct stops \n Blades are clean, dry and snappy",
-    optics:"Excellent \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically it performs flawlessly. Sharp at all apertures",
-    category: "Lenses",
-    price: 189,
-    sold: false
-  },
-
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/om35-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-10-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-11-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-12.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-12-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-13.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-13-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-14.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-14-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-15.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-15-small.png'},
-    ],
-    title: "Olympus 35SP Black Paint",
-    description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and strong. 36+ frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright. \n Rangefinder: Contrasty and easy to focus",
-    optics:"Mint \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically its as good as it gets",
-    category: "Rangefinders",
-    price: 419,
-    sold: false
-  },
-
-
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/om28-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-7-small.png'}
-    ],
-    title: "Olympus 28mm 3.5 w Case & Caps",
-    description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
-    optics:"Excellent \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically it performs flawlessly. Sharp at all apertures",
-    category: "Lenses",
-    price: 69,
-    sold: false
-  },
-
   { image: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-1-featured.png',
     images: [
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-1-small.png'},
@@ -299,6 +184,51 @@ const PRODUCTS = [
     optics:"Mint \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically its as good as it gets",
     category: "Rangefinders",
     price: 1499,
+    sold: false
+  },
+
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-1-featured.png',
+    images: [
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-1-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-4-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-5-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-6-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-7-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-8-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-9-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM2-10-small.png'}
+    ],
+    title: "Leica M2",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Minor “bright marks” on chrome from normal use. No dings, dents, etc. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n Just cleaned and lubed by Leica master tech Youxin Ye \n Orignal M6 chassis",
+    mechanics: "Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 40 frames possible. Film advance in strong and smooth throughout. \n Light Seals: Light tight  \n Meter: No meter! \n Viewfinder: Big, clean and bright-the best, but you already know \n Rangefinder: Contrasty and easy to nail focus \n",
+    optics:"",
+    category: "Rangefinders",
+    price: 1299,
+    sold: false
+  },
+
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-1-featured.png',
+    images: [
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-1-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-4-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-5-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-6-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-7-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-8-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-9-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-10-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaM3-11-small.png'}
+    ],
+    title: "Leica M3",
+    description: "Cosmetically in excellent condition. We do our best to show the cameras in a strong and revealing light. Minor “bright marks” on chrome from normal use. No dings, dents, etc. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n Just cleaned and lubed by Leica master tech Youxin Ye \n Original Vulcanite",
+    mechanics: "Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 40 frames possible. Film advance in strong and smooth throughout. \n Light Seals: Light tight  \n Meter: No meter! \n Viewfinder: Big, clean and bright-the best, but you already know \n Rangefinder: Contrasty and easy to nail focus \n",
+    optics:"",
+    category: "Rangefinders",
+    price: 1199,
     sold: false
   },
 
@@ -411,6 +341,29 @@ const PRODUCTS = [
     sold: false
   },
 
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-1-featured.png',
+    images: [
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-1-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-4-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-5-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-6-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-7-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-8-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-9-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-10-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-11-small.png'}
+    ],
+    title: "Nikkor 28mm 2.8 Ai-S",
+    description: "Cosmetically in near mint condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n Comes with original rear cap, a metal Minolta front cap and a UV filter",
+    mechanics: "Focus is smooth and clean \n Aperture clicks with distinct stops \n Blades are clean, dry and snappy",
+    optics:"Excellent \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically it performs flawlessly. Sharp at all apertures",
+    category: "Lenses",
+    price: 189,
+    sold: false
+  },
+
   { image: 'https://s3.us-east-2.amazonaws.com/camuro/nikkorH-1-featured.png',
     images: [
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkorH-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkorH-1-small.png'},
@@ -428,6 +381,53 @@ const PRODUCTS = [
     optics:"Excellent \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically it performs flawlessly. No image impact from the coating mark.",
     category: "Lenses",
     price: 99,
+    sold: false
+  },
+
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/om35-1-featured.png',
+    images: [
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-1-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-4-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-5-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-6-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-7-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-8-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-9-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-10-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-11-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-12.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-12-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-13.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-13-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-14.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-14-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om35-15.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om35-15-small.png'},
+    ],
+    title: "Olympus 35SP Black Paint",
+    description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
+    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and strong. 36+ frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright. \n Rangefinder: Contrasty and easy to focus",
+    optics:"Mint \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically its as good as it gets",
+    category: "Rangefinders",
+    price: 419,
+    sold: false
+  },
+
+
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/om28-1-featured.png',
+    images: [
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-1-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-4-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-5-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-6-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/om28-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/om28-7-small.png'}
+    ],
+    title: "Olympus 28mm 3.5 w Case & Caps",
+    description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
+    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
+    optics:"Excellent \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically it performs flawlessly. Sharp at all apertures",
+    category: "Lenses",
+    price: 69,
     sold: false
   },
 
