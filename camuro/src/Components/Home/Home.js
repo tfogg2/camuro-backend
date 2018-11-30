@@ -40,44 +40,44 @@ class Home extends Component {
         thumbnail: require('../../Assets/nikon-gallery.png')
       },
       {
-        original: require('../../Assets/Products/olympusOm1-8.png'),
-        thumbnail: require('../../Assets/Products/olympusOm1-8.png')
+        original: 'https://s3.us-east-2.amazonaws.com/camuro/olympusOm1-8.png',
+        thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/olympusOm1-8.png'
       },
       {
         original: require('../../Assets/canon-gallery.png'),
         thumbnail: require('../../Assets/canon-gallery.png')
       },
       {
-        original: require('../../Assets/Products/nikkor35-3.png'),
-        thumbnail: require('../../Assets/Products/nikkor35-3.png')
+        original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor35-3.png',
+        thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor35-3.png'
       },
       {
         original: require('../../Assets/pentax-gallery.png'),
         thumbnail: require('../../Assets/pentax-gallery.png')
       },
       {
-        original: require('../../Assets/Products/minolta7-1.png'),
-        thumbnail: require('../../Assets/Products/minolta7-1.png')
+        original: 'https://s3.us-east-2.amazonaws.com/camuro/minolta7-1.png',
+        thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/minolta7-1.png'
       },
       {
         original: require('../../Assets/yellow-gallery.png'),
         thumbnail: require('../../Assets/yellow-gallery.png')
       },
       {
-        original: require('../../Assets/Products/leicaSummi40-4.png'),
-        thumbnail: require('../../Assets/Products/leicaSummi40-4.png')
+        original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaSummi40-4.png',
+        thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaSummi40-4.png'
       },
       {
         original: require('../../Assets/konica-gallery.png'),
         thumbnail: require('../../Assets/konica-gallery.png')
       },
       {
-        original: require('../../Assets/Products/leicaSummi50-4.png'),
-        thumbnail: require('../../Assets/Products/leicaSummi50-4.png')
+        original: 'https://s3.us-east-2.amazonaws.com/camuro/leicaSummi50-4.png',
+        thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/leicaSummi50-4.png'
       },
       {
-        original: require('../../Assets/Products/fujiGW-1.png'),
-        thumbnail: require('../../Assets/Products/fujiGW-1.png')
+        original: 'https://s3.us-east-2.amazonaws.com/camuro/fujiGW-1.png',
+        thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/fujiGW-1.png'
       },
       {
         original: require('../../Assets/mamiya-gallery.png'),
