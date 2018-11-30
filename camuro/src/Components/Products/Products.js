@@ -88,53 +88,6 @@ class Products extends Component {
 // data
 const PRODUCTS = [
 
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-10-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3-11-small.png'},
-    ],
-    title: "Canonet GIII QL17 Rangefinder",
-    description: "Cosmetically in excellent condition. Fully restored and cleaned by out technician. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and strong. 36+ frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright. \n Rangefinder: Contrasty and easy to focus",
-    optics:"Mint \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Optically its as good as it gets",
-    category: "Rangefinders",
-    price: 189,
-    sold: false
-  },
-
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-10-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-11-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-12.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonet3Black-12-small.png'}
-    ],
-    title: "Canonet GIII QL17 Black Paint",
-    description: "Cosmetically in excellent condition. Fully restored and cleaned by out technician. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and strong. 36+ frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright. \n Rangefinder: Contrasty and easy to focus",
-    optics:"Mint \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Optically its as good as it gets",
-    category: "Rangefinders",
-    price: 299,
-    sold: false
-  },
-
   { image: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-1-featured.png',
     images: [
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-1-small.png'},
@@ -155,29 +108,6 @@ const PRODUCTS = [
     optics:"Mint \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Optically its as good as it gets",
     category: "Rangefinders",
     price: 199,
-    sold: false
-  },
-
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-10-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/contax50-11-small.png'}
-    ],
-    title: "Contax 50mm f1.4 MMJ",
-    description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
-    optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
-    category: "Lenses",
-    price: 389,
     sold: false
   },
 
@@ -249,49 +179,6 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-10-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonF3-11-small.png'}
-    ],
-    title: "Nikon F3HP",
-    description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
-    optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
-    category: "SLRs",
-    price: 289,
-    sold: false
-  },
-
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikonL3-8-small.png'}
-    ],
-    title: "Nikon L35AF",
-    description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
-    optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
-    category: "Rangefinders",
-    price: 149,
-    sold: false
-  },
-
   { image: 'https://s3.us-east-2.amazonaws.com/camuro/olympusXaWa-1-featured.png',
     images: [
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/olympusXaWa-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/olympusXaWa-1-small.png'},
@@ -328,56 +215,9 @@ const PRODUCTS = [
     title: "Olympus 28mm 3.5 w Case & Caps",
     description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
     mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
-    optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
+    optics:"Excellent \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically it performs flawlessly. Sharp at all apertures",
     category: "Lenses",
     price: 69,
-    sold: false
-  },
-
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-10-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-11-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-12.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentax50-12-small.png'}
-    ],
-    title: "Pentax LX w/ 50mm 1.7 Takumar",
-    description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
-    optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
-    category: "SLRs",
-    price: 449,
-    sold: false
-  },
-
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-10-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/pentaxSpot-11-small.png'}
-    ],
-    title: "Pentax Spotmatic w Tak 50mm 1.4",
-    description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
-    optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
-    category: "SLRs",
-    price: 99,
     sold: false
   },
 
