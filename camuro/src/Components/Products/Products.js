@@ -130,7 +130,7 @@ const PRODUCTS = [
     mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and strong. 36+ frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-fully cleaned. \n Rangefinder: Contrasty and easy to focus",
     optics:"Mint \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Optically its as good as it gets",
     category: "Rangefinders",
-    price: 209,
+    price: 259,
     sold: false
   },
 
@@ -339,7 +339,7 @@ const PRODUCTS = [
     mechanics: "Focus: Smooth throughout  \n Diaphragm: Clean & dry-no oil  \n Shutter: Speeds accurate throughout the range  \n Film Transport: Clean and strong. 36+ frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate  \n Viewfinder: Big, clean and bright. \n Rangefinder: Contrasty and easy to nail focus",
     optics:"Mint \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically its as good as it gets",
     category: "Rangefinders",
-    price: 309,
+    price: 269,
     sold: false
   },
 
@@ -525,7 +525,7 @@ const PRODUCTS = [
     mechanics: "Focus: Zone focus system works smoothly\n Diaphragm: Clean & dry with snappy action-no oil  \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36-38 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor baby micro dust-no affect",
     optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically as clean as it gets",
     category: "Pocket Cameras",
-    price: 199,
+    price: 129,
     sold: false
   },
 
