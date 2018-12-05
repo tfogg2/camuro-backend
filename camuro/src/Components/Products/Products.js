@@ -111,6 +111,29 @@ const PRODUCTS = [
     sold: false
   },
 
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-1-featured.png',
+    images: [
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-1-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-4-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-5-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-6-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-7-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-8-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-9-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-10-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-11-small.png'}
+    ],
+    title: "Canonet QL17 GIII w Canonlite-Boxed",
+    description: "Cosmetically in excellent condition. Fully overhauled and cleaned by out technician. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n Ships with original Canon Cap & Canonlite D flash w case. Box and paperwork included as seen. An excellent kit",
+    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and strong. 36+ frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-fully cleaned. \n Rangefinder: Contrasty and easy to focus",
+    optics:"Mint \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Optically its as good as it gets",
+    category: "Rangefinders",
+    price: 209,
+    sold: false
+  },
+
   { image: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-1-featured.png',
     images: [
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-1-small.png'},
@@ -341,6 +364,75 @@ const PRODUCTS = [
     sold: false
   },
 
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-1-featured.png',
+    images: [
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-1-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-4-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-5-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-6-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-7-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-8-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-9-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-10-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor85-11-small.png'}
+    ],
+    title: "Nikkor 85 1.8 AF D",
+    description: "Cosmetically in near mint condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n Comes with original Front & rear Nikon caps",
+    mechanics: "Focus is smooth and clean \n Aperture clicks with distinct stops \n Blades are clean, dry and snappy \n Autofocus is quick and snappy",
+    optics:"Perfect \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically it performs as expected. A very good copy.",
+    category: "Lenses",
+    price: 209,
+    sold: false
+  },
+
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-1-featured.png',
+    images: [
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-1-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-4-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-5-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-6-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-7-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-8-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-9-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-10-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor50A-11-small.png'}
+    ],
+    title: "Nikkor 50 1.4 AF D",
+    description: "Cosmetically in excellent, near mint condition. We do our best to show our inventory in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n Comes with original front Nikon cap and a generic rear ",
+    mechanics: "Focus is smooth and clean \n Aperture clicks with distinct stops \n Blades are clean, dry and snappy \n Autofocus is quick and snappy",
+    optics:"Perfect \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically it performs as expected. A very good copy.",
+    category: "Lenses",
+    price: 159,
+    sold: false
+  },
+
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-1-featured.png',
+    images: [
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-1-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-4-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-5-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-6-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-7-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-8-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-9-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-10-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikon35Ti-11-small.png'}
+    ],
+    title: "Nikon 35Ti",
+    description: "Cosmetically in excellent condition. Minor signs of use on the bottom but only under intense inspection. Metal circular bit is missing from the battery cover. Doesn’t affect anything but appearance. Some normal dust in the viewfinder. No impact that we could see while shooting with it. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever \n Comes with original Nikon leather case",
+    mechanics: "Focus: Autofocus system works quick & quiet \n Diaphragm: Clean & dry with snappy action  \n Shutter: Speeds accurate throughout the range  \n Film Transport: Clean, strong and accurate. 36 frames possible. \n Film Rewind: Motor is strong and it rewinds film quickly and healthily. \n Light Seals: New \n Meter: Matrix meter is fully functional and accurate-the best part about this camera is the lens & that meter \n Viewfinder: Bright and easy to frame. Some dust as mentioned/seen",
+    optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically as clean as it gets",
+    category: "Pocket Cameras",
+    price: 499,
+    sold: false
+  },
+
   { image: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-1-featured.png',
     images: [
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/nikkor28-1-small.png'},
@@ -411,6 +503,32 @@ const PRODUCTS = [
     sold: false
   },
 
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-1-featured.png',
+    images: [
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-1-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-4-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-5-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-6-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-7-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-8-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-9-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-10-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-11-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-12.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-12-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-13.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-13-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-14.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-14-small.png'}
+    ],
+    title: "Olympus XA2",
+    description: "Cosmetically in excellent-near mint condition. Minor signs of use on the rewind knob as seen. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n  Comes with original boxes for the XA2 & A11 Flash as well as all original paperwork",
+    mechanics: "Focus: Zone focus system works smoothly\n Diaphragm: Clean & dry with snappy action-no oil  \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36-38 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor baby micro dust-no affect",
+    optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically as clean as it gets",
+    category: "Pocket Cameras",
+    price: 199,
+    sold: false
+  },
+
 
   { image: 'https://s3.us-east-2.amazonaws.com/camuro/om28-1-featured.png',
     images: [
@@ -428,6 +546,32 @@ const PRODUCTS = [
     optics:"Excellent \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically it performs flawlessly. Sharp at all apertures",
     category: "Lenses",
     price: 69,
+    sold: false
+  },
+
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-1-featured.png',
+    images: [
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-1-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-4-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-5-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-6-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-7-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-8-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-9-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-10-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-11-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-12.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-12-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-13.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-13-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-14.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-14-small.png'},
+    ],
+    title: "Yashica 124G 6x6 TLR",
+    description: "Cosmetically in beautiful condition. There are minor signs of use on the paint, but overall an excellent copy with less than normal handling wear. No dings, dents, scrapes or missing components. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n This 124G was completely overhauled by our tech. Lens cleaned of some haze-minor signs can still be seen under intense light. No impact to image. Optics are clean and bright. Viewfinder disassembled, cleaned and resealed. New light seals. \n Comes with original case & cap",
+    mechanics: "Focus: Bellows. Smooth throughout  \n Diaphragm: Clean & dry-no oil  \n Shutter: Speeds accurate throughout the range  B-1/500 \n Film Transport: Clean and strong. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: No meter! Corrosion in battery chamber\n Viewfinder: Big, clean and bright. Easy to nail focus",
+    optics:"Very good \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear ",
+    category: "TLRs",
+    price: 289,
     sold: false
   },
 
