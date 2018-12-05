@@ -503,11 +503,11 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-1-featured.png',
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-3.png',
     images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-2-small.png'},
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-3-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-1-small.png'},
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-4-small.png'},
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-5-small.png'},
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/omXa2-6-small.png'},
@@ -549,10 +549,10 @@ const PRODUCTS = [
     sold: false
   },
 
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-1-featured.png',
+  { image: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-2.png',
     images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-1-small.png'},
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-2-small.png'},
+      {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-1-small.png'},
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-3-small.png'},
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-4-small.png'},
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/yashica-5-small.png'},
