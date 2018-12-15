@@ -71,7 +71,7 @@ const Cart = props => {
       </div>
           <div className="cart-checkout">
             <div className="contact-us">
-              <p>We like to get in touch before parting with our clean cameras.<br/> Email us at <a href="mailto:camuro.co@gmail.com" alt="email">camuro.co@gmail.com</a> or DM us on instagram <a href="https://www.instagram.com/camurocam/" alt="instagram">@camurocam</a> to checkout using PayPal.</p>
+              <p>We like to get in touch before parting with our clean cameras.<br/> Email us at <a href="mailto:camuro.co@gmail.com" alt="email">camuro.co@gmail.com</a> or DM us on instagram <a href="https://www.instagram.com/thefilmpool/" alt="instagram">@thefilmpool</a> to checkout using PayPal.</p>
             </div>
             <br />
             <span>or</span>
