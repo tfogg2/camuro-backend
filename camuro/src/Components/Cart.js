@@ -70,12 +70,9 @@ const Cart = props => {
           </div>
       </div>
           <div className="cart-checkout">
-            <Checkout
-               name={'Checkout'}
-               description={JSON.stringify(titles)}
-               amount={shipTotal}
-               data-billing-address={true}
-            />
+            <div className="contact-us">
+              <p>We like to get in touch before parting with our clean cameras.<br/> Email us at <a href="mailto:camuro.co@gmail.com" alt="email">camuro.co@gmail.com</a> or DM us on instagram <a href="https://www.instagram.com/camurocam/" alt="instagram">@camurocam</a> to checkout using PayPal.</p>
+            </div>
             <br />
             <span>or</span>
             <br />
