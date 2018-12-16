@@ -88,29 +88,6 @@ class Products extends Component {
 // data
 const PRODUCTS = [
 
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-10-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonetQ17-11-small.png'}
-    ],
-    title: "Canonet QL17 GIII",
-    description: "Cosmetically in excellent condition. Fully restored and cleaned by out technician. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and strong. 36+ frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright. \n Rangefinder: Contrasty and easy to focus",
-    optics:"Mint \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Optically its as good as it gets",
-    category: "Rangefinders",
-    price: 199,
-    sold: false
-  },
-
   { image: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-1-featured.png',
     images: [
       {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonLite-1-small.png'},
@@ -131,32 +108,6 @@ const PRODUCTS = [
     optics:"Mint \n Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Optically its as good as it gets",
     category: "Rangefinders",
     price: 259,
-    sold: false
-  },
-
-  { image: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-1-featured.png',
-    images: [
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-1.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-1-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-2.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-2-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-3.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-3-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-4.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-4-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-5.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-5-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-6.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-6-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-7.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-7-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-8.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-8-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-9.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-9-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-10.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-10-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-11.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-11-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-12.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-12-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-13.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-13-small.png'},
-      {original: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-14.png', thumbnail: 'https://s3.us-east-2.amazonaws.com/camuro/canonF1-14-small.png'}
-    ],
-    title: "Canon F1, 28mm w NiCd Pack",
-    description: "Cosmetically in beautiful condition. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever.",
-    mechanics: "Focus: Smooth throughout \n Diaphragm: Clean & dry with snappy action-no oil \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor micro dust-no affect \n",
-    optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Minimal internal micro dust seen under intense light-no impact on image quality.",
-    category: "SLRs",
-    price: 449,
     sold: false
   },
 
@@ -428,7 +379,7 @@ const PRODUCTS = [
     description: "Cosmetically in excellent condition. Minor signs of use on the bottom but only under intense inspection. Metal circular bit is missing from the battery cover. Doesn’t affect anything but appearance. Some normal dust in the viewfinder. No impact that we could see while shooting with it. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever \n Comes with original Nikon leather case",
     mechanics: "Focus: Autofocus system works quick & quiet \n Diaphragm: Clean & dry with snappy action  \n Shutter: Speeds accurate throughout the range  \n Film Transport: Clean, strong and accurate. 36 frames possible. \n Film Rewind: Motor is strong and it rewinds film quickly and healthily. \n Light Seals: New \n Meter: Matrix meter is fully functional and accurate-the best part about this camera is the lens & that meter \n Viewfinder: Bright and easy to frame. Some dust as mentioned/seen",
     optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically as clean as it gets",
-    category: "Pocket Cameras",
+    category: "Rangefinders",
     price: 499,
     sold: false
   },
@@ -524,7 +475,7 @@ const PRODUCTS = [
     description: "Cosmetically in excellent-near mint condition. Minor signs of use on the rewind knob as seen. We do our best to show the cameras in a strong and revealing light. Please zoom and inspect the hi-res images and feel free to ask us any questions before purchase. We don’t sell junkers. Ever. \n  Comes with original boxes for the XA2 & A11 Flash as well as all original paperwork",
     mechanics: "Focus: Zone focus system works smoothly\n Diaphragm: Clean & dry with snappy action-no oil  \n Shutter: Speeds accurate throughout the range \n Film Transport: Clean and accurate. 36-38 frames possible. Film advance in strong and smooth throughout. \n Light Seals: New \n Meter: Functional and accurate \n Viewfinder: Big, clean and bright-minor baby micro dust-no affect",
     optics:"Clean, clear and bright \n No fungus, haze, scratches, separation or pitting  \n Coatings are clean and bright on front & rear \n Optically as clean as it gets",
-    category: "Pocket Cameras",
+    category: "Rangefinders",
     price: 129,
     sold: false
   },
