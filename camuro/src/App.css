@@ -20,6 +20,10 @@ h1{
   margin: 0;
 }
 
+.see-more{
+  display: none;
+}
+
 /* HEADER */
 @media (max-width: 480px) {
   .header .dd-wrapper{

@@ -32,7 +32,7 @@ class FeaturedProducts extends Component {
       <div>
         <img src={require('../../Assets/shop-3.svg')} alt="Shop Now!" />
         <ProductItems state={state} />
-        <Link to='/products' alt="Products">
+        <Link className="see-more" to='/products' alt="Products">
           <button className="gallery-btn featured-btn">See More</button>
         </Link>
       </div>
